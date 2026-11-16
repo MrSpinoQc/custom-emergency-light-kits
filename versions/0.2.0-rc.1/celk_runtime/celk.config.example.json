@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "scopes": {
+    "phantom": "spino"
+  },
+  "packs": {
+    "phantom-grand-format": {
+      "version": "0.1.0",
+      "resource": "celk_pack_phantom",
+      "sha256": "915026658ded02fd1fb924f02e4ba4e6dd80ef85fafa2a8e346beb8e7db35065"
+    }
+  }
+}

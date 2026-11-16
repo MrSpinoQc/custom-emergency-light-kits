@@ -12,6 +12,12 @@ ensure celk_pack_phantom
 ensure celk_runtime
 ```
 
+## Version d’essai 0.2.0-rc.1
+
+Cette version ajoute la gestion de plusieurs modèles et la restauration d’un montage retiré. Elle a été vérifiée en GTA solo. **Multijoueur non testé, retours bienvenus.** [Nouveautés et téléchargements](versions/0.2.0-rc.1/README.md) · [Guide d’installation](versions/0.2.0-rc.1/INSTALLATION.md)
+
+Les sections suivantes décrivent la première publication **0.1.2 / Phantom Police**.
+
 ## Téléchargements
 
 Installe les deux archives ensemble et suis le guide de ce dépôt, qui décrit la procédure txAdmin de cette publication. Le pack fournit les optiques et leur montage. Le script gère la pose, les commandes et les effets.

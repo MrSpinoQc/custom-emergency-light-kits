@@ -1,0 +1,5 @@
+{
+  "schema": "tryagain.vehicle-installation-limits",
+  "version": 1,
+  "maxAccessoriesPerVehicle": 20
+}

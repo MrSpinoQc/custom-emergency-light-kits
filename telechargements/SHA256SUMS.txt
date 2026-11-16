@@ -1,0 +1,2 @@
+8ce00c2b5836eba122121f0356d1b1b58339bd8ce3ff705bfdca0bf06e431a0a  CELK-script-0.1.2-candidat.zip
+ff74e6dee5dfc4d3a15eb73e30b07f6dddba73b8e10666e2475afabcb4d8c3cf  CELK-phantom-grand-format-0.1.0-revue-2.2.zip

@@ -1,0 +1,14 @@
+:root { font-family: 'Atkinson Hyperlegible Next', Inter, system-ui, sans-serif; color: #f3f5f7; }
+body { margin: 0; background: transparent; }
+#menu { position: fixed; top: 10%; left: 4%; width: min(26rem, 88vw); max-height: 78vh; overflow: auto;
+    background: #171e25; border: 1px solid #61717d; border-radius: 12px; padding: 1rem; }
+[hidden] { display: none !important; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+h1 { font-size: 1.35rem; margin: 0; }
+h2 { font-size: .95rem; margin: 1.15rem 0 .35rem; color: #b9c8d2; }
+button { color: inherit; font: inherit; cursor: pointer; background: #283642; border: 1px solid #788997;
+    padding: .55rem .8rem; border-radius: 6px; }
+button:focus-visible { outline: 2px solid #f8c66b; outline-offset: 2px; }
+#choices > button, section > button { text-align: left; display: block; width: 100%; margin-top: .45rem; }
+button[aria-pressed="true"] { border-color: #f8c66b; color: #ffe2a9; }
+kbd { opacity: .8; }

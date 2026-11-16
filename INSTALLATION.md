@@ -1,4 +1,4 @@
-# Installer CELK et Phantom Grand Format avec txAdmin
+# Installer CELK 0.1.2 et Phantom Grand Format avec txAdmin
 
 Ce guide installe le script candidat **0.1.2** et le pack **Phantom Grand Format 0.1.0** sur un serveur FiveM d’essai, avec le montage Police pour le Phantom GTA d’origine.
 
@@ -16,7 +16,7 @@ ensure celk_runtime
 
 - Côté serveur, le manifeste demande **FXServer 38435 ou plus récent**, **GTA build serveur 3889 ou plus récente** et **OneSync**. Les essais de démarrage ont utilisé Windows avec FXServer 38435 et la build GTA 3889. FXServer fournit le moteur Node.js 22 déclaré par le script. [Manifeste CELK](celk_runtime/fxmanifest.lua) · [Référence FiveM des manifestes](https://docs.fivem.net/docs/scripting-reference/resource-manifest/).
 - Côté joueur, il faut GTA V et le client FiveM. Le pack utilise le modèle `phantom` disponible dans le jeu.
-- Télécharge les deux ZIP et compare leur SHA-256 avant extraction. Depuis PowerShell, utilise `Get-FileHash -Algorithm SHA256 -LiteralPath "<chemin du ZIP>"` pour chaque fichier. [Téléchargements](README.md#téléchargements) · [Empreintes attendues](telechargements/SHA256SUMS.txt).
+- Télécharge les deux ZIP et compare leur SHA-256 avant extraction. Depuis PowerShell, utilise `Get-FileHash -Algorithm SHA256 -LiteralPath "<chemin du ZIP>"` pour chaque fichier. [Téléchargements de la version 0.1.2](README.md#archives) · [Empreintes attendues](telechargements/SHA256SUMS.txt).
 
 ## 2. Repérer le bon dossier et le CFG actif
 

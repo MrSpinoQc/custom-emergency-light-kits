@@ -1,5 +1,9 @@
 # Notes de version
 
+## Script 0.2.0-rc.1 · version d’essai actuelle
+
+[Changements, téléchargements et limites de 0.2.0-rc.1](versions/0.2.0-rc.1/README.md).
+
 ## Script candidat 0.1.2 · revue technique publique
 
 - À l’arrêt de la ressource, le client détache et supprime les boîtiers et leurs lentilles. Le menu rend le contrôle au joueur.
@@ -10,4 +14,4 @@
 
 - Montage Police pour le modèle `phantom` de GTA V. La livraison fournie propose une variante à 14 accessoires et cinq scènes.
 - Démarrage de l’ensemble vérifié sur FXServer Windows 38435, GTA build serveur 3889 et OneSync. Les essais incluent l’activation, une migration témoin et le retour arrière.
-- Les archives du pack et du script ont chacune leur version et leur empreinte. [Téléchargements](README.md#téléchargements) · [Guide d’installation](INSTALLATION.md).
+- Les archives du pack et du script ont chacune leur version et leur empreinte. [Téléchargements actuels](README.md#téléchargements) · [Archives 0.1.2](README.md#archives).

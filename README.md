@@ -7,3 +7,7 @@ Un kit réunit des optiques, leurs emplacements et des séquences lumineuses. Le
 ## Phantom Grand Format
 
 Phantom Grand Format est le premier kit présenté. Il comprend quatre types d’optiques, conçues pour la calandre, le pare-chocs, le pare-brise et les marchepieds.
+
+![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](download.png)
+
+*Visuel de présentation des optiques conçues par Spino. La texture et la teinte du métal illustrent la scène.*

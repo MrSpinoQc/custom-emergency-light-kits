@@ -31,6 +31,10 @@ Cette version ajoute la gestion de plusieurs modèles et la restauration d’un 
 
 Les conditions de partage et la licence restent à définir.
 
+## Fonctionnalités et suivi
+
+Consulte les fonctionnalités disponibles, les chantiers en cours, les ajouts confirmés pour plus tard et les essais reportés. [Voir les fonctionnalités](FEATURES.md) · [Suivre les mises à jour](CHANGELOG.md)
+
 ## Phantom Grand Format
 
 Phantom Grand Format est le premier kit présenté. Il comprend quatre types d’optiques, conçues pour la calandre, le pare-chocs, le pare-brise et les marchepieds.

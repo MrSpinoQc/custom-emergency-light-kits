@@ -1,5 +1,7 @@
 # Notes de version
 
+[État des fonctionnalités et travaux prévus](FEATURES.md)
+
 ## Script 0.2.0-rc.1 · version d’essai actuelle
 
 [Changements, téléchargements et limites de 0.2.0-rc.1](versions/0.2.0-rc.1/README.md).

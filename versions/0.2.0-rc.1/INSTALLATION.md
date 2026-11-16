@@ -23,6 +23,14 @@ ensure celk_runtime
 
 Pour un autre modèle, configure sa provenance dans `scopes` et les packs qu’il exige dans `packs`, avec leur version, leur nom de ressource et le SHA-256 de leur `pack-manifest.json`. Ajoute une livraison compatible, puis précontrôle et active uniquement le modèle concerné. Les diffusions calibrées, les projecteurs et les attaches sur os demandent un raccord propre à chaque nouveau modèle.
 
+## Limites du multi-packs
+
+- **128 modèles GTA distincts** au maximum dans `scopes` et **32 packs distincts** dans `packs`. Un pack partagé par plusieurs modèles compte une seule fois.
+- **32 Kio (32 768 octets)** au maximum pour le fichier `local/celk.config.json`.
+- **Une livraison active par modèle**, de **1 à 64 variantes par livraison**, et **20 pièces actives au maximum par véhicule**.
+
+Les entrées par modèle et par pack sont dans `local/celk.config.json`. Dans le `server.cfg`, démarre les ressources des packs requis avant `celk_runtime`. [Contrôles de la configuration](celk_runtime/server/runtime-config.js#L20-L45) · [Contrôles des variantes](celk_runtime/server/model-exports.js)
+
 ## Mise à jour et retour arrière
 
 Teste la mise à jour sur une copie. Sauvegarde ensemble le script, les packs, le CFG et tout `celk_runtime/local`. Le candidat lit l’index de 0.1.2 et écrit au format v2 au premier changement d’activation ou de retrait. Pour revenir à 0.1.2, conserve à part l’état récent puis restaure la copie complète d’avant la mise à jour.

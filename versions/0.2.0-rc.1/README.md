@@ -8,6 +8,14 @@
 
 [Code du script](celk_runtime)
 
+## Limites du multi-packs
+
+- **128 modèles GTA distincts** au maximum dans `scopes` et **32 packs distincts** dans `packs`. Un pack partagé par plusieurs modèles compte une seule fois.
+- **32 Kio (32 768 octets)** au maximum pour le fichier `local/celk.config.json`.
+- **Une livraison active par modèle**, de **1 à 64 variantes par livraison**, et **20 pièces actives au maximum par véhicule**.
+
+Les entrées par modèle et par pack sont dans `local/celk.config.json`. Dans le `server.cfg`, démarre les ressources des packs requis avant `celk_runtime`. [Contrôles de la configuration](celk_runtime/server/runtime-config.js#L20-L45) · [Contrôles des variantes](celk_runtime/server/model-exports.js)
+
 ## Changements
 
 - Plusieurs modèles peuvent être configurés sur le même serveur. Chaque modèle a une livraison active et peut proposer plusieurs services et variantes. La limite reste **20 accessoires actifs par véhicule**.

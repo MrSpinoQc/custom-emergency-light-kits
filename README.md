@@ -16,6 +16,8 @@ ensure celk_runtime
 
 Cette version ajoute la gestion de plusieurs modèles et la restauration d’un montage retiré. Elle a été vérifiée en GTA solo. **Multijoueur non testé, retours bienvenus.** [Nouveautés et téléchargements](versions/0.2.0-rc.1/README.md) · [Guide d’installation](versions/0.2.0-rc.1/INSTALLATION.md)
 
+**Limites de 0.2.0-rc.1** · jusqu’à **128 modèles GTA distincts** et **32 packs distincts** par configuration CELK. [Détail des limites](versions/0.2.0-rc.1/README.md#limites-du-multi-packs)
+
 Les sections suivantes décrivent la première publication **0.1.2 / Phantom Police**.
 
 ## Téléchargements

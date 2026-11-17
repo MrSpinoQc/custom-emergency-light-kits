@@ -21,3 +21,19 @@ Le contrôle de composition retrouve **9/9 familles**, couvrant **15/15 poses** 
 Image publiée en **1672 × 941**. SHA-256 du PNG `19b6746880d7d3557c63938ad6f675294ba22a64ce3659a77b207cf1336d57d6`.
 
 [Fiche du pack](../PACKS.md#hellfire-police-v08)
+
+## Aperçu de placement Atelier R02
+
+Capture existante de l’Atelier R02, en trois-quarts avant légèrement plongeant, côté gauche visible. Elle montre le Gauntlet Hellfire GTA de référence avec 15 pièces et la rampe sélectionnée.
+
+Les données de rendu ont été rapprochées du montage distribué, SHA-256 `8b767d9f48e2e5cfecd39d679a80e90768f9973a639dcd1bbb9c2ace82689ef0`. Les modèles, positions, rotations, réglages des pièces, scènes et options du véhicule concordent. Le relevé d’export R02 contient également le montage intégral identique.
+
+La capture illustre le placement dans l’aperçu 3D Atelier. La phase lumineuse est non consignée. Les observations GTA restent documentées dans les notes de qualification de la version.
+
+| Référence | SHA-256 |
+| --- | --- |
+| Capture originale `retour-hellfire.png`, pixels conservés | `928a0b3f1e34729afbefe36ef6ee92c57264865de86773e10dd03f5dc660f082` |
+| Relevé de capture R02 | `cd6ae5da8a2e409583ecb9c37759a2b841aa78bf6b6c920dac8759013851b24e` |
+| Relevé d’export R02 | `c368dbc0fecb3224f18b0b319665b288908bcd8312e23cb118ff972f81249f94` |
+
+[Voir l’aperçu de placement](hellfire-v08-placement-atelier-r02.png) · [Essais de la version](../versions/0.2.0-rc.2-hellfire.5/README.md#essais-et-limites)

@@ -39,6 +39,17 @@ Le montage réunit une rampe V08, les feux V07 et deux projecteurs V06. Il propo
 *Optiques Hellfire conçues par Spino. Rendu des modèles 3D de production avec finition d’ambiance générative.*
 
 <details>
+<summary><strong>Voir le montage sur le Hellfire · aperçu Atelier R02</strong></summary>
+
+![Hellfire équipé de 15 pièces, aperçu 3D dans l’Atelier R02](images/hellfire-v08-placement-atelier-r02.png)
+
+*Capture existante de l’aperçu 3D Atelier R02, en trois-quarts avant. Les 15 pièces, leurs poses et les réglages du montage correspondent au fichier distribué. Phase lumineuse non consignée.*
+
+[Provenance de la capture](images/hellfire-police-v08-provenance.md#aperçu-de-placement-atelier-r02)
+
+</details>
+
+<details>
 <summary><strong>Captures en jeu à ajouter</strong></summary>
 
 | Emplacement | Capture à prendre |

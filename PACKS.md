@@ -38,9 +38,25 @@ La livraison installe **15 pièces**, réparties en **neuf familles**. Le visuel
 [Télécharger le script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) · [Télécharger le pack](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) · [Installation](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt)
 
 <details>
-<summary><strong>Photos de montage à ajouter</strong></summary>
+<summary><strong>Voir le montage sur le Hellfire · aperçu Atelier R02</strong></summary>
 
-📷 **PHOTO À AJOUTER** · vue complète avant et arrière du Hellfire équipé, une scène allumée et les deux projecteurs orientés. Montrer les fixations et le véhicule entier dans les vues de placement.
+![Hellfire équipé de 15 pièces, aperçu 3D dans l’Atelier R02](images/hellfire-v08-placement-atelier-r02.png)
+
+*Capture existante de l’aperçu 3D Atelier R02, en trois-quarts avant. Les 15 pièces, leurs poses et les réglages du montage correspondent au fichier distribué. Phase lumineuse non consignée.*
+
+[Provenance de la capture](images/hellfire-police-v08-provenance.md#aperçu-de-placement-atelier-r02)
+
+</details>
+
+<details>
+<summary><strong>Captures en jeu à compléter</strong></summary>
+
+| Vue à ajouter | Contenu attendu |
+| --- | --- |
+| Avant et arrière | Hellfire entier avec le montage publié et les fixations lisibles. |
+| Profil gauche et dessus | Position des modules sous les rétroviseurs, des feux latéraux et du matériel sur le toit. |
+| Scène allumée | Double alternance sur la version publiée, avec le nom de scène et sa phase pour la légende. |
+| Projecteurs orientés | Les deux têtes J, leurs socles et le dégagement des faisceaux. |
 
 </details>
 

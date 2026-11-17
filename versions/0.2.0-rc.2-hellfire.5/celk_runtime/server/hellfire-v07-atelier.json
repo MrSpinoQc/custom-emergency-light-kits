@@ -1,0 +1,1997 @@
+{
+  "schema": "tryagain.atelier-part-pack",
+  "version": 1,
+  "id": "hellfire-feux-v07-lab",
+  "packVersion": "0.7.0",
+  "name": "Hellfire V07 · Feux approuvés (Police)",
+  "author": "Spino",
+  "units": {
+    "position": "m",
+    "rotation": "deg",
+    "order": "ZXY",
+    "axes": "GTA"
+  },
+  "files": {
+    "glb/ta01_gh4v7_02.glb": "ce298a6e4d8d9af767f3838e61dbfdcbbb3b148adb6801fec2971be163f3cdea",
+    "glb/ta01_gh4v7_03.glb": "e8db41fd9d05023eded29127cee77b847c227ea32439631503048401c804e3a0",
+    "glb/ta01_gh4v7_04d.glb": "ca416a37a93b6d5c8859cbf8fe540e7ab010e2464775272bcdb894b793628d8b",
+    "glb/ta01_gh4v7_04g.glb": "3e96b69b496e07e1b02c2e9dc5e1062ec1ff5050206429bbefa5bcc3ba3484f7",
+    "glb/ta01_gh4v7_05d.glb": "0e57920beb6fa92215ad411c82e6e9ab14925c3ae750ca01ae89ca54ffbb6ebd",
+    "glb/ta01_gh4v7_05g.glb": "5eb5627c516b34025baf0e11aa928de99b3ca431c438c2e3bcd5f3e87444dad5",
+    "glb/ta01_gh4v7_06.glb": "444b5ba62672dfcddf8f3e30dd709cff13cf2daf125ea46b5a4c506fbaef26a4",
+    "glb/ta01_gh4v7_07.glb": "781e8e5ac5baaf495eec54e086b17d2bf33487615f254d6c5d82355715c10cde",
+    "glb/ta01_gh4v7_08.glb": "714117f315629097b4bdd520f414866359b0825dd41828f1ad6db3e80047fe6c",
+    "glb/ta01_gh4v7_09.glb": "86ed2b0a85ffdb091a7a03d949c1d4b6f3e6f644160f9be48b0da64295c49c3c",
+    "glb/ta01_gh4v7_10.glb": "528570bcd01cf95e2b52c0db024f2079174de2a5393295b4a0772f7fee29eeb9",
+    "glb/ta01_gh4v7_11.glb": "0d60606a452af09cbb897887ea5d73e371f2ffb049d322797be4d4c9a45e0ef9",
+    "stream/ta01_gh4v7_02.ydr": "f95f329252e85d8b79e80028f66bab31e4f7aaf6c2b812ec5c56a632bc68d0c8",
+    "stream/ta01_gh4v7_02_c01.ydr": "ac7ce1f8cdc442bfcfcb2981cbc2f00ea17d98009d16d41c9c2fbd9966c31407",
+    "stream/ta01_gh4v7_02_c02.ydr": "cb893738783a234bb5eb0cce1bb9c73fbd92a416b525ee1c56d9c94894386e65",
+    "stream/ta01_gh4v7_02_c03.ydr": "447e5e7e57311a0ff0de04537d3811cf9e230ef56a9b7903d2cb004a3f8fa2e3",
+    "stream/ta01_gh4v7_02_c04.ydr": "52147d42e6c5fe53b282f225729e423688cea5b893a1f74dfc2d0bdcb7e6d970",
+    "stream/ta01_gh4v7_02_c05.ydr": "9fd24960bad41a14bf07db4a9e9a550be072bfc9a24f59998855d719368d1495",
+    "stream/ta01_gh4v7_02_c06.ydr": "2dc116aa466031ee1148d4aedefdbecd14a7ab65d2dc8d75d3d819a811d1c4de",
+    "stream/ta01_gh4v7_03.ydr": "5a8d3d87ce63d839c233f7dfd20142de920f584cff4e664277b6684df7a4b110",
+    "stream/ta01_gh4v7_03_c01.ydr": "f641d346f0dcc420adbcdaf541fffb09ab43ebb9bf371f4a351e1e1f5bdf7676",
+    "stream/ta01_gh4v7_03_c02.ydr": "79bb1493761fb120f31e85d56bb28722ab5d407f56d8cf997701ff4ef4c2e086",
+    "stream/ta01_gh4v7_03_c03.ydr": "afde3dcf57fece8d5724724f14a435e2e96374a4d954e457e284dcbc3cbbb001",
+    "stream/ta01_gh4v7_03_c04.ydr": "bf7621ea0b30a820acd398a150d1e09b6bcb9db745a24673ec65e6b9c904df3a",
+    "stream/ta01_gh4v7_03_c05.ydr": "58131d217c1a748400ebb9ce0ff6e662818a4cac73fa14aaa54d906e30f9f1a6",
+    "stream/ta01_gh4v7_03_c06.ydr": "dc3a574b8a27cde6a9cfe655bf6863bf5dfeb1e9bf3be366651cdb285f46fdd9",
+    "stream/ta01_gh4v7_04d.ydr": "6355fde1540ea55899cd6da45115341821b7c4bdac58c85f0164a262a5e36e3d",
+    "stream/ta01_gh4v7_04d_c01.ydr": "152b4dceed0d581d5831fe31e56af25d83ba5cafbc9ca67f96b8dd0a686d5853",
+    "stream/ta01_gh4v7_04d_c02.ydr": "0f631489046e5602dce4448e183517ca49c5b31f60cf5a57ba2be8bc9be588ae",
+    "stream/ta01_gh4v7_04d_c03.ydr": "0758fa78d3bbc7b7de75948d8f9365e894d2c5657f012aeb15ad5bbd4b0edb27",
+    "stream/ta01_gh4v7_04g.ydr": "206b9dc5b5c2141e563701d2d6e57684137513fe98631ec270e3940f9aecd7e0",
+    "stream/ta01_gh4v7_04g_c01.ydr": "c5851c24d9dc715a590d880c6e90189bd2f8e45139abb1acd5eb27adfe210a09",
+    "stream/ta01_gh4v7_04g_c02.ydr": "b92fecfeede2ed1bd73dab2d508992536d1b83ab82bca5a389b14b8321850e48",
+    "stream/ta01_gh4v7_04g_c03.ydr": "357b2afc0fdb85dce041606ac5a40cbaaea37cbb068f9a68a67d5631736a3e41",
+    "stream/ta01_gh4v7_05d.ydr": "929c2cb111f562e26671dc1b58620ff78fb4c18119bcaac0888a2feeb342180a",
+    "stream/ta01_gh4v7_05d_c01.ydr": "499c382c1af2983e987f5c74ad71f32d056370e950696772c03040e6c69f0f25",
+    "stream/ta01_gh4v7_05d_c02.ydr": "b11ea7547ca1a474643bc9c311fbe0a0ffaf6d4ab3fe445cd72aa7786895668b",
+    "stream/ta01_gh4v7_05d_c03.ydr": "cec8629923be70e5951bb2b7cd433a979345b14bfd75557d0da38ebcb4a37376",
+    "stream/ta01_gh4v7_05g.ydr": "0b129b56d4bce144fb1981986d9f607c4f98740e56b14f2c05625db114075ec1",
+    "stream/ta01_gh4v7_05g_c01.ydr": "7e2074f423960d431a0c599a5d23068e4d598b5d7d3d179e12bce11ab692c5a2",
+    "stream/ta01_gh4v7_05g_c02.ydr": "21644724d72d1cc2be6f748035d6ca1ca80bc24cb9cad5f9447d0358e8295218",
+    "stream/ta01_gh4v7_05g_c03.ydr": "ac23c44f7bd700ead7146f6d5a923b27df57667c002743f57b96adb1a6d51186",
+    "stream/ta01_gh4v7_06.ydr": "61d631bbde6eb4ed65bca3e90528f85bf386be907fc237f8253c5ad67719c16d",
+    "stream/ta01_gh4v7_06_c01.ydr": "98086f2ce2486c49e0eb2ad60518c5f692d0e17a6b525b7f9e09e2e82a3112ad",
+    "stream/ta01_gh4v7_06_c02.ydr": "479d23c86a901d03be434866783320d88d81ca30428ffe55607bb52c9396bd4b",
+    "stream/ta01_gh4v7_06_c03.ydr": "68e142270db0c555a09829a4ff1ef4223ad8ad33a5a8ae6dff39304e6093413e",
+    "stream/ta01_gh4v7_07.ydr": "242d615ea423a1976fc971d8f1389c1457b8e9dcf467af34ca54181dc9ece536",
+    "stream/ta01_gh4v7_07_c01.ydr": "edad851156b0e08e1166a74da5d760d769ba86626f91e4ded7ab120bd195b97b",
+    "stream/ta01_gh4v7_07_c02.ydr": "ce93e38bf70574a9768e65555a7560290bac3b119f52d041903ddfa5c07eb78c",
+    "stream/ta01_gh4v7_07_c03.ydr": "2a9a4947fedb925f874a872e8e0dfb3ac305692ccd6cd65a989d530efd69e76f",
+    "stream/ta01_gh4v7_08.ydr": "83837c510fb2bb601903db18c4bc34518ac761f3a4ac11ec9f4dd3702dcc05de",
+    "stream/ta01_gh4v7_08_c01.ydr": "12f0caed4b0e9195b746b5a3a9cc08bbe6923b0995911b40e8e6b02ff740c8a7",
+    "stream/ta01_gh4v7_08_c02.ydr": "f9e2ec694a66253bac675c27b1a25747d731bba72d8e1265f65cd77ca9e27358",
+    "stream/ta01_gh4v7_08_c03.ydr": "594ee41da18900d38f29c2cc911f741b8aaa6cb02313e95c76875361e03811f6",
+    "stream/ta01_gh4v7_09.ydr": "d739ba3f871c70b4a6ca447adb101bc1b56e8f71bb3a6ad1c777fa13bf6517e4",
+    "stream/ta01_gh4v7_09_c01.ydr": "9a49c9b2f71d70b50120ba4ffb51a7645edfc95a48e0d4b70c35a70e5d4d5af7",
+    "stream/ta01_gh4v7_09_c02.ydr": "e0864493ad793d49349987a56a98857ff0062c3df9df3197fd4a59d8564bd927",
+    "stream/ta01_gh4v7_09_c03.ydr": "e3225d081791a835548f9f5b4ef989eab7c64a170b280eff020e1d9527d2e251",
+    "stream/ta01_gh4v7_10.ydr": "9844bb64aa602a59b277d8ca220a315a9c400176bcb7898c9023a7ea70896aac",
+    "stream/ta01_gh4v7_10_c01.ydr": "fbe6e77f54cbd61cf68555b43a5dfa790429488cc7f86886071779b567ba71dc",
+    "stream/ta01_gh4v7_10_c02.ydr": "05537d232cd92c4e7b5cc57c23bcea472ce53de3118d549f5ebd73902d0d7bd6",
+    "stream/ta01_gh4v7_11.ydr": "f165c6949df5422f6b7c0bfd2a7aba2c542c954ac8854aecefecd005e984974b",
+    "stream/ta01_gh4v7_11_c01.ydr": "6602633701f6a60c8b898debe43b1131c0dee0b2808ff1ef7d1812ff840cee10",
+    "stream/ta01_gh4v7_11_c02.ydr": "f3ad9453e979377b27507ceceacc27a2eb291cd03181fbfff459c48391036a98",
+    "stream/ta01_gh4v7_feux.ytyp": "f038c06aa013115336ac11dd3577dd242e310c3f7c3996879c3170553194d322"
+  },
+  "parts": [
+    {
+      "id": "ta01_gh4v7_02",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0.0,
+            0.385,
+            0.89
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            0
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_02.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_02_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.185,
+                0.0091269,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_02_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.111,
+                0.0117337,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_02_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.037,
+                0.0130371,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 4,
+          "name": "Cellule c04",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_02_cell_4"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.037,
+                0.0130371,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 5,
+          "name": "Cellule c05",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_02_cell_5"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.111,
+                0.0117337,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 6,
+          "name": "Cellule c06",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_02_cell_6"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.185,
+                0.0091269,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_02",
+        "ydr": "stream/ta01_gh4v7_02.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_02_c01",
+            "ydr": "stream/ta01_gh4v7_02_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_02_c02",
+            "ydr": "stream/ta01_gh4v7_02_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_02_c03",
+            "ydr": "stream/ta01_gh4v7_02_c03.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_02_c04",
+            "ydr": "stream/ta01_gh4v7_02_c04.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_02_c05",
+            "ydr": "stream/ta01_gh4v7_02_c05.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_02_c06",
+            "ydr": "stream/ta01_gh4v7_02_c06.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_03",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0.0,
+            -1.36,
+            0.89
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            180
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_03.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_03_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.17,
+                0.0077556,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_03_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.102,
+                0.0106,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_03_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.034,
+                0.0120222,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 4,
+          "name": "Cellule c04",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_03_cell_4"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.034,
+                0.0120222,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 5,
+          "name": "Cellule c05",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_03_cell_5"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.102,
+                0.0106,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 6,
+          "name": "Cellule c06",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_03_cell_6"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.17,
+                0.0077556,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_03",
+        "ydr": "stream/ta01_gh4v7_03.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_03_c01",
+            "ydr": "stream/ta01_gh4v7_03_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_03_c02",
+            "ydr": "stream/ta01_gh4v7_03_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_03_c03",
+            "ydr": "stream/ta01_gh4v7_03_c03.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_03_c04",
+            "ydr": "stream/ta01_gh4v7_03_c04.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_03_c05",
+            "ydr": "stream/ta01_gh4v7_03_c05.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_03_c06",
+            "ydr": "stream/ta01_gh4v7_03_c06.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_04g",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            -0.4577178,
+            2.3805905,
+            0.156
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            9
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_04g.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_04g_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.041,
+                0.0167963,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_04g_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0179783,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_04g_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.041,
+                0.0167963,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_04g",
+        "ydr": "stream/ta01_gh4v7_04g.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_04g_c01",
+            "ydr": "stream/ta01_gh4v7_04g_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_04g_c02",
+            "ydr": "stream/ta01_gh4v7_04g_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_04g_c03",
+            "ydr": "stream/ta01_gh4v7_04g_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_05g",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            -0.4595506,
+            -2.5494257,
+            0.187
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            177
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_05g.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_05g_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.041,
+                0.0172341,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_05g_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0183322,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_05g_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.041,
+                0.0172341,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_05g",
+        "ydr": "stream/ta01_gh4v7_05g.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_05g_c01",
+            "ydr": "stream/ta01_gh4v7_05g_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_05g_c02",
+            "ydr": "stream/ta01_gh4v7_05g_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_05g_c03",
+            "ydr": "stream/ta01_gh4v7_05g_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_04d",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0.4577335,
+            2.3806897,
+            0.156
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            -9
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_04d.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_04d_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.041,
+                0.0166959,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_04d_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0178779,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_04d_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.041,
+                0.0166959,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_04d",
+        "ydr": "stream/ta01_gh4v7_04d.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_04d_c01",
+            "ydr": "stream/ta01_gh4v7_04d_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_04d_c02",
+            "ydr": "stream/ta01_gh4v7_04d_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_04d_c03",
+            "ydr": "stream/ta01_gh4v7_04d_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_05d",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0.4595511,
+            -2.5494345,
+            0.187
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            183
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_05d.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_05d_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.041,
+                0.0172612,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_05d_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0183593,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_05d_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.041,
+                0.0172612,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_05d",
+        "ydr": "stream/ta01_gh4v7_05d.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_05d_c01",
+            "ydr": "stream/ta01_gh4v7_05d_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_05d_c02",
+            "ydr": "stream/ta01_gh4v7_05d_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_05d_c03",
+            "ydr": "stream/ta01_gh4v7_05d_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_06",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            -0.857469,
+            2.07,
+            0.272
+          ],
+          "rotationZxyDeg": [
+            0,
+            0,
+            71.0
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_06.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_06_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.036,
+                0.0222714,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_06_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0236464,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_06_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.036,
+                0.0222714,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_06",
+        "ydr": "stream/ta01_gh4v7_06.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_06_c01",
+            "ydr": "stream/ta01_gh4v7_06_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_06_c02",
+            "ydr": "stream/ta01_gh4v7_06_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_06_c03",
+            "ydr": "stream/ta01_gh4v7_06_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_08",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            -0.8839215,
+            -2.18,
+            0.294
+          ],
+          "rotationZxyDeg": [
+            0,
+            0,
+            111.0
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_08.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_08_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.032,
+                0.0285096,
+                -0.006
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_08_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0304545,
+                0.005
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_08_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.032,
+                0.0285096,
+                0.005
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_08",
+        "ydr": "stream/ta01_gh4v7_08.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_08_c01",
+            "ydr": "stream/ta01_gh4v7_08_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_08_c02",
+            "ydr": "stream/ta01_gh4v7_08_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_08_c03",
+            "ydr": "stream/ta01_gh4v7_08_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_10",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            -1.015,
+            0.494,
+            0.587
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            73
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_10.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_10_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.02,
+                0.0123175,
+                0.0080533
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            255,
+            36,
+            54
+          ],
+          "materials": [
+            "ta01_gh4v7_10_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.017,
+                0.0125485,
+                0.0080533
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_10",
+        "ydr": "stream/ta01_gh4v7_10.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_10_c01",
+            "ydr": "stream/ta01_gh4v7_10_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_10_c02",
+            "ydr": "stream/ta01_gh4v7_10_c02.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_07",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0.857469,
+            2.07,
+            0.272
+          ],
+          "rotationZxyDeg": [
+            0,
+            0,
+            -71.0
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_07.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_07_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.036,
+                0.0222714,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_07_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0236464,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_07_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.036,
+                0.0222714,
+                0.0
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_07",
+        "ydr": "stream/ta01_gh4v7_07.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_07_c01",
+            "ydr": "stream/ta01_gh4v7_07_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_07_c02",
+            "ydr": "stream/ta01_gh4v7_07_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_07_c03",
+            "ydr": "stream/ta01_gh4v7_07_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_09",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0.8839215,
+            -2.18,
+            0.294
+          ],
+          "rotationZxyDeg": [
+            0,
+            0,
+            -111.0
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_09.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_09_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.032,
+                0.0285096,
+                -0.006
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_09_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.0,
+                0.0304545,
+                0.005
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 3,
+          "name": "Cellule c03",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_09_cell_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.032,
+                0.0285096,
+                0.005
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_09",
+        "ydr": "stream/ta01_gh4v7_09.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_09_c01",
+            "ydr": "stream/ta01_gh4v7_09_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_09_c02",
+            "ydr": "stream/ta01_gh4v7_09_c02.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_09_c03",
+            "ydr": "stream/ta01_gh4v7_09_c03.ydr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ta01_gh4v7_11",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            1.015,
+            0.494,
+            0.587
+          ],
+          "rotationZxyDeg": [
+            0.0,
+            0,
+            -73
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v7_11.glb",
+      "optics": [
+        {
+          "id": 1,
+          "name": "Cellule c01",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_11_cell_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.02,
+                0.0123175,
+                0.0080654
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        },
+        {
+          "id": 2,
+          "name": "Cellule c02",
+          "color": [
+            52,
+            119,
+            255
+          ],
+          "materials": [
+            "ta01_gh4v7_11_cell_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.017,
+                0.0125485,
+                0.0080654
+              ],
+              "axisLocal": [
+                -0.0,
+                1.0,
+                0.0
+              ]
+            }
+          ],
+          "rangeM": 3.1,
+          "halfAngleDeg": 59.0,
+          "intensity": 0.52
+        }
+      ],
+      "runtime": {
+        "model": "ta01_gh4v7_11",
+        "ydr": "stream/ta01_gh4v7_11.ydr",
+        "ytyp": "stream/ta01_gh4v7_feux.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v7_11_c01",
+            "ydr": "stream/ta01_gh4v7_11_c01.ydr"
+          },
+          {
+            "model": "ta01_gh4v7_11_c02",
+            "ydr": "stream/ta01_gh4v7_11_c02.ydr"
+          }
+        ]
+      }
+    }
+  ],
+  "catalogue": {
+    "schema": "tryagain.part-catalogue",
+    "version": 1,
+    "parts": {
+      "ta01_gh4v7_02": {
+        "code": "FE9701",
+        "name": "Barrette de pare-brise (Police)",
+        "families": [
+          "sport"
+        ]
+      },
+      "ta01_gh4v7_03": {
+        "code": "FE9702",
+        "name": "Barrette de lunette (Police)",
+        "families": [
+          "sport"
+        ]
+      },
+      "ta01_gh4v7_04g": {
+        "code": "FE9703",
+        "name": "Pare-chocs avant gauche (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_04d"
+      },
+      "ta01_gh4v7_05g": {
+        "code": "FE9704",
+        "name": "Pare-chocs arrière gauche à chevrons (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_05d"
+      },
+      "ta01_gh4v7_04d": {
+        "code": "FE9705",
+        "name": "Pare-chocs avant droit (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_04g"
+      },
+      "ta01_gh4v7_05d": {
+        "code": "FE9706",
+        "name": "Pare-chocs arrière droit à chevrons (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_05g"
+      },
+      "ta01_gh4v7_06": {
+        "code": "FE9707",
+        "name": "Flanc avant gauche (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_07"
+      },
+      "ta01_gh4v7_08": {
+        "code": "FE9708",
+        "name": "Flanc arrière gauche (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_09"
+      },
+      "ta01_gh4v7_10": {
+        "code": "FE9709",
+        "name": "Sous-rétro gauche (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_11"
+      },
+      "ta01_gh4v7_07": {
+        "code": "FE9710",
+        "name": "Flanc avant droit (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_06"
+      },
+      "ta01_gh4v7_09": {
+        "code": "FE9711",
+        "name": "Flanc arrière droit (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_08"
+      },
+      "ta01_gh4v7_11": {
+        "code": "FE9712",
+        "name": "Sous-rétro droit (Police)",
+        "families": [
+          "sport"
+        ],
+        "oppositeModel": "ta01_gh4v7_10"
+      }
+    },
+    "studioReferences": {
+      "ta01_gh4v7_02": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_02",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_03": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_03",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_04g": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_04g",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_05g": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_05g",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_04d": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_04d",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_05d": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_05d",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_06": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_06",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_08": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_08",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_10": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_10",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_07": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_07",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_09": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_09",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      },
+      "ta01_gh4v7_11": {
+        "studioId": "pieces/gauntlet-hellfire-police/v07#ta01_gh4v7_11",
+        "revision": "DEV-01-GAUNTLET4-POLICE-V07-REVUE-v01"
+      }
+    }
+  }
+}

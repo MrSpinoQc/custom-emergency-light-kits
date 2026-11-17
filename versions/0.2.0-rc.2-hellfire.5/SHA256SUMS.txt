@@ -1,0 +1,2 @@
+998121228a566aecec2d7cf1c12ade5fd9b2651b180b1e830f87919a1392ab76  CELK-pack-Hellfire-personnel-fddf5f43.zip
+b6e9eec950c8b79717f4d1975dd0bfac995538f0828dbfc6cb11a2415e7f9be5  CELK-script-0.2.0-rc.2-hellfire.5.zip

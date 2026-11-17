@@ -1,0 +1,599 @@
+{
+  "schema": "tryagain.atelier-part-pack",
+  "version": 1,
+  "id": "hellfire-rampe-v08-lab",
+  "packVersion": "0.8.0",
+  "name": "Rampe Hellfire V08 (Police)",
+  "author": "Spino",
+  "units": {
+    "position": "m",
+    "rotation": "deg",
+    "order": "ZXY",
+    "axes": "GTA"
+  },
+  "files": {
+    "glb/ta01_gh4v8_01.glb": "96bb45fa2a0e679aef77463f5cfa7e46e3fc4e8c210aad89a3bc5d9c4c8b39ef",
+    "stream/ta01_gh4v8_01.ydr": "4d576f4311161e8e3ef3ca2caac27ee024d2fe7c6f117321d29461650300ed68",
+    "stream/ta01_gh4v8_01_av01.ydr": "4619dd9ca8f3eab47f9663333448f262c30ac01ffdaf4f798c622784d5e46bef",
+    "stream/ta01_gh4v8_01_av02.ydr": "db8b736782f49531eed64332630531e62507371a1d880f4bcd5b03dbca42d631",
+    "stream/ta01_gh4v8_01_av03.ydr": "139e558fe78cfacdfe414651f6b13e4b0004129418a21b4d06ea3af5ecd3d8c3",
+    "stream/ta01_gh4v8_01_av04.ydr": "42f54ba2ef7d41b12e7adec30525b2d6dde8463a389d3684a05ea150f754c0a5",
+    "stream/ta01_gh4v8_01_ar01.ydr": "72aef0a33423dedc168465f7032b5ae25120a66dc40efac50e99550b1f491f8a",
+    "stream/ta01_gh4v8_01_ar02.ydr": "63859f136d53b95d1b3a931c7fe7e0fcd3d89ae15068bf7d5d9dc45404d5635b",
+    "stream/ta01_gh4v8_01_ar03.ydr": "912d6a65522b77ce40645e1f4b4d4f37f86d55010eeb64c59e5746eb2efc518d",
+    "stream/ta01_gh4v8_01_ar04.ydr": "cf1cdd9685cc7f91c6b1f9f8e425868daf1c2f93585b35b6108cffef083673ef",
+    "stream/ta01_gh4v8_01_ext_g.ydr": "97f8296b8c91af65582fbe91d33363fd0bd96d8ab43d4743a361359fd0072f86",
+    "stream/ta01_gh4v8_01_ext_d.ydr": "126788f2650b88a222801d69561e066472143ebc2f5543b27396f63dcec6069c",
+    "stream/ta01_gh4v8_01_pieces.ytyp": "b97424916f571702d20666fc29638e1293334d53f9af8444bb784e4764a0ad4d"
+  },
+  "parts": [
+    {
+      "id": "ta01_gh4v8_01",
+      "service": "police",
+      "revision": "DEV-01-GAUNTLET4-POLICE-RAMPE-V08-PROD-v01",
+      "compatibleVehicles": [
+        "gauntlet4"
+      ],
+      "mountPivotM": [
+        0,
+        0,
+        0
+      ],
+      "placements": {
+        "gauntlet4": {
+          "positionM": [
+            0,
+            -0.455,
+            1.0423264
+          ],
+          "rotationZxyDeg": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "preview": "glb/ta01_gh4v8_01.glb",
+      "runtime": {
+        "model": "ta01_gh4v8_01",
+        "ydr": "stream/ta01_gh4v8_01.ydr",
+        "ytyp": "stream/ta01_gh4v8_01_pieces.ytyp",
+        "drawables": [
+          {
+            "model": "ta01_gh4v8_01_av01",
+            "ydr": "stream/ta01_gh4v8_01_av01.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_av02",
+            "ydr": "stream/ta01_gh4v8_01_av02.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_av03",
+            "ydr": "stream/ta01_gh4v8_01_av03.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_av04",
+            "ydr": "stream/ta01_gh4v8_01_av04.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_ar01",
+            "ydr": "stream/ta01_gh4v8_01_ar01.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_ar02",
+            "ydr": "stream/ta01_gh4v8_01_ar02.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_ar03",
+            "ydr": "stream/ta01_gh4v8_01_ar03.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_ar04",
+            "ydr": "stream/ta01_gh4v8_01_ar04.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_ext_g",
+            "ydr": "stream/ta01_gh4v8_01_ext_g.ydr"
+          },
+          {
+            "model": "ta01_gh4v8_01_ext_d",
+            "ydr": "stream/ta01_gh4v8_01_ext_d.ydr"
+          }
+        ]
+      },
+      "optics": [
+        {
+          "id": 1,
+          "name": "av01",
+          "color": [
+            255,
+            26,
+            47
+          ],
+          "materials": [
+            "gh8_cellule_1"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.3855,
+                0.2221,
+                0.0820945
+              ],
+              "axisLocal": [
+                0,
+                1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 2,
+          "name": "av02",
+          "color": [
+            255,
+            26,
+            47
+          ],
+          "materials": [
+            "gh8_cellule_2"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.1305,
+                0.2221,
+                0.0864379
+              ],
+              "axisLocal": [
+                0,
+                1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 3,
+          "name": "av03",
+          "color": [
+            37,
+            106,
+            255
+          ],
+          "materials": [
+            "gh8_cellule_3"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.1305,
+                0.2221,
+                0.0864379
+              ],
+              "axisLocal": [
+                0,
+                1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 4,
+          "name": "av04",
+          "color": [
+            37,
+            106,
+            255
+          ],
+          "materials": [
+            "gh8_cellule_4"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.3855,
+                0.2221,
+                0.0820945
+              ],
+              "axisLocal": [
+                0,
+                1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 5,
+          "name": "ar01",
+          "color": [
+            37,
+            106,
+            255
+          ],
+          "materials": [
+            "gh8_cellule_5"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.3855,
+                -0.2221,
+                0.0820945
+              ],
+              "axisLocal": [
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 6,
+          "name": "ar02",
+          "color": [
+            37,
+            106,
+            255
+          ],
+          "materials": [
+            "gh8_cellule_6"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.1305,
+                -0.2221,
+                0.0864379
+              ],
+              "axisLocal": [
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 7,
+          "name": "ar03",
+          "color": [
+            255,
+            26,
+            47
+          ],
+          "materials": [
+            "gh8_cellule_7"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.1305,
+                -0.2221,
+                0.0864379
+              ],
+              "axisLocal": [
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 8,
+          "name": "ar04",
+          "color": [
+            255,
+            26,
+            47
+          ],
+          "materials": [
+            "gh8_cellule_8"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.3855,
+                -0.2221,
+                0.0820945
+              ],
+              "axisLocal": [
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.8,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 9,
+          "name": "ext-g",
+          "color": [
+            255,
+            26,
+            47
+          ],
+          "materials": [
+            "gh8_cellule_9"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                -0.5691,
+                0.0065,
+                0.0765
+              ],
+              "axisLocal": [
+                -1,
+                0,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.3,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        },
+        {
+          "id": 10,
+          "name": "ext-d",
+          "color": [
+            37,
+            106,
+            255
+          ],
+          "materials": [
+            "gh8_cellule_10"
+          ],
+          "faces": [
+            {
+              "originLocalM": [
+                0.5691,
+                0.0065,
+                0.0765
+              ],
+              "axisLocal": [
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "rangeM": 2.3,
+          "halfAngleDeg": 58.0,
+          "intensity": 0.58
+        }
+      ]
+    }
+  ],
+  "catalogue": {
+    "schema": "tryagain.part-catalogue",
+    "version": 1,
+    "parts": {
+      "ta01_gh4v8_01": {
+        "code": "RP20",
+        "name": "Rampe Hellfire V08 (Police)",
+        "families": [
+          "sport"
+        ]
+      }
+    },
+    "studioReferences": {
+      "ta01_gh4v8_01": {
+        "studioId": "pieces/gauntlet-hellfire-police/v08#ta01_gh4v8_01",
+        "revision": "DEV-01-GAUNTLET4-POLICE-RAMPE-V08-PROD-v01"
+      }
+    }
+  },
+  "animations": [
+    {
+      "model": "ta01_gh4v8_01",
+      "animation": {
+        "id": "gh8-alternance",
+        "name": "Alternance Hellfire rouge et bleu",
+        "durationMs": 1200,
+        "tracks": [
+          {
+            "opticId": "group:1",
+            "clips": [
+              {
+                "startMs": 0,
+                "endMs": 105,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 165,
+                "endMs": 270,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:2",
+            "clips": [
+              {
+                "startMs": 0,
+                "endMs": 105,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 165,
+                "endMs": 270,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:3",
+            "clips": [
+              {
+                "startMs": 600,
+                "endMs": 705,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 765,
+                "endMs": 870,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:4",
+            "clips": [
+              {
+                "startMs": 600,
+                "endMs": 705,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 765,
+                "endMs": 870,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:5",
+            "clips": [
+              {
+                "startMs": 600,
+                "endMs": 705,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 765,
+                "endMs": 870,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:6",
+            "clips": [
+              {
+                "startMs": 600,
+                "endMs": 705,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 765,
+                "endMs": 870,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:7",
+            "clips": [
+              {
+                "startMs": 0,
+                "endMs": 105,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 165,
+                "endMs": 270,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:8",
+            "clips": [
+              {
+                "startMs": 0,
+                "endMs": 105,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 165,
+                "endMs": 270,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:9",
+            "clips": [
+              {
+                "startMs": 0,
+                "endMs": 105,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 165,
+                "endMs": 270,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          },
+          {
+            "opticId": "group:10",
+            "clips": [
+              {
+                "startMs": 600,
+                "endMs": 705,
+                "level": 100,
+                "projection": true
+              },
+              {
+                "startMs": 765,
+                "endMs": 870,
+                "level": 100,
+                "projection": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

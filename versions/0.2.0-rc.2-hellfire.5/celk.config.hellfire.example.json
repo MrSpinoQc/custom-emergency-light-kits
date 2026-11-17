@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "scopes": {
+    "gauntlet4": "spino"
+  },
+  "packs": {
+    "hellfire-feux-v07-lab": {
+      "version": "0.7.0",
+      "resource": "celk_pack_hellfire_v07",
+      "sha256": "17068a6e96e618edfc0b4cdc48308a0d56c8fdce8b6ce1211fe3c7ac6f0e7d67"
+    },
+    "hellfire-police-v06-lab": {
+      "version": "0.6.0",
+      "resource": "celk_pack_hellfire_v06",
+      "sha256": "140392180fb861fd752d6cdc33c5d99516318c806cad8746e2be5bd4e41fbb82"
+    },
+    "hellfire-rampe-v08-lab": {
+      "version": "0.8.0",
+      "resource": "celk_pack_hellfire_v08",
+      "sha256": "bbd30a05ff290c2bbcb26b5a0ba1fb54c5c6f5d0a04860abedac256dd417228c"
+    }
+  }
+}

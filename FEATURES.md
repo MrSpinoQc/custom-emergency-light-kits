@@ -1,6 +1,6 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **16 novembre 2026**. La version d’essai publique de Custom Emergency Light Kits est **0.2.0-rc.1**. [Téléchargements](README.md#téléchargements) · [Notes de version](CHANGELOG.md)
+Mis à jour le **16 novembre 2026**. La version d’essai publique de Custom Emergency Light Kits est **0.2.0-rc.1**. [Téléchargements](README.md#téléchargements) · [Notes de version](CHANGELOG.md) · [Dépendances et intégrations](COMPATIBILITE.md)
 
 ## Disponible dans la version d’essai
 

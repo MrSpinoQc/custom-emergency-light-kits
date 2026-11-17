@@ -30,4 +30,4 @@ Pour revenir à une révision précise, ajoute `<modèle> <révision> <empreinte
 
 Le candidat documente la migration de l’ancien préréglage `phantom-police-atelier-4`. Dans une copie de test, place la sauvegarde source et son mappage explicite dans `local/migration/legacy-v1.json` et `local/migration/mapping.json`, puis utilise `celk_migrate <identifiant-durable>` en console. Suis les champs et le diagnostic décrits dans les notes livrées avec le script. La migration a été éprouvée sur une sauvegarde témoin avec 13 pièces choisies. Vérifie la restauration de tes propres choix sur la copie d’essai.
 
-[Installation et contrôles txAdmin](INSTALLATION.md) · [Archives et empreintes 0.1.2](README.md#archives).
+[Installation et contrôles txAdmin · 0.1.2](INSTALLATION-0.1.2.md) · [Archives et empreintes 0.1.2](README.md#archives).

@@ -6,7 +6,7 @@
 - [Télécharger le pack Phantom Grand Format 0.1.0](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/main/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip)
 - [Installer ou revenir à 0.1.2](INSTALLATION.md) · [Vérifier le SHA-256](SHA256SUMS.txt)
 
-[Code du script](celk_runtime)
+[Code du script](celk_runtime) · [Dépendances et intégrations](../../COMPATIBILITE.md)
 
 ## Limites du multi-packs
 

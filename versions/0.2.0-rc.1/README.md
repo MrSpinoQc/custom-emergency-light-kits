@@ -2,9 +2,9 @@
 
 **Spino · Custom Emergency Light Kits**
 
-- [Télécharger le script 0.2.0-rc.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/main/telechargements/CELK-script-0.2.0-rc.1.zip)
-- [Télécharger le pack Phantom Grand Format 0.1.0](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/main/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip)
-- [Installer ou revenir à 0.1.2](INSTALLATION.md) · [Vérifier le SHA-256](SHA256SUMS.txt)
+- [Télécharger le script 0.2.0-rc.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-script-0.2.0-rc.1.zip)
+- [Télécharger le pack Phantom Grand Format 0.1.0](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip)
+- [Installer le Phantom avec 0.2.0-rc.1](INSTALLATION.md) · [Retour à 0.1.2](INSTALLATION.md#mise-à-jour-et-retour-arrière) · [Vérifier le SHA-256](SHA256SUMS.txt)
 
 [Code du script](celk_runtime) · [Dépendances et intégrations](../../COMPATIBILITE.md)
 

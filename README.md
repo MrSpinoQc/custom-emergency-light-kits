@@ -1,84 +1,45 @@
 # Custom Emergency Light Kits
 
-**Des feux d’urgence configurables pour FiveM, par Spino.** Choisis un montage, change de scène lumineuse et retrouve les réglages sauvegardés sur ton véhicule.
-
-[Installer le Hellfire](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Dépendances et intégrations](COMPATIBILITE.md) · [Catalogue](PACKS.md) · [Fonctionnalités et suivi](FEATURES.md) · [Préversion GitHub](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.2-hellfire.5)
+**Des feux d’urgence configurables pour FiveM, par Spino.** Équipe un Gauntlet Hellfire ou un Phantom avec des optiques, des scènes lumineuses et des montages enregistrés par véhicule.
 
 ## Téléchargements
 
-**Nouvelle préversion · CELK 0.2.0-rc.2-hellfire.5 avec Hellfire Police V08.** Télécharge le script et le pack séparément.
+Choisis ton véhicule et télécharge le **script** et le **pack** de la même ligne.
 
-| Fichier | Contenu | Lien direct |
-| --- | --- | --- |
-| Script CELK **0.2.0-rc.2-hellfire.5** | Runtime qualifié en solo avec le Hellfire | [Télécharger le script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) |
-| Pack **Hellfire Police V08** | Montage de 15 pièces et ressources Hellfire V06, V07 et V08 | [Télécharger le pack](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) |
-
-[Guide pas à pas](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [SHA-256 des deux ZIP](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt) · [Notes de version](versions/0.2.0-rc.2-hellfire.5/README.md)
+| Véhicule | Script CELK | Pack | Installation |
+| --- | --- | --- | --- |
+| **Gauntlet Hellfire Police V08** | [0.2.0-rc.2-hellfire.5](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) | [Hellfire Police V08](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) | [Guide](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt) · [Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.2-hellfire.5) |
+| **Phantom Grand Format Police** | [0.2.0-rc.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-script-0.2.0-rc.1.zip) | [Phantom Grand Format 0.1.0](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) | [Guide](versions/0.2.0-rc.1/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.1/SHA256SUMS.txt) · [Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.1) |
 
 > [!IMPORTANT]
-> **Essentiel pour l’installation** · un serveur FiveM opérationnel, FXServer **38435+**, GTA build serveur **3889+**, **OneSync** et les deux ZIP. Le moteur Node.js **22** est fourni par FXServer. Le parcours CELK utilise les permissions ACE.
+> Utilise un serveur FiveM avec **FXServer 38435+**, **GTA build serveur 3889+** et **OneSync**. FXServer fournit Node.js 22. Démarre les ressources du pack choisi avant `celk_runtime` et règle les droits ACE avec le guide de ton véhicule.
 
-> [!WARNING]
-> Démarre les trois ressources Hellfire **avant `celk_runtime`**. L’ordre et la configuration complète sont dans le guide.
-
-## Premier démarrage
-
-1. Copie les ressources Hellfire et le script dans la bonne instance FiveM.
-2. Place l’ensemble dans `celk_runtime/local/install-sets`, puis copie la configuration Hellfire et règle les droits ACE.
-3. Lance `celk_preflight_set`, puis `celk_install_set` avec l’empreinte du plan affichée. Après le redémarrage prévu de CELK, consulte `celk_status`.
-4. Au volant du Gauntlet Hellfire, lie le véhicule avec `celk_bind`. **F6** choisit le montage, **J** ouvre les scènes et les commandes de projecteurs, **Q** commande les éclats.
-
-[Installation complète](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Dépannage](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md#dépannage)
+CELK fonctionne en mode autonome. Le raccord à Qbox, Ox, Luxart Vehicle Control et aux scripts de garage ou de mécanique dépend des versions utilisées. [Dépendances et intégrations](COMPATIBILITE.md)
 
 ## Hellfire Police V08
 
-Le montage réunit une rampe V08, les feux V07 et deux projecteurs V06. Il propose **15 poses**, une scène **Double alternance de 50 pistes** et deux têtes orientables. **5/5 contrôles GTA solo** sont validés sur les fichiers distribués. Le multijoueur reste non testé. [Fiche du pack](PACKS.md#hellfire-police-v08)
+Le montage réunit **15 pièces**, dont la rampe V08, les barrettes de vitre, les feux de flanc et deux projecteurs orientables. La scène **Double alternance** comporte 50 pistes. Pose, éclairage, visée des projecteurs et reprise du montage ont été vérifiés en GTA solo. [Fiche et aperçu de placement](PACKS.md#hellfire-police-v08)
 
-![Optiques Hellfire sur un établi dans un garage mécanique](images/hellfire-police-v08-garage.png)
+![Les neuf types d’optiques Hellfire sur un établi dans un garage mécanique](images/hellfire-police-v08-garage.png)
 
-*Optiques Hellfire conçues par Spino. Rendu des modèles 3D de production avec finition d’ambiance générative.*
+*Optiques Hellfire conçues par Spino. Rendu des modèles 3D de production avec finition d’ambiance générative.* [Provenance du visuel](images/hellfire-police-v08-provenance.md)
 
 <details>
-<summary><strong>Voir le montage sur le Hellfire · aperçu Atelier R02</strong></summary>
+<summary><strong>Voir le Hellfire équipé dans l’Atelier R02</strong></summary>
 
-![Hellfire équipé de 15 pièces, aperçu 3D dans l’Atelier R02](images/hellfire-v08-placement-atelier-r02.png)
+![Aperçu 3D du Gauntlet Hellfire équipé du montage de 15 pièces](images/hellfire-v08-placement-atelier-r02.png)
 
-*Capture existante de l’aperçu 3D Atelier R02, en trois-quarts avant. Les 15 pièces, leurs poses et les réglages du montage correspondent au fichier distribué. Phase lumineuse non consignée.*
-
-[Provenance de la capture](images/hellfire-police-v08-provenance.md#aperçu-de-placement-atelier-r02)
+*Vue de placement en trois quarts avant. Les 15 pièces, leurs poses et leurs réglages correspondent au montage distribué.* [Provenance de la capture](images/hellfire-police-v08-provenance.md#aperçu-de-placement-atelier-r02)
 
 </details>
 
-<details>
-<summary><strong>Captures en jeu à ajouter</strong></summary>
+## Phantom Grand Format
 
-| Emplacement | Capture à prendre |
-| --- | --- |
-| 📷 **PHOTO À AJOUTER · Montage complet** | Gauntlet Hellfire en trois-quarts avant, véhicule entier et feux éteints. Montrer la rampe, les optiques et leurs appuis. |
-| 📷 **PHOTO À AJOUTER · Scène allumée** | Trois-quarts arrière pendant Double alternance, puis une vue latérale. Conserver le nom de la scène pour la légende. |
-| 📷 **PHOTO À AJOUTER · Projecteurs** | Montrer les deux têtes J à une position lisible avec les socles et le dégagement des faisceaux. |
-| 📷 **PHOTO À AJOUTER · Menu F6** | Véhicule à l’arrêt, montage sélectionné visible et nom de la variante lisible. |
+Le montage Police pour le Phantom GTA comprend **14 pièces**, quatre types d’optiques et cinq scènes. Il s’installe avec la paire documentée sur **CELK 0.2.0-rc.1**. [Fiche du pack](PACKS.md#phantom-grand-format--010)
 
-</details>
+## Suivi du projet
 
-<details>
-<summary><strong>Qbox, Luxart et autres scripts</strong></summary>
-
-CELK s’installe en mode autonome. **Qbox, Luxart Vehicle Control, Ox et les scripts de garage ou de mécanique** ont leur propre installation. Leur raccord avec cette préversion doit être qualifié pour les versions utilisées. [État des intégrations](COMPATIBILITE.md#intégrations-optionnelles)
-
-</details>
-
-## Phantom Grand Format historique
-
-Le pack public **Phantom Grand Format 0.1.0**, notice 2.2, conserve son montage de 14 pièces et ses cinq scènes avec le parcours documenté sur **CELK 0.2.0-rc.1**. [Téléchargements et guide Phantom](versions/0.2.0-rc.1/README.md) · [Fiche du pack](PACKS.md#phantom-grand-format--010)
-
-![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](download.png)
-
-*Visuel de présentation des optiques conçues par Spino. La texture et la teinte du métal illustrent la scène.*
-
-## Fonctionnalités et suivi
-
-Le runtime accepte **128 modèles configurés**, **32 packs** et **20 pièces actives par véhicule** au maximum. Les essais de performance à ces volumes restent à faire. Les accès métier, le catalogue en jeu et les essais à deux clients sont suivis en phase 3. [Fonctionnalités](FEATURES.md) · [Notes de version](CHANGELOG.md) · [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1)
+Les deux parcours publiés ont des vérifications en GTA solo. **Le multijoueur reste à tester.** Pour un retour, indique la version de CELK, le véhicule, la variante et ce que chaque joueur observe. [Fonctionnalités et travaux prévus](FEATURES.md) · [Notes de version](CHANGELOG.md) · [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1)
 
 <details>
 <summary><strong>Soutenir le développement</strong></summary>
@@ -92,8 +53,8 @@ Les conditions de partage et la licence de CELK restent à définir.
 ## Archives
 
 <details>
-<summary><strong>CELK 0.1.2 · Première revue publique</strong></summary>
+<summary><strong>CELK 0.1.2 · Première revue publique Phantom</strong></summary>
 
-Le script 0.1.2 couvrait le montage Phantom Police. [ZIP d’origine](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/main/telechargements/CELK-script-0.1.2-candidat.zip) · [Guide 0.1.2](INSTALLATION-0.1.2.md) · [Code 0.1.2](celk_runtime) · [Empreintes d’origine](telechargements/SHA256SUMS.txt)
+Cette paire historique utilise le script CELK 0.1.2 et Phantom Grand Format 0.1.0. [ZIP du script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe481d8760fc1e6d02f3d7010e2124ef164057c6/telechargements/CELK-script-0.1.2-candidat.zip) · [ZIP du pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) · [Guide 0.1.2](INSTALLATION-0.1.2.md) · [Empreintes d’origine](telechargements/SHA256SUMS.txt) · [Code 0.1.2](celk_runtime)
 
 </details>

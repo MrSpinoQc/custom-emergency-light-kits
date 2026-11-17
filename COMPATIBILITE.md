@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | **Hellfire Police V08** | **0.2.0-rc.2-hellfire.5** avec les ressources V06 0.6.0, V07 0.7.0 et V08 0.8.0 | **5/5 GTA solo** sur les fichiers distribués. |
 | **Phantom Grand Format 0.1.0 · notice 2.2** | **0.2.0-rc.1** | Parcours historique et preuves dans son [guide](versions/0.2.0-rc.1/INSTALLATION.md). |
+| **Phantom Grand Format 0.1.0 · première revue** | **0.1.2** | Paire archivée avec son [guide d’origine](INSTALLATION-0.1.2.md). |
 
 La coexistence du Hellfire et du Phantom historique sous hellfire.5 reste à qualifier en GTA. Chaque parcours ci-dessus identifie sa paire script et pack.
 

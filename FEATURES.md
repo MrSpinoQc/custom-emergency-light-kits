@@ -1,6 +1,6 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **17 novembre 2026**. La nouvelle préversion est **0.2.0-rc.2-hellfire.5**, qualifiée avec Hellfire Police V08. [Téléchargements](README.md#téléchargements) · [Notes de version](CHANGELOG.md) · [Dépendances et intégrations](COMPATIBILITE.md)
+Mis à jour le **17 novembre 2026**. La préversion Hellfire est **0.2.0-rc.2-hellfire.5**, qualifiée avec Hellfire Police V08. [Téléchargements](README.md#téléchargements) · [Notes de version](CHANGELOG.md) · [Dépendances et intégrations](COMPATIBILITE.md)
 
 ## Disponible dans les parcours publiés
 
@@ -23,7 +23,7 @@ La séance du 17 novembre 2026 utilise un client Windows, FXServer **38435**, GT
 
 | Chantier | État |
 | --- | --- |
-| **Photos et présentation des kits** | Rendu d’accessoires et fiches publiés. Captures GTA du placement, des scènes et des commandes à compléter. |
+| **Photos et présentation des kits** | Photo des neuf familles d’accessoires et aperçu de placement Atelier R02 publiés. Captures GTA du véhicule équipé, des scènes et des commandes à compléter. [Fiche Hellfire](PACKS.md#hellfire-police-v08) |
 | **Packs d’animations éditables** | L’Atelier privé permet l’import, l’édition et le réexport des scènes. La qualification suit chaque export. La scène Hellfire publiée possède sa validation solo. |
 | **Prochain montage Phantom** | Export écarté lors de la recette humaine. Le pack historique et son installation documentée restent disponibles. |
 | **Coexistence et scripts tiers** | Qualification à mener pour les combinaisons de packs et les versions de Qbox, Luxart ou garages retenues. [Suivi de compatibilité](COMPATIBILITE.md) |

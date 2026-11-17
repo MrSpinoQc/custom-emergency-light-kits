@@ -57,6 +57,7 @@ La livraison installe **15 pièces**, réparties en **neuf familles**. Le visuel
 | Profil gauche et dessus | Position des modules sous les rétroviseurs, des feux latéraux et du matériel sur le toit. |
 | Scène allumée | Double alternance sur la version publiée, avec le nom de scène et sa phase pour la légende. |
 | Projecteurs orientés | Les deux têtes J, leurs socles et le dégagement des faisceaux. |
+| Menu F6 | Hellfire à l’arrêt avec le nom du montage sélectionné et les pièces visibles. |
 
 </details>
 

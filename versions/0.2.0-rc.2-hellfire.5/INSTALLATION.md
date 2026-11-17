@@ -11,7 +11,7 @@ Ce guide installe le montage Police V08 sur le Gauntlet Hellfire de GTA V, modè
 | [Script CELK](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) | Dossier `celk_runtime`, 32 fichiers de code et de données. |
 | [Pack Hellfire](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) | Dossier `ensemble-gauntlet4-fddf5f43`, trois ressources et le montage installable. |
 
-[Empreintes SHA-256](SHA256SUMS.txt) · [Configuration Hellfire](celk.config.hellfire.example.json) · [Notes de version](README.md)
+[Empreintes SHA-256](SHA256SUMS.txt) · [Télécharger la configuration Hellfire](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/versions/0.2.0-rc.2-hellfire.5/celk.config.hellfire.example.json) · [Notes de version](README.md)
 
 Utilise un serveur FiveM fonctionnel, FXServer **38435+**, une build GTA serveur **3889+** et OneSync. Le runtime déclare **Node.js 22**, fourni par FXServer. Le parcours autonome utilise les permissions ACE. Les raccordements Qbox, Ox, Luxart et garages tiers ont leur [suivi de compatibilité](../../COMPATIBILITE.md).
 
@@ -45,7 +45,7 @@ Chaque dossier de ressource doit contenir directement son `fxmanifest.lua`.
 
 ## 3. Configurer Hellfire
 
-Copie ce contenu complet dans `celk_runtime/local/celk.config.json`. Le ZIP du runtime conserve son ancien exemple Phantom. **Utilise ici la configuration Hellfire ci-dessous.**
+Télécharge la configuration Hellfire et enregistre-la sous `celk_runtime/local/celk.config.json`. Tu peux aussi copier le bloc JSON ci-dessous. Le fichier `celk.config.example.json` du ZIP script est l’exemple du Phantom.
 
 <details open>
 <summary><strong>Configuration Hellfire complète à copier</strong></summary>
@@ -93,7 +93,7 @@ ensure celk_pack_hellfire_v08
 ensure celk_runtime
 ```
 
-Active OneSync et utilise une build GTA serveur au moins égale à 3889. La séance qualifiée utilise exactement FXServer 38435 et GTA 3889.
+Active OneSync dans les paramètres de l’instance. Si le CFG gère ces paramètres, ajoute `set onesync on` et `set sv_enforceGameBuild 3889`. Garde la build déjà en service si elle est supérieure, avec une seule directive effective. La séance qualifiée utilise FXServer 38435 et GTA 3889.
 
 Pour donner les trois droits CELK à un joueur d’essai, cet exemple utilise un groupe ACE. Remplace la licence par l’identifiant du joueur et adapte ensuite tes groupes au serveur.
 
@@ -131,7 +131,7 @@ L’état doit afficher `gauntlet4`, la provenance `spino`, la révision **1** e
 
 ## 6. Utiliser le montage
 
-Au volant d’un Gauntlet Hellfire à l’arrêt, ouvre F8 et lie ce véhicule avec un identifiant durable unique choisi pour lui.
+Fais apparaître le modèle `gauntlet4` avec ton outil d’administration. Au volant, à l’arrêt, ouvre F8 et lie le véhicule avec un identifiant durable unique.
 
 ```text
 celk_bind mon-hellfire-001

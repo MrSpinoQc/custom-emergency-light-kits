@@ -1,32 +1,32 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **17 novembre 2026**. La version d’essai publique de Custom Emergency Light Kits est **0.2.0-rc.1**. [Téléchargements](README.md#téléchargements) · [Notes de version](CHANGELOG.md) · [Dépendances et intégrations](COMPATIBILITE.md)
+Mis à jour le **17 novembre 2026**. La nouvelle préversion est **0.2.0-rc.2-hellfire.5**, qualifiée avec Hellfire Police V08. [Téléchargements](README.md#téléchargements) · [Notes de version](CHANGELOG.md) · [Dépendances et intégrations](COMPATIBILITE.md)
 
-## Disponible dans la version d’essai
+## Disponible dans les parcours publiés
 
 | Fonctionnalité | Ce que tu peux utiliser |
 | --- | --- |
-| **Phantom Grand Format · Police** | Le pack public 0.1.0 fournit quatre types d’optiques, un montage de 14 pièces et cinq scènes pour le Phantom. [Fiche du pack](PACKS.md) |
-| **Montages et éclairage en jeu** | **F6** choisit le montage, **J** la scène et **Q** commande les éclats. L’accès dépend des permissions du serveur. [Guide d’installation](versions/0.2.0-rc.1/INSTALLATION.md) |
-| **Plusieurs modèles et variantes** | Un serveur peut configurer plusieurs modèles avec des packs compatibles. Chaque modèle utilise une livraison active et peut proposer plusieurs services, dont Police et Ambulance, et plusieurs variantes. Les essais GTA solo ont couvert le Phantom et un Baller de test. Le pack à télécharger ici est le Phantom. [Périmètre testé et limites](versions/0.2.0-rc.1/README.md) |
-| **Sauvegarde, retrait et restauration** | Les choix sont enregistrés par véhicule. L’administrateur peut mettre à jour ou retirer un modèle, puis restaurer une révision précise en conservant les choix sauvegardés. Ce parcours a été vérifié en GTA solo. [Mise à jour et retour arrière](versions/0.2.0-rc.1/INSTALLATION.md#mise-à-jour-et-retour-arrière) |
+| **Hellfire Police V08** | Montage de 15 pièces, rampe V08, feux V07, deux projecteurs V06 et scène Double alternance de 50 pistes. **5/5 GTA solo** avec CELK 0.2.0-rc.2-hellfire.5. [Fiche et installation](PACKS.md#hellfire-police-v08) |
+| **Phantom Grand Format · Police** | Pack historique 0.1.0, quatre types d’optiques, montage de 14 pièces et cinq scènes avec le parcours **CELK 0.2.0-rc.1**. [Parcours Phantom](versions/0.2.0-rc.1/README.md) |
+| **Commandes en jeu** | **F6** choisit le montage, **J** ouvre les scènes et commandes de projecteurs disponibles, **Q** commande les éclats. L’accès passe par les droits ACE. |
+| **Plusieurs modèles et variantes** | Une livraison active par modèle peut regrouper plusieurs services et variantes. Chaque paire script et pack garde ses essais propres. La coexistence Hellfire et Phantom historique sous hellfire.5 attend sa qualification GTA. |
+| **Installation et sauvegardes** | Précontrôle, empreinte du plan et installation des ensembles dans hellfire.5. Rejeu identique vérifié au banc. Le parcours historique rc.1 a ses preuves de retrait et restauration. [Guides](INSTALLATION.md) |
 
-## En cours
+<details>
+<summary><strong>Portée de la qualification Hellfire</strong></summary>
+
+La séance du 17 novembre 2026 utilise un client Windows, FXServer **38435**, GTA build **3889** et OneSync. Les commandes et la reprise du montage ont été contrôlées sur le véhicule réseau. La visibilité vers 30 m a été observée sur une exposition locale à feux continus avec les mêmes fichiers client. La remise comprend **56/56 tests Node**, Lua simulé et **3/3 sondes Atelier**. [Résultats de la version](versions/0.2.0-rc.2-hellfire.5/README.md#essais-et-limites)
+
+</details>
+
+## En cours et à reprendre
 
 | Chantier | État |
 | --- | --- |
-| **Gauntlet Hellfire Police V08** | Le montage personnel de 15 pièces a réussi **5/5 contrôles GTA solo** avec CELK **0.2.0-rc.2-hellfire.5**. Pose, éclats Q, deux projecteurs orientables J, portes, mouvement et reprise du montage ont été contrôlés. Les fichiers et la documentation de cette prochaine sortie sont en préparation. |
-| **Lot Hellfire et Phantom** | Les archives du script et des deux ensembles personnels sont préparées séparément. Le Phantom personnel attend sa qualification GTA sur ses fichiers exacts. Le pack Phantom disponible dans les téléchargements conserve sa fiche et ses preuves propres. |
-| **Packs d’animations éditables** | L’Atelier privé permet l’import, l’édition et le réexport des scènes. La qualification suit chaque montage exporté. La scène Hellfire du lot en préparation a sa validation solo. Les trois scènes du nouveau Phantom personnel attendent leur contrôle GTA. |
-
-<details>
-<summary>Portée de la qualification Hellfire en préparation</summary>
-
-Essai du 17 novembre 2026 avec un client Windows, FXServer **38435**, GTA build **3889** et OneSync. Les commandes et la reprise du montage ont été contrôlées sur le véhicule réseau. La visibilité vers 30 m a été observée sur une exposition locale à feux continus utilisant les mêmes fichiers client. Le banc associé comprend **56/56 tests Node**, une vérification Lua simulée et **3/3 sondes Atelier**. Les résultats multijoueurs restent à établir.
-
-La version téléchargeable depuis l’accueil reste **0.2.0-rc.1** pendant la préparation du lot suivant. [Téléchargements actuels](README.md#téléchargements)
-
-</details>
+| **Photos et présentation des kits** | Rendu d’accessoires et fiches publiés. Captures GTA du placement, des scènes et des commandes à compléter. |
+| **Packs d’animations éditables** | L’Atelier privé permet l’import, l’édition et le réexport des scènes. La qualification suit chaque export. La scène Hellfire publiée possède sa validation solo. |
+| **Prochain montage Phantom** | Export écarté lors de la recette humaine. Le pack historique et son installation documentée restent disponibles. |
+| **Coexistence et scripts tiers** | Qualification à mener pour les combinaisons de packs et les versions de Qbox, Luxart ou garages retenues. [Suivi de compatibilité](COMPATIBILITE.md) |
 
 ## Confirmé pour plus tard
 
@@ -40,7 +40,7 @@ La version téléchargeable depuis l’accueil reste **0.2.0-rc.1** pendant la p
 
 | Chantier | État |
 | --- | --- |
-| **Essais multijoueurs à deux clients** | Déplacés en phase 3, sans date de reprise. La synchronisation reste non validée. Les retours volontaires sont bienvenus si tu testes à plusieurs. [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1) |
+| **Essais multijoueurs à deux clients** | Phase 3, sans date de reprise. La synchronisation reste non validée. Les retours volontaires sont bienvenus. [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1) |
 | **Ajustement des montages en jeu par un administrateur** | Reporté à une étape ultérieure. Les corrections de pose se font actuellement dans l’Atelier. |
 
-Pour proposer une fonctionnalité ou signaler un problème, indique le véhicule, ta version de CELK et le résultat que tu aimerais obtenir. [Tickets GitHub](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues)
+Pour proposer une fonctionnalité ou signaler un problème, indique le véhicule, ta version de CELK et le résultat souhaité. [Tickets GitHub](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues)

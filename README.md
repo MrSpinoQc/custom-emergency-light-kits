@@ -2,64 +2,72 @@
 
 **Des feux d’urgence configurables pour FiveM, par Spino.** Choisis un montage, change de scène lumineuse et retrouve les réglages sauvegardés sur ton véhicule.
 
-[Installer CELK](versions/0.2.0-rc.1/INSTALLATION.md) · [Dépendances et intégrations](COMPATIBILITE.md) · [Fonctionnalités et suivi](FEATURES.md) · [Préversion GitHub](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.1)
+[Installer le Hellfire](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Dépendances et intégrations](COMPATIBILITE.md) · [Catalogue](PACKS.md) · [Fonctionnalités et suivi](FEATURES.md) · [Préversion GitHub](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.2-hellfire.5)
 
 ## Téléchargements
 
-**Version d’essai actuelle · CELK 0.2.0-rc.1.** Pour essayer le montage Phantom Police, télécharge les deux ZIP.
+**Nouvelle préversion · CELK 0.2.0-rc.2-hellfire.5 avec Hellfire Police V08.** Télécharge le script et le pack séparément.
 
-| Fichier | Version | Lien direct |
+| Fichier | Contenu | Lien direct |
 | --- | --- | --- |
-| Script CELK | **0.2.0-rc.1** | [Télécharger le script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-script-0.2.0-rc.1.zip) |
-| Pack Phantom Grand Format | **0.1.0**, notice 2.2 | [Télécharger le pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) |
+| Script CELK **0.2.0-rc.2-hellfire.5** | Runtime qualifié en solo avec le Hellfire | [Télécharger le script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) |
+| Pack **Hellfire Police V08** | Montage de 15 pièces et ressources Hellfire V06, V07 et V08 | [Télécharger le pack](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) |
 
-[SHA-256 des deux ZIP](versions/0.2.0-rc.1/SHA256SUMS.txt) · [Notes de la version d’essai](versions/0.2.0-rc.1/README.md)
+[Guide pas à pas](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [SHA-256 des deux ZIP](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt) · [Notes de version](versions/0.2.0-rc.2-hellfire.5/README.md)
 
 > [!IMPORTANT]
-> **Essentiel pour l’installation** · un serveur FiveM opérationnel, FXServer **38435 ou plus récent**, GTA build serveur **3889 ou plus récente**, **OneSync** et les deux ZIP. FXServer fournit le moteur Node.js 22. L’installation de base se fait en mode autonome avec le pack Phantom.
+> **Essentiel pour l’installation** · un serveur FiveM opérationnel, FXServer **38435+**, GTA build serveur **3889+**, **OneSync** et les deux ZIP. Le moteur Node.js **22** est fourni par FXServer. Le parcours CELK utilise les permissions ACE.
 
 > [!WARNING]
-> ⚠️ ATTENTION — TRÈS IMPORTANT : démarrer les packs avant CELK
->
-> Dans le CFG actif, démarre chaque ressource de pack requise avant `celk_runtime`. Pour Phantom, l’ordre est `ensure celk_pack_phantom`, puis `ensure celk_runtime`.
+> Démarre les trois ressources Hellfire **avant `celk_runtime`**. L’ordre et la configuration complète sont dans le guide.
 
 ## Premier démarrage
 
-1. Copie les dossiers `celk_pack_phantom` et `celk_runtime` dans les ressources de la bonne instance FiveM.
-2. Place la configuration d’exemple et la livraison Phantom dans `celk_runtime/local`, puis règle les droits ACE et le démarrage dans le CFG.
-3. Précontrôle et active le montage depuis la console serveur. Au volant du Phantom, lie le véhicule et essaie **F6** pour le montage, **J** pour la scène et **Q** pour les éclats.
+1. Copie les ressources Hellfire et le script dans la bonne instance FiveM.
+2. Place l’ensemble dans `celk_runtime/local/install-sets`, puis copie la configuration Hellfire et règle les droits ACE.
+3. Lance `celk_preflight_set`, puis `celk_install_set` avec l’empreinte du plan affichée. Après le redémarrage prévu de CELK, consulte `celk_status`.
+4. Au volant du Gauntlet Hellfire, lie le véhicule avec `celk_bind`. **F6** choisit le montage, **J** ouvre les scènes et les commandes de projecteurs, **Q** commande les éclats.
 
-[Étapes complètes avec txAdmin](versions/0.2.0-rc.1/INSTALLATION.md) · [Dépannage](versions/0.2.0-rc.1/INSTALLATION.md#dépannage)
+[Installation complète](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Dépannage](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md#dépannage)
+
+## Hellfire Police V08
+
+Le montage réunit une rampe V08, les feux V07 et deux projecteurs V06. Il propose **15 poses**, une scène **Double alternance de 50 pistes** et deux têtes orientables. **5/5 contrôles GTA solo** sont validés sur les fichiers distribués. Le multijoueur reste non testé. [Fiche du pack](PACKS.md#hellfire-police-v08)
+
+![Optiques Hellfire sur un établi dans un garage mécanique](images/hellfire-police-v08-garage.png)
+
+*Optiques Hellfire conçues par Spino. Rendu des modèles 3D de production avec finition d’ambiance générative.*
+
+<details>
+<summary><strong>Captures en jeu à ajouter</strong></summary>
+
+| Emplacement | Capture à prendre |
+| --- | --- |
+| 📷 **PHOTO À AJOUTER · Montage complet** | Gauntlet Hellfire en trois-quarts avant, véhicule entier et feux éteints. Montrer la rampe, les optiques et leurs appuis. |
+| 📷 **PHOTO À AJOUTER · Scène allumée** | Trois-quarts arrière pendant Double alternance, puis une vue latérale. Conserver le nom de la scène pour la légende. |
+| 📷 **PHOTO À AJOUTER · Projecteurs** | Montrer les deux têtes J à une position lisible avec les socles et le dégagement des faisceaux. |
+| 📷 **PHOTO À AJOUTER · Menu F6** | Véhicule à l’arrêt, montage sélectionné visible et nom de la variante lisible. |
+
+</details>
 
 <details>
 <summary><strong>Qbox, Luxart et autres scripts</strong></summary>
 
-CELK démarre en mode autonome. **Qbox, Luxart Vehicle Control, Ox et les scripts de garage ou de mécanique** ont leur propre installation. Le tableau de compatibilité indique les essais de développement, les raccords à qualifier et les dépendances réellement nécessaires. [État des intégrations](COMPATIBILITE.md#intégrations-optionnelles)
+CELK s’installe en mode autonome. **Qbox, Luxart Vehicle Control, Ox et les scripts de garage ou de mécanique** ont leur propre installation. Leur raccord avec cette préversion doit être qualifié pour les versions utilisées. [État des intégrations](COMPATIBILITE.md#intégrations-optionnelles)
 
 </details>
 
-## Phantom Grand Format
+## Phantom Grand Format historique
 
-Le pack Phantom Police réunit quatre types d’optiques, un montage de 14 pièces et cinq scènes pour le Phantom GTA. [Fiche du pack](PACKS.md)
+Le pack public **Phantom Grand Format 0.1.0**, notice 2.2, conserve son montage de 14 pièces et ses cinq scènes avec le parcours documenté sur **CELK 0.2.0-rc.1**. [Téléchargements et guide Phantom](versions/0.2.0-rc.1/README.md) · [Fiche du pack](PACKS.md#phantom-grand-format--010)
 
 ![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](download.png)
 
 *Visuel de présentation des optiques conçues par Spino. La texture et la teinte du métal illustrent la scène.*
 
-<details>
-<summary><strong>Photos à préparer</strong></summary>
-
-| Emplacement | Photo à prendre |
-| --- | --- |
-| 📷 **PHOTO À AJOUTER · Placement avant** | Phantom Police en trois-quarts avant, véhicule entier, feux éteints. Prendre la calandre, le pare-chocs et le pare-brise dans le même cadre. |
-| 📷 **PHOTO À AJOUTER · Scène en jeu** | Phantom en trois-quarts arrière avec une scène allumée, pour voir les optiques arrière et le côté du véhicule. Garder le nom de la scène pour la légende. |
-| 📷 **PHOTO À AJOUTER · Choix du montage** | Capture de **F6** sur le Phantom à l’arrêt. Montrer le nom du montage sélectionné et laisser assez de place pour voir les pièces posées. |
-
-</details>
-
 ## Fonctionnalités et suivi
 
-La version d’essai permet de configurer plusieurs modèles, de garder leurs variantes et de restaurer des montages. Elle accepte **128 modèles et 32 packs** au maximum par configuration. **Multijoueur non testé.** [Fonctionnalités disponibles et à venir](FEATURES.md) · [Notes de version](CHANGELOG.md) · [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1)
+Le runtime accepte **128 modèles configurés**, **32 packs** et **20 pièces actives par véhicule** au maximum. Les essais de performance à ces volumes restent à faire. Les accès métier, le catalogue en jeu et les essais à deux clients sont suivis en phase 3. [Fonctionnalités](FEATURES.md) · [Notes de version](CHANGELOG.md) · [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1)
 
 <details>
 <summary><strong>Soutenir le développement</strong></summary>

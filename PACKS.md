@@ -1,5 +1,49 @@
 # Catalogue des packs
 
+## Hellfire Police V08
+
+Un montage Police à **15 pièces** pour le Gauntlet Hellfire de GTA V, conçu par **Spino**. La livraison regroupe la rampe V08, les feux V07 et les deux projecteurs V06. La scène **Hellfire complète · Double alternance** comporte **50 pistes**.
+
+| Ressource requise | Version |
+| --- | --- |
+| `celk_pack_hellfire_v06` | **0.6.0** |
+| `celk_pack_hellfire_v07` | **0.7.0** |
+| `celk_pack_hellfire_v08` | **0.8.0** |
+| `celk_runtime` | **0.2.0-rc.2-hellfire.5** |
+
+Les trois ressources du pack démarrent avant le runtime. Le ZIP contient l’ensemble installable de 155 fichiers, ses manifestes, la sélection et le montage. Les actifs incluent **142 YDR et 3 YTYP** d’accessoires, avec les textures intégrées. Le Gauntlet Hellfire est le modèle GTA `gauntlet4`.
+
+### Composition du montage Hellfire
+
+La livraison installe **15 pièces**, réparties en **neuf familles**. Le visuel de présentation montre un exemplaire de chaque famille.
+
+| Pièce | Exemplaires dans le montage |
+| --- | --- |
+| Rampe V08 | 1 |
+| Barrette de pare-brise | 1 |
+| Barrette de lunette arrière | 1 |
+| Modules de pare-chocs avant | 2 |
+| Chevrons de pare-chocs arrière | 2 |
+| Feux de flanc avant | 2 |
+| Feux de flanc arrière | 2 |
+| Modules sous les rétroviseurs | 2 |
+| Projecteurs orientables V06 | 2 |
+
+![Optiques Hellfire dans un garage mécanique](images/hellfire-police-v08-garage.png)
+
+**Visuel** · rendu des modèles 3D de production de Spino avec finition d’ambiance générative. [Provenance du visuel](images/hellfire-police-v08-provenance.md)
+
+**Qualification** · 5/5 contrôles GTA solo sur l’export distribué et CELK 0.2.0-rc.2-hellfire.5. Pose, diffusion et extinction Q, deux têtes J, portes, mouvement et reprise du montage ont été contrôlés. Le multijoueur reste non testé. [Essais et limites](versions/0.2.0-rc.2-hellfire.5/README.md#essais-et-limites)
+
+[Télécharger le script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) · [Télécharger le pack](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) · [Installation](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt)
+
+<details>
+<summary><strong>Photos de montage à ajouter</strong></summary>
+
+📷 **PHOTO À AJOUTER** · vue complète avant et arrière du Hellfire équipé, une scène allumée et les deux projecteurs orientés. Montrer les fixations et le véhicule entier dans les vues de placement.
+
+</details>
+
 ## Phantom Grand Format · 0.1.0
 
 Quatre types d’optiques conçues par **Spino**, leurs lentilles rouges et bleues et un montage Police à 14 accessoires pour le Phantom GTA d’origine. Les positions couvrent la calandre, le pare-chocs, le pare-brise et les marchepieds. La livraison de modèle inclut cinq scènes. Le véhicule est fourni par GTA V.
@@ -10,4 +54,4 @@ Ce pack contient le montage Phantom Police. Le script 0.2.0-rc.1 permet aussi de
 
 ## Crédits
 
-**Spino**, auteur de Custom Emergency Light Kits et des optiques Phantom Grand Format. Les conditions de partage et la licence restent à définir.
+**Spino**, auteur de Custom Emergency Light Kits et des accessoires Hellfire et Phantom Grand Format. Les conditions de partage et la licence restent à définir.

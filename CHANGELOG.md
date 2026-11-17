@@ -2,11 +2,21 @@
 
 [État des fonctionnalités et travaux prévus](FEATURES.md)
 
+## 0.2.0-rc.2-hellfire.5 · Hellfire Police V08 · 17 novembre 2026
+
+- Publication du script qualifié avec l’export Hellfire Police V08 à 15 pièces et la scène Double alternance de 50 pistes.
+- Lecture Centre R02 corrigée pour les clips `projection:true`, y compris sans diffusion personnalisée enregistrée pour l’optique.
+- Trois ressources Hellfire distribuées ensemble dans le ZIP du pack, configuration et guide dédiés.
+- **5/5 GTA solo**, **56/56 Node**, banc Lua simulé et **3/3 sondes Atelier**. Les empreintes des 145 actifs stream concordent avec le Studio.
+- Multijoueur en phase 3, différé et non validé.
+
+[Notes détaillées](versions/0.2.0-rc.2-hellfire.5/README.md) · [Installation](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt)
+
 ## Documentation · 16 novembre 2026
 
 Guide d’installation détaillé, tableau des intégrations FiveM et emplacement des futures photos du Phantom. [Installation](versions/0.2.0-rc.1/INSTALLATION.md) · [Dépendances et intégrations](COMPATIBILITE.md)
 
-## Script 0.2.0-rc.1 · version d’essai actuelle
+## Script 0.2.0-rc.1 · parcours Phantom historique
 
 [Changements, téléchargements et limites de 0.2.0-rc.1](versions/0.2.0-rc.1/README.md).
 

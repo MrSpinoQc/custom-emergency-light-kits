@@ -3,28 +3,22 @@
 **Des feux d’urgence configurables pour FiveM, par Spino.** Monte des optiques, choisis une variante et pilote ses scènes lumineuses en jeu.
 
 > [!NOTE]
-> **CELK 0.3.1 est une préversion.** Le Fantôme, l’Airport Bus et la Kuruma ont des contrôles GTA solo. La performance sous charge, la synchronisation multijoueur et le raccord Qbox seront qualifiés en 0.3.2.
+> **CELK 0.3.2 est une préversion.** Le multijoueur et la performance sous charge restent à qualifier.
 
 ## Téléchargements
 
-[Script CELK 0.3.1 · ZIP](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/CELK-script-0.3.1.zip) · [Guide d’installation](versions/0.3.1/INSTALLATION.md) · [Empreintes SHA-256](versions/0.3.1/SHA256SUMS.txt) · [Notes de la préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.1)
+[Cœur CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-script-0.3.2.zip) · [Préparateur de dépôt 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-preparateur-depot-0.3.2.zip) · [Empreintes](versions/0.3.2/SHA256SUMS.txt) · [Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2)
 
-Télécharge le script une fois, puis les ensembles des véhicules que tu veux équiper.
+**Packs de jeu** · [Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) · [Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) · [Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip)
 
-| Véhicule GTA | Ensemble FiveM | Configuration |
-| --- | --- | --- |
-| **Phantom Grand Format Police** · `phantom` | [ZIP Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) | [phantom.json](versions/0.3.1/configurations/phantom.json) |
-| **Airport Bus Police V05** · `airbus` | [ZIP Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) | [airbus.json](versions/0.3.1/configurations/airbus.json) |
-| **Kuruma V05** · `kuruma` | [ZIP Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip) | [kuruma.json](versions/0.3.1/configurations/kuruma.json) |
+**Adaptateurs CELK facultatifs** · [Adaptateur Qbox 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-Qbox-0.3.3.zip) · [Adaptateur LVC 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-LVC-0.3.3.zip) · [Versions Qbox/LVC et repli](COMPATIBILITE.md)
 
-[Configuration pour les trois ensembles](versions/0.3.1/configurations/trois-packs.json) · [Dépendances et intégrations](COMPATIBILITE.md)
+Configure le dépôt une fois. Extrais ensuite les ensembles compatibles dans le dossier des packs, relance la préparation et redémarre le serveur avec la génération produite. [Guide d’installation](versions/0.3.2/INSTALLATION.md)
 
-> [!IMPORTANT]
-> Serveur FiveM avec **FXServer 38435+**, **GTA build serveur 3889+**, **OneSync** et **Node.js 22 fourni par FXServer**. Le lecteur éprouvé annonce **`0.3.0-refonte.3`** dans son manifeste. C’est le lecteur fourni dans le ZIP public **0.3.1**.
 
 ## Phantom Grand Format
 
-Le montage Police pour le Phantom GTA comprend **14 pièces**, quatre types d’optiques et cinq scènes. [Ensemble pour CELK 0.3.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip). [Fiche du pack](PACKS.md#phantom-grand-format--010)
+Le montage Police pour le Phantom GTA comprend **14 pièces**, quatre types d’optiques et cinq scènes. [Ensemble Phantom pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip). [Fiche du pack](PACKS.md#phantom-grand-format--010)
 
 ![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](images/phantom-grand-format-garage.png)
 
@@ -48,6 +42,8 @@ Les conditions de partage et la licence de CELK restent à définir.
 </details>
 
 ## Archives
+
+- **CELK 0.3.1** · [Préversion et anciens téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.1) · [Guide d’origine](versions/0.3.1/INSTALLATION.md)
 
 - **Hellfire Police V08** · [Préversion 0.2.0-rc.2-hellfire.5](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.2-hellfire.5) · [Guide d’origine](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md)
 - **Phantom Grand Format Police** · [Préversion 0.2.0-rc.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.1) · [Guide d’origine](versions/0.2.0-rc.1/INSTALLATION.md)

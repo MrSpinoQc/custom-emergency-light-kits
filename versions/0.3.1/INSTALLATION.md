@@ -1,5 +1,8 @@
 # Installer CELK 0.3.1 sur FiveM
 
+> [!NOTE]
+> **Archive 0.3.1.** [Guide de la préversion 0.3.2](../0.3.2/INSTALLATION.md)
+
 **Prérequis** · FXServer **38435+**, GTA build serveur **3889+**, OneSync et **Node.js 22** fourni par FXServer, avec un client FiveM et GTA V. Le lecteur du ZIP conserve sa version interne **`0.3.0-refonte.3`**. [Compatibilité et droits](../../COMPATIBILITE.md)
 
 ## 1. Télécharger et vérifier

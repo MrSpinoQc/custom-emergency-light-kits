@@ -1,6 +1,6 @@
 # Catalogue des packs
 
-Les trois premiers ensembles utilisent le [script CELK 0.3.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/CELK-script-0.3.1.zip). Les châssis sont ceux de GTA V. [Installation](versions/0.3.1/INSTALLATION.md) · [Empreintes](versions/0.3.1/SHA256SUMS.txt)
+Les trois ensembles de jeu ci-dessous sont pris en charge par le [dépôt CELK 0.3.2](versions/0.3.2/INSTALLATION.md). La 0.3.2 réutilise les ZIP exacts de la 0.3.1. [Empreintes](versions/0.3.2/SHA256SUMS.txt)
 
 ## Phantom Grand Format · 0.1.0
 
@@ -12,13 +12,13 @@ Quatre types d’optiques conçues par **Spino**, leurs lentilles rouges et bleu
 
 L’ensemble `060a37bf` réunit le montage Police et la ressource `celk_pack_phantom` **0.1.0**. En solo, le passage entre deux scènes, l’extinction et la reprise du montage après recréation du véhicule ont été vérifiés.
 
-[Télécharger l’ensemble Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) · [Configuration](versions/0.3.1/configurations/phantom.json)
+[Télécharger l’ensemble Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) · [Installation par dépôt](versions/0.3.2/INSTALLATION.md)
 
 ## Airport Bus Police V05
 
 Le montage pour `airbus` comporte **20 pièces** et **trois scènes**. La séance solo a vérifié les trois scènes, dont **Tour du périmètre**, les quatre modules blancs PR06 accessibles dans **J** et le retour de la souris après fermeture du menu. L’ensemble `78be8891` fournit `celk_pack_airport_bus_v05` **0.5.0**.
 
-[Télécharger l’ensemble Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) · [Configuration](versions/0.3.1/configurations/airbus.json)
+[Télécharger l’ensemble Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) · [Installation par dépôt](versions/0.3.2/INSTALLATION.md)
 
 ## Kuruma V05 · trois variantes
 
@@ -32,7 +32,7 @@ L’ensemble `41340f59` fournit `celk_pack_kuruma_r03` **0.5.0-refonte.2**.
 
 Le contrôle solo a vérifié la disparition des pièces et des effets lors des changements de variante, la reprise du choix Mécano avec les feux éteints et le retour de la rampe en Police.
 
-[Télécharger l’ensemble Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip) · [Configuration](versions/0.3.1/configurations/kuruma.json)
+[Télécharger l’ensemble Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip) · [Installation par dépôt](versions/0.3.2/INSTALLATION.md)
 
 ## Hellfire Police V08
 

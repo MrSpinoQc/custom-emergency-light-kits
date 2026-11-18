@@ -1,5 +1,8 @@
 # CELK 0.3.1 · Préversion FiveM
 
+> [!NOTE]
+> **Archive 0.3.1.** [Guide de la préversion 0.3.2](../0.3.2/INSTALLATION.md)
+
 **18 novembre 2026 · par Spino**
 
 [Script CELK 0.3.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/CELK-script-0.3.1.zip) · [Installation](INSTALLATION.md) · [Empreintes SHA-256](SHA256SUMS.txt) · [Préversion GitHub](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.1)

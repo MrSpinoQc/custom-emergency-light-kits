@@ -2,6 +2,16 @@
 
 [État des fonctionnalités et travaux prévus](FEATURES.md)
 
+## 0.3.2 · Préversion · 18 novembre 2026
+
+- Dépôt des trois ensembles FiveM compatibles avec génération de la configuration, préservation des sélections inchangées et ordre de démarrage calculé.
+- Cœur à la version publique 0.3.2 et au manifeste interne `0.3.2-prototype.1`.
+- Adaptateurs CELK **0.3.3** facultatifs distribués séparément pour Qbox et LVC, avec versions éditeur et procédures dédiées.
+- Quatre profils FXServer contrôlés avec et sans Qbox et LVC. En GTA solo sur la paire distribuée, Julien a validé la Kuruma Police v2 avec le garage Qbox officiel et LVC 3.2.9 Rev2. Q allume sans roue radio, Alt commande la sirène et Q coupe les deux effets. Au retour du garage, les sept pièces sont déjà posées et les feux restent éteints.
+- Multijoueur et performance sous charge à qualifier.
+
+[Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2) · [Installation](versions/0.3.2/INSTALLATION.md) · [Adaptateurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/adaptateurs-v0.3.3) · [Empreintes](versions/0.3.2/SHA256SUMS.txt)
+
 ## 0.3.1 · Préversion · 18 novembre 2026
 
 - Script public et trois ensembles distincts. Phantom Grand Format Police `060a37bf`, Airport Bus Police V05 `78be8891` et Kuruma V05 à trois variantes `41340f59`.

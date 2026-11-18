@@ -1,8 +1,8 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **18 novembre 2026**. [Préversion CELK 0.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.1) · [Notes de version](CHANGELOG.md) · [Dépendances](COMPATIBILITE.md)
+Mis à jour le **18 novembre 2026**. [Préversion 0.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2) · [Dépendances](COMPATIBILITE.md)
 
-## Disponible dans CELK 0.3.1
+## Disponible dans CELK 0.3.2
 
 | Fonctionnalité | Ce que tu peux utiliser |
 | --- | --- |
@@ -10,17 +10,16 @@ Mis à jour le **18 novembre 2026**. [Préversion CELK 0.3.1](https://github.com
 | **Airport Bus Police V05** | Montage à 20 pièces, trois scènes et quatre modules blancs commandables individuellement. |
 | **Kuruma V05** | Trois variantes dans un ensemble, avec reprise du choix enregistré et feux éteints après recréation du véhicule vérifiée en solo. |
 | **Commandes FiveM** | **F6** pour les montages, **J** pour les scènes et commandes disponibles, **Q** pour les éclats. |
-| **Installation par ensemble** | Précontrôle, empreinte du plan, installation et relecture. Une livraison active par modèle avec services et variantes. |
+| **Dépôt de packs** | Configuration initiale puis extraction, préparation et redémarrage. Le préparateur applique la politique de provenance choisie et génère les déclarations de packs et de modèles. |
+| **Qbox et LVC** | Adaptateurs CELK facultatifs 0.3.3 distribués séparément. Les résultats valent pour les versions de la [matrice](COMPATIBILITE.md). |
 
-[Catalogue et preuves solo](PACKS.md) · [Installation](versions/0.3.1/INSTALLATION.md) · [Parcours historiques](README.md#archives)
+[Catalogue](PACKS.md) · [Installation](versions/0.3.2/INSTALLATION.md) · [Archives](README.md#archives)
 
-## À qualifier en 0.3.2
+## À qualifier
 
-| Chantier | État |
-| --- | --- |
-| **Performance en charge** | Mesurer l’impact de plusieurs véhicules équipés dans les conditions définies pour le banc 0.3.2. |
-| **Multijoueur** | Vérifier la visibilité et la synchronisation avec deux clients. [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1) |
-| **Qbox** | Qualifier le raccord sur le profil Qbox retenu et consigner les ressources et versions testées. |
+- **Multijoueur** · synchronisation et visibilité avec plusieurs clients.
+- **Performance sous charge** · mesures en jeu avec plusieurs véhicules équipés.
+
 
 ## Documentation et travaux en cours
 

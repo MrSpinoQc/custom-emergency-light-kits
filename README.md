@@ -1,5 +1,11 @@
 # Custom Emergency Light Kits
 
+> [!WARNING]
+> **Refonte 3.0 en cours.** Attends la fin de cette refonte avant de télécharger les packs ou le script.
+
+> [!NOTE]
+> **Projet récent en pré-alpha, en développement actif.** Le fonctionnement et le format des fichiers peuvent évoluer.
+
 **Des feux d’urgence configurables pour FiveM, par Spino.** Équipe un Gauntlet Hellfire ou un Phantom avec des optiques, des scènes lumineuses et des montages enregistrés par véhicule.
 
 ## Téléchargements

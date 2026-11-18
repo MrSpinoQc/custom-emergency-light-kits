@@ -1,7 +1,7 @@
 # Custom Emergency Light Kits
 
 > [!WARNING]
-> **Refonte 3.0 en cours.** Attends la fin de cette refonte avant de télécharger les packs ou le script.
+> **Refonte 0.3.0 en cours.** Attends la fin de cette refonte avant de télécharger les packs ou le script.
 
 > [!NOTE]
 > **Projet récent en pré-alpha, en développement actif.** Le fonctionnement et le format des fichiers peuvent évoluer.

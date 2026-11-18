@@ -23,7 +23,7 @@ Mis à jour le **18 novembre 2026**. [Préversion 0.3.2](https://github.com/MrSp
 
 ## Documentation et travaux en cours
 
-Les présentations du Fantôme et du Hellfire sont au [catalogue](PACKS.md). Les captures GTA de l’Airport Bus et des trois variantes Kuruma restent à ajouter. Le suivi des [intégrations externes](COMPATIBILITE.md) est mis à jour avec les essais par version. Les scènes éditées dans l’Atelier font l’objet d’une qualification par export.
+Le [catalogue](PACKS.md) présente le Fantôme et le Hellfire. La [galerie Kuruma](PACKS.md#galerie-kuruma) réunit trois rendus Studio des accessoires et quinze aperçus de placement dans l’Atelier. Les captures en jeu de l’Airport Bus et de la Kuruma restent à ajouter. Le suivi des [intégrations externes](COMPATIBILITE.md) est mis à jour avec les essais par version. Les scènes éditées dans l’Atelier font l’objet d’une qualification par export.
 
 ## Confirmé pour plus tard
 

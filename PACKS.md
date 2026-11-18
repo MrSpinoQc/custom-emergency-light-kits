@@ -34,6 +34,65 @@ Le contrôle solo a vérifié la disparition des pièces et des effets lors des 
 
 [Télécharger l’ensemble Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip) · [Installation par dépôt](versions/0.3.2/INSTALLATION.md)
 
+
+### Galerie Kuruma
+
+![Les optiques Police v2 allumées sur un établi de garage](images/kuruma/kuruma-v05-optiques-police.jpg)
+
+Rendu Studio V05 des accessoires conçus par **Spino**. La rampe et les trois familles de modules couvrent les sept poses Police. Chaque paire gauche-droite est représentée par un exemplaire. Les supports noirs servent à la présentation sur l’établi.
+
+<details>
+<summary>Optiques Ambulance blanche et Mécano jaune</summary>
+
+**Ambulance blanche** · Trois familles de modules en blanc, avec le toit dégagé sur le véhicule.
+
+![Optiques Kuruma Ambulance blanche allumées en présentation Studio](images/kuruma/kuruma-v05-optiques-ambulance.jpg)
+
+**Mécano jaune** · Trois familles de modules en jaune, avec le toit dégagé sur le véhicule.
+
+![Optiques Kuruma Mécano jaune allumées en présentation Studio](images/kuruma/kuruma-v05-optiques-mecano.jpg)
+
+</details>
+
+#### Vues montées dans l’Atelier R03
+
+Aperçus de la Kuruma civile de GTA V avec les poses de l’ensemble `41340f59`, utilisé en CELK 0.3.1 et 0.3.2. Les cinq angles par variante montrent la carrosserie et les emplacements. L’éclairage de l’aperçu dépend de la phase indiquée.
+
+<details>
+<summary>Police v2 · cinq vues</summary>
+
+![Kuruma Police v2 équipée, vue de trois quarts avant dans l’Atelier](images/kuruma/vehicule/police-trois-quarts-avant.png)
+
+*Double alternance gauche–droite à 3,040 s.*
+
+[Avant](images/kuruma/vehicule/police-avant.png) · [Arrière](images/kuruma/vehicule/police-arriere.png) · [Profil gauche](images/kuruma/vehicule/police-profil-gauche.png) · [Dessus](images/kuruma/vehicule/police-dessus.png)
+
+</details>
+
+<details>
+<summary>Ambulance blanche · cinq vues</summary>
+
+![Kuruma Ambulance blanche équipée, vue de trois quarts avant dans l’Atelier](images/kuruma/vehicule/ambulance-trois-quarts-avant.png)
+
+*Arrivée · blanc alterné à 3,000 s.*
+
+[Avant](images/kuruma/vehicule/ambulance-avant.png) · [Arrière](images/kuruma/vehicule/ambulance-arriere.png) · [Profil gauche](images/kuruma/vehicule/ambulance-profil-gauche.png) · [Dessus](images/kuruma/vehicule/ambulance-dessus.png)
+
+</details>
+
+<details>
+<summary>Mécano jaune · cinq vues</summary>
+
+![Kuruma Mécano jaune équipée, vue de trois quarts avant dans l’Atelier](images/kuruma/vehicule/mecano-trois-quarts-avant.png)
+
+*Intervention · jaune en croix à 3,120 s.*
+
+[Avant](images/kuruma/vehicule/mecano-avant.png) · [Arrière](images/kuruma/vehicule/mecano-arriere.png) · [Profil gauche](images/kuruma/vehicule/mecano-profil-gauche.png) · [Dessus](images/kuruma/vehicule/mecano-dessus.png)
+
+</details>
+
+[Provenance et crédits des visuels](images/kuruma/PROVENANCE.md)
+
 ## Hellfire Police V08
 
 **Parcours historique.** Les résultats ci-dessous accompagnent la version **0.2.0-rc.2-hellfire.5**.

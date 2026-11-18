@@ -20,7 +20,7 @@ Le parcours vérifié utilise Windows, **FXServer 38435**, **OneSync** et **GTA 
 
 Le choix de l’auteur autorisé relève de l’administrateur. Compare les fichiers téléchargés aux SHA-256 des notes de version.
 
-4. Serveur arrêté, exécuter `node launcher.cjs --home instance` depuis le dossier du préparateur. Lire le résultat et le nom de génération dans `instance/CURRENT`. Utiliser les ressources et l’ordre de démarrage de cette génération.
+4. Serveur arrêté, exécuter `node launcher.cjs --home instance` depuis le dossier du préparateur. Lire le résultat et le nom de génération dans `instance/CURRENT`. Le champ `folder` dans la sortie donne le chemin complet de la génération. Il contient `resources/` avec le lecteur et les packs, ainsi que `start-order.cfg`.
 
 ```cfg
 ensure [celk-packs]
@@ -29,7 +29,34 @@ ensure celk_runtime
 
 Pour ajouter un pack compatible après la configuration initiale, extraire son dossier dans `instance/packs/`, relancer la préparation et sélectionner la génération produite au redémarrage. Le préparateur génère les déclarations de packs et de modèles. Le CFG global garde les deux lignes de démarrage. Le changement de génération s’effectue au redémarrage du serveur.
 
-Le lancement Windows automatisé du serveur autonome demande une configuration unique `instance/launch.json` qui épingle les chemins, la version de l’artefact et les SHA-256 du binaire et du CFG. Il se lance avec `node launcher.cjs --home instance --start`. Avec Qbox ou LVC, utiliser le gestionnaire de serveur habituel avec la génération préparée et démarrer les ressources tierces dans l’ordre ci-dessous.
+### Démarrage avec ton gestionnaire FiveM
+
+Utilise le dossier de génération (`instance/generations/<nom>`) comme dossier de données du serveur. Le CFG de ce profil démarre les ressources nécessaires, puis le groupe CELK et le lecteur dans l’ordre indiqué. Si tu utilises Qbox ou LVC, rends leurs ressources et les adaptateurs disponibles dans ce dossier de données avant le démarrage. Quand une nouvelle génération devient active, ton gestionnaire doit démarrer depuis ce nouveau dossier.
+
+### Lancement automatique Windows
+
+Pour le parcours autonome, le lanceur intègre lui-même les deux lignes de démarrage. Prépare un CFG de paramètres sous `instance/` avec les réglages propres au serveur, dont OneSync et le build. Le CFG automatique accepte les réglages du serveur. Les commandes `start`, `ensure`, `restart`, `stop`, `exec` et `quit` y sont refusées.
+
+Dans `instance/launch.json`, renseigne le chemin absolu de `FXServer.exe`, l’identifiant exact de son artefact sous forme de chaîne et le chemin du CFG relatif à `instance/`. Remplace les deux valeurs d’empreinte par les SHA-256 minuscules de tes fichiers.
+
+```json
+{
+  "schema": "tryagain.fxserver-launch",
+  "version": 1,
+  "coordinated": true,
+  "fxserver": {
+    "file": "C:/FXServer/FXServer.exe",
+    "artifactVersion": "38435",
+    "sha256": "<empreinte de FXServer.exe>"
+  },
+  "serverConfig": {
+    "file": "server.cfg",
+    "sha256": "<empreinte du CFG>"
+  }
+}
+```
+
+Dans PowerShell, `(Get-FileHash -Algorithm SHA256 -LiteralPath <fichier>).Hash.ToLowerInvariant()` donne l’empreinte à copier. Lorsque le serveur est arrêté et que le créneau est validé, lance `node launcher.cjs --home instance --start`. Pour Qbox ou LVC, suis le parcours avec ton gestionnaire FiveM.
 
 ## Ajouter les intégrations facultatives
 

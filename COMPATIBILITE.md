@@ -18,7 +18,7 @@ Les quatre combinaisons avec et sans Qbox et LVC ont démarré au banc FXServer.
 
 ## Limites de configuration
 
-Le préparateur produit la configuration et le groupe de ressources des packs. Les deux lignes de démarrage globales couvrent le groupe des packs puis le lecteur. Le lecteur accepte jusqu’à **128 modèles**, **32 packs distincts** et **32 Kio de configuration**. Un pack peut être partagé par plusieurs modèles. Un véhicule peut avoir jusqu’à **20 pièces actives**. Ces seuils sont des limites de configuration. La mesure de performance sous charge est reportée à la 0.3.2.
+Le préparateur produit la configuration et le groupe de ressources des packs. Les deux lignes de démarrage globales couvrent le groupe des packs puis le lecteur. Le lecteur accepte jusqu’à **128 modèles**, **32 packs distincts** et **32 Kio de configuration**. Un pack peut être partagé par plusieurs modèles. Un véhicule peut avoir jusqu’à **20 pièces actives**. Ces seuils sont des limites de configuration. La performance sous charge reste à mesurer sur cette préversion.
 
 ## Intégrations optionnelles
 
@@ -40,7 +40,7 @@ Le préparateur produit la configuration et le groupe de ressources des packs. L
 
 | Ressource | État et usage envisagé |
 | --- | --- |
-| **Luxart Vehicle Control (LVC)** | Ressource externe de sirènes et de feux d’urgence. LVC a été utilisé dans un environnement de développement distinct. Les commandes ont été vérifiées sur la paire CELK/LVC épinglée ci-dessus. Sur la préversion, CELK fournit ses propres touches **F6**, **J** et **Q**, réaffectables dans FiveM. [Dépôt officiel LVC](https://github.com/TrevorBarns/luxart-vehicle-control) |
+| **Luxart Vehicle Control (LVC)** | Ressource externe de sirènes et de feux d’urgence. La paire CELK/LVC épinglée a été vérifiée en solo sur la Kuruma Police v2. LVC pilote Q et Alt avec son raccord. CELK conserve F6 pour les variantes et J pour les scènes. En mode autonome, CELK reprend ses commandes et ses tonalités. [Dépôt officiel LVC](https://github.com/TrevorBarns/luxart-vehicle-control) |
 
 </details>
 

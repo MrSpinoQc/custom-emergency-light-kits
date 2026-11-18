@@ -26,7 +26,11 @@ Le montage Police pour le Phantom GTA comprend **14 pièces**, quatre types d’
 
 ## Airport Bus et Kuruma
 
-L’**Airport Bus Police V05** comporte 20 pièces et trois scènes. La **Kuruma V05** propose les variantes **Police v2**, **Ambulance blanche** et **Mécano jaune** dans un seul ensemble. [Voir le catalogue](PACKS.md#airport-bus-police-v05)
+L’**Airport Bus Police V05** comporte 20 pièces et trois scènes. [Fiche Airport Bus](PACKS.md#airport-bus-police-v05)
+
+La **Kuruma V05** propose **Police v2**, **Ambulance blanche** et **Mécano jaune** dans le même ensemble. [Voir les optiques et les vues sur la Kuruma](PACKS.md#galerie-kuruma)
+
+![Optiques Kuruma Police v2 allumées, rendu Studio sur établi](images/kuruma/kuruma-v05-optiques-police.jpg)
 
 ## Suivi du projet
 

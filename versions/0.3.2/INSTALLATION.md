@@ -1,10 +1,10 @@
 # Préparer un serveur CELK 0.3.2
 
-Guide de la préversion FiveM. Le cœur conserve l’identifiant interne `0.3.2-prototype.1`. Les adaptateurs CELK Qbox et LVC portent la version **0.3.3** et se téléchargent séparément.
+Guide de la préversion FiveM. Le cœur conserve l’identifiant interne `0.3.2-prototype.1`. Les adaptateurs Qbox et LVC se téléchargent séparément si ton serveur utilise ces intégrations.
 
 [Cœur CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-script-0.3.2.zip) · [Préparateur de dépôt 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-preparateur-depot-0.3.2.zip) · [Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) · [Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) · [Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip)
 
-[Adaptateur Qbox 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-Qbox-0.3.3.zip) · [Adaptateur LVC 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-LVC-0.3.3.zip) · [Empreintes](SHA256SUMS.txt) · [Notes de la préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2)
+[Adaptateur Qbox pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/10031f68e337d1d560d97d6e95aa7d19c9e345b4/telechargements/CELK-adaptateur-Qbox-pour-0.3.2.zip) · [Adaptateur LVC pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/10031f68e337d1d560d97d6e95aa7d19c9e345b4/telechargements/CELK-adaptateur-LVC-pour-0.3.2.zip) · [Empreintes](SHA256SUMS.txt) · [Notes de la préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2)
 
 ## Préparer les packs
 
@@ -63,8 +63,8 @@ Dans PowerShell, `(Get-FileHash -Algorithm SHA256 -LiteralPath <fichier>).Hash.T
 | Combinaison | Installation |
 | --- | --- |
 | **Autonome** | Autorisations ACE `celk.bind`, `celk.fit`, `celk.drive`. Au volant à l’arrêt, lier le véhicule avec `/celk_bind <identifiant-durable>`, puis choisir le montage avec F6 et la scène avec J. |
-| **Qbox** | Installer les versions éditeur Core **1.24.1**, Vehicles **1.4.2** et Garages **1.1.4**. Démarrer `celk_qbox_adapter` **0.3.3** après les ressources Qbox et avant CELK. La sortie officielle du garage fournit l’identité du véhicule. Les commandes respectent la propriété, le siège conducteur et les métiers configurés. |
-| **LVC** | Installer LVC **3.2.9 Rev2** et son RageUI éditeur. Copier le plugin CELK **0.3.3** dans `lvc/PLUGINS/CELK/`. Configurer `community_id` pour ton serveur et activer `plugins_installed` dans les réglages LVC. Démarrer RageUI et LVC avant CELK. La route native LVC s’applique aux véhicules d’urgence. Le plugin gère le raccord CELK sur les civils équipés. |
+| **Qbox** | Installer les versions éditeur Core **1.24.1**, Vehicles **1.4.2** et Garages **1.1.4**. Démarrer `celk_qbox_adapter` après les ressources Qbox et avant CELK. La sortie officielle du garage fournit l’identité du véhicule. Les commandes respectent la propriété, le siège conducteur et les métiers configurés. |
+| **LVC** | Installer LVC **3.2.9 Rev2** et son RageUI éditeur. Copier le plugin CELK dans `lvc/PLUGINS/CELK/`. Configurer `community_id` pour ton serveur et activer `plugins_installed` dans les réglages LVC. Démarrer RageUI et LVC avant CELK. La route native LVC s’applique aux véhicules d’urgence. Le plugin gère le raccord CELK sur les civils équipés. |
 
 Sans LVC, CELK reprend ses commandes et ses tonalités. Le réglage `setr celk_lvc_enabled 0` désactive aussi le raccord. Si le garage Qbox tourne avec l’adaptateur indisponible, CELK bloque les opérations Qbox côté serveur. Après un redémarrage du seul adaptateur, ranger puis ressortir le véhicule par le garage officiel.
 

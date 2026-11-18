@@ -11,7 +11,9 @@
 
 **Packs de jeu** · [Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) · [Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) · [Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip)
 
-**Adaptateurs CELK facultatifs** · [Adaptateur Qbox 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-Qbox-0.3.3.zip) · [Adaptateur LVC 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-LVC-0.3.3.zip) · [Versions Qbox/LVC et repli](COMPATIBILITE.md)
+**Adaptateurs CELK facultatifs** · [Adaptateur Qbox pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/10031f68e337d1d560d97d6e95aa7d19c9e345b4/telechargements/CELK-adaptateur-Qbox-pour-0.3.2.zip) · [Adaptateur LVC pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/10031f68e337d1d560d97d6e95aa7d19c9e345b4/telechargements/CELK-adaptateur-LVC-pour-0.3.2.zip) · [Versions Qbox/LVC et repli](COMPATIBILITE.md)
+
+Le cœur fonctionne en mode autonome. Ajoute Qbox pour la reprise des montages au garage, ou LVC pour raccorder les éclats et la sirène. [Quand utiliser les adaptateurs](COMPATIBILITE.md#adapter-celk-à-son-serveur)
 
 Configure le dépôt une fois. Extrais ensuite les ensembles compatibles dans le dossier des packs, relance la préparation et redémarre le serveur avec la génération produite. [Guide d’installation](versions/0.3.2/INSTALLATION.md)
 
@@ -47,6 +49,8 @@ Les conditions de partage et la licence de CELK restent à définir.
 
 ## Archives
 
+[Parcourir les anciens ZIP et leurs guides](telechargements/archives/README.md).
+
 - **CELK 0.3.1** · [Préversion et anciens téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.1) · [Guide d’origine](versions/0.3.1/INSTALLATION.md)
 
 - **Hellfire Police V08** · [Préversion 0.2.0-rc.2-hellfire.5](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.2-hellfire.5) · [Guide d’origine](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md)
@@ -70,6 +74,6 @@ Ce montage est présenté avec sa [préversion historique](https://github.com/Mr
 <details>
 <summary><strong>CELK 0.1.2 · Première revue publique Phantom</strong></summary>
 
-Cette paire historique utilise le script CELK 0.1.2 et Phantom Grand Format 0.1.0. [ZIP du script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe481d8760fc1e6d02f3d7010e2124ef164057c6/telechargements/CELK-script-0.1.2-candidat.zip) · [ZIP du pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) · [Guide 0.1.2](INSTALLATION-0.1.2.md) · [Empreintes d’origine](telechargements/SHA256SUMS.txt) · [Code 0.1.2](celk_runtime)
+Cette paire historique utilise le script CELK 0.1.2 et Phantom Grand Format 0.1.0. [ZIP du script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe481d8760fc1e6d02f3d7010e2124ef164057c6/telechargements/CELK-script-0.1.2-candidat.zip) · [ZIP du pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) · [Guide 0.1.2](versions/0.1.2/INSTALLATION.md) · [Empreintes d’origine](telechargements/archives/SHA256SUMS-0.1.2.txt) · [Code 0.1.2](celk_runtime)
 
 </details>

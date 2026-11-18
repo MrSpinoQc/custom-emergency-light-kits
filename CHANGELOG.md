@@ -6,7 +6,7 @@
 
 - Dépôt des trois ensembles FiveM compatibles avec génération de la configuration, préservation des sélections inchangées et ordre de démarrage calculé.
 - Cœur à la version publique 0.3.2 et au manifeste interne `0.3.2-prototype.1`.
-- Adaptateurs CELK **0.3.3** facultatifs distribués séparément pour Qbox et LVC, avec versions éditeur et procédures dédiées.
+- Adaptateurs facultatifs Qbox et LVC pour le cœur **CELK 0.3.2**, avec versions éditeur et procédures dédiées.
 - Quatre profils FXServer contrôlés avec et sans Qbox et LVC. En GTA solo sur la paire distribuée, Julien a validé la Kuruma Police v2 avec le garage Qbox officiel et LVC 3.2.9 Rev2. Q allume sans roue radio, Alt commande la sirène et Q coupe les deux effets. Au retour du garage, les sept pièces sont déjà posées et les feux restent éteints.
 - Multijoueur et performance sous charge à qualifier.
 

@@ -11,7 +11,7 @@ Mis à jour le **18 novembre 2026**. [Préversion 0.3.2](https://github.com/MrSp
 | **Kuruma V05** | Trois variantes dans un ensemble, avec reprise du choix enregistré et feux éteints après recréation du véhicule vérifiée en solo. |
 | **Commandes FiveM** | **F6** pour les montages, **J** pour les scènes et commandes disponibles, **Q** pour les éclats. |
 | **Dépôt de packs** | Configuration initiale puis extraction, préparation et redémarrage. Le préparateur applique la politique de provenance choisie et génère les déclarations de packs et de modèles. |
-| **Qbox et LVC** | Adaptateurs CELK facultatifs 0.3.3 distribués séparément. Les résultats valent pour les versions de la [matrice](COMPATIBILITE.md). |
+| **Qbox et LVC** | Adaptateurs facultatifs pour CELK 0.3.2, distribués séparément. Les résultats valent pour les versions de la [matrice](COMPATIBILITE.md). |
 
 [Catalogue](PACKS.md) · [Installation](versions/0.3.2/INSTALLATION.md) · [Archives](README.md#archives)
 

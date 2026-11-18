@@ -1,7 +1,7 @@
 # Installer CELK 0.1.2 et Phantom Grand Format avec txAdmin
 
 > [!NOTE]
-> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](versions/0.3.1/INSTALLATION.md)
+> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](../0.3.2/INSTALLATION.md)
 
 Ce guide installe le script candidat **0.1.2** et le pack **Phantom Grand Format 0.1.0** sur un serveur FiveM d’essai, avec le montage Police pour le Phantom GTA d’origine.
 
@@ -17,9 +17,9 @@ ensure celk_runtime
 
 ## 1. Vérifier le serveur et récupérer les deux ZIP
 
-- Côté serveur, le manifeste demande **FXServer 38435 ou plus récent**, **GTA build serveur 3889 ou plus récente** et **OneSync**. Les essais de démarrage ont utilisé Windows avec FXServer 38435 et la build GTA 3889. FXServer fournit le moteur Node.js 22 déclaré par le script. [Manifeste CELK](celk_runtime/fxmanifest.lua) · [Référence FiveM des manifestes](https://docs.fivem.net/docs/scripting-reference/resource-manifest/).
+- Côté serveur, le manifeste demande **FXServer 38435 ou plus récent**, **GTA build serveur 3889 ou plus récente** et **OneSync**. Les essais de démarrage ont utilisé Windows avec FXServer 38435 et la build GTA 3889. FXServer fournit le moteur Node.js 22 déclaré par le script. [Manifeste CELK](../../celk_runtime/fxmanifest.lua) · [Référence FiveM des manifestes](https://docs.fivem.net/docs/scripting-reference/resource-manifest/).
 - Côté joueur, il faut GTA V et le client FiveM. Le pack utilise le modèle `phantom` disponible dans le jeu.
-- Télécharge les deux ZIP et compare leur SHA-256 avant extraction. Depuis PowerShell, utilise `Get-FileHash -Algorithm SHA256 -LiteralPath "<chemin du ZIP>"` pour chaque fichier. [ZIP du script 0.1.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe481d8760fc1e6d02f3d7010e2124ef164057c6/telechargements/CELK-script-0.1.2-candidat.zip) · [ZIP du pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) · [Empreintes attendues](telechargements/SHA256SUMS.txt).
+- Télécharge les deux ZIP et compare leur SHA-256 avant extraction. Depuis PowerShell, utilise `Get-FileHash -Algorithm SHA256 -LiteralPath "<chemin du ZIP>"` pour chaque fichier. [ZIP du script 0.1.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe481d8760fc1e6d02f3d7010e2124ef164057c6/telechargements/CELK-script-0.1.2-candidat.zip) · [ZIP du pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) · [Empreintes attendues](../../telechargements/archives/SHA256SUMS-0.1.2.txt).
 
 ## 2. Repérer le bon dossier et le CFG actif
 
@@ -92,8 +92,8 @@ Cherche `Démarrage refusé` dans **Live Console** ou dans les journaux du serve
 | `Empreinte du pack différente`, `Inventaire du pack incomplet` ou `Flux inattendu dans le pack` | Vérifie le SHA-256 du ZIP puis restaure le dossier complet `celk_pack_phantom` depuis cette archive. Le manifeste fixe la liste et l’empreinte de chaque fichier contrôlé. |
 | Le précontrôle signale un export ou un montage absent | Vérifie `local/models/phantom/spino-r1` et la présence des deux JSON. Relance `celk_preflight` après correction. |
 
-Après correction du CFG, du pack ou des fichiers, redémarre l’instance pour retrouver l’ordre pack puis CELK et relance les contrôles. [Démarrage et commandes CELK](celk_runtime/server/main.js) · [Contrôles du pack](celk_runtime/server/packs.js).
+Après correction du CFG, du pack ou des fichiers, redémarre l’instance pour retrouver l’ordre pack puis CELK et relance les contrôles. [Démarrage et commandes CELK](../../celk_runtime/server/main.js) · [Contrôles du pack](../../celk_runtime/server/packs.js).
 
 Le script 0.1.2 est limité au montage Police du Phantom et au pack 0.1.0. Le démarrage vérifie le modèle, le pack et les fichiers attendus. Ajouter un autre pack exigera une évolution du script. La synchronisation à deux clients reste non validée et l’essai est différé sans échéance.
 
-Pour conserver une installation existante, suis le [guide de mise à jour et de sauvegarde](MISES-A-JOUR.md).
+Pour conserver une installation existante, suis le [guide de mise à jour et de sauvegarde](../../MISES-A-JOUR.md).

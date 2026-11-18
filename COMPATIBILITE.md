@@ -9,12 +9,20 @@
 | **FiveM autonome** | FXServer **38435**, GTA build **3889**, OneSync, Node **22** fourni par FXServer. Cœur **0.3.2**, identifiant interne `0.3.2-prototype.1`. |
 | **Packs de jeu** | Phantom **0.1.0**, Airport Bus **0.5.0**, Kuruma **0.5.0-refonte.2**. |
 | **Préparateur de dépôt** | **0.3.2**. Node externe **24.22.1** sous Windows au banc de référence. |
-| **Adaptateur Qbox facultatif** | CELK **0.3.3** et ressources officielles Qbox Core **1.24.1**, Vehicles **1.4.2**, Garages **1.1.4**. |
-| **Adaptateur LVC facultatif** | CELK **0.3.3**, LVC **3.2.9 Rev2** et RageUI éditeur. |
+| **Adaptateur Qbox facultatif** | Pour **CELK 0.3.2** avec les ressources officielles Qbox Core **1.24.1**, Vehicles **1.4.2**, Garages **1.1.4**. |
+| **Adaptateur LVC facultatif** | Pour **CELK 0.3.2** avec LVC **3.2.9 Rev2** et RageUI éditeur. |
 
-[Cœur CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-script-0.3.2.zip) · [Préparateur de dépôt 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-preparateur-depot-0.3.2.zip) · [Adaptateur Qbox 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-Qbox-0.3.3.zip) · [Adaptateur LVC 0.3.3](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-adaptateur-LVC-0.3.3.zip) · [Empreintes par archive](versions/0.3.2/SHA256SUMS.txt)
+[Cœur CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-script-0.3.2.zip) · [Préparateur de dépôt 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/fe8cc4ad9bca20a5a4a85b9fc696e6586799afeb/telechargements/CELK-preparateur-depot-0.3.2.zip) · [Adaptateur Qbox pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/10031f68e337d1d560d97d6e95aa7d19c9e345b4/telechargements/CELK-adaptateur-Qbox-pour-0.3.2.zip) · [Adaptateur LVC pour CELK 0.3.2](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/10031f68e337d1d560d97d6e95aa7d19c9e345b4/telechargements/CELK-adaptateur-LVC-pour-0.3.2.zip) · [Empreintes par archive](versions/0.3.2/SHA256SUMS.txt)
 
 Les quatre combinaisons avec et sans Qbox et LVC ont démarré au banc FXServer. Sans Qbox, les commandes passent par ACE. Sans LVC, CELK utilise ses commandes et ses tonalités. Avec le garage Qbox présent et le raccord indisponible, les commandes Qbox restent bloquées côté serveur. [Essais et limites](versions/0.3.2/README.md#essais-et-limites)
+
+## Adapter CELK à son serveur
+
+- **Qbox** · retrouve le montage enregistré dès la sortie du garage officiel. L’adaptateur vérifie l’identité du véhicule et applique les règles de propriété et de métier du profil.
+- **LVC** · raccorde la commande des éclats et la sirène sur les véhicules CELK. Avec la paire testée, Q allume les éclats, Alt commande la sirène et Q éteint les deux.
+- **Mode autonome** · CELK utilise les permissions ACE et ses commandes intégrées. Les deux ZIP d’adaptateurs sont facultatifs.
+
+Les ZIP publics portent la mention `pour-0.3.2` et conservent les octets qualifiés. Le manifeste de la ressource Qbox et le tag Git historique des adaptateurs conservent leur numéro d’origine. [Fiche des adaptateurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/adaptateurs-v0.3.3)
 
 ## Limites de configuration
 

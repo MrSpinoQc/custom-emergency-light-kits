@@ -2,6 +2,16 @@
 
 [État des fonctionnalités et travaux prévus](FEATURES.md)
 
+## 0.3.1 · Préversion · 18 novembre 2026
+
+- Script public et trois ensembles distincts. Phantom Grand Format Police `060a37bf`, Airport Bus Police V05 `78be8891` et Kuruma V05 à trois variantes `41340f59`.
+- Lecteur FiveM livré à l’octet avec son identifiant interne `0.3.0-refonte.3`.
+- Contrôles GTA solo du Fantôme et de l’Airport Bus, puis validation solo 4/4 de l’ensemble Kuruma exact par Julien.
+- Banc d’installation depuis les ZIP exacts. 76 contrôles sur les ensembles séparés et le trio.
+- Performance sous charge, multijoueur et raccord Qbox reportés à la 0.3.2.
+
+[Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.1) · [Essais détaillés](versions/0.3.1/README.md#essais-et-limites) · [Installation](versions/0.3.1/INSTALLATION.md) · [Empreintes](versions/0.3.1/SHA256SUMS.txt)
+
 ## 0.2.0-rc.2-hellfire.5 · Hellfire Police V08 · 17 novembre 2026
 
 - Publication du script qualifié avec l’export Hellfire Police V08 à 15 pièces et la scène Double alternance de 50 pistes.

@@ -1,5 +1,8 @@
 # Installer CELK 0.1.2 et Phantom Grand Format avec txAdmin
 
+> [!NOTE]
+> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](versions/0.3.1/INSTALLATION.md)
+
 Ce guide installe le script candidat **0.1.2** et le pack **Phantom Grand Format 0.1.0** sur un serveur FiveM d’essai, avec le montage Police pour le Phantom GTA d’origine.
 
 > [!WARNING]

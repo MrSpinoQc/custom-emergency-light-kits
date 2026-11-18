@@ -1,5 +1,8 @@
 # CELK 0.2.0-rc.1 · Version d’essai
 
+> [!NOTE]
+> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](../0.3.1/INSTALLATION.md)
+
 **Spino · Custom Emergency Light Kits**
 
 - [Télécharger le script 0.2.0-rc.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-script-0.2.0-rc.1.zip)

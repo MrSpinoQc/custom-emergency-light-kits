@@ -1,5 +1,8 @@
 # CELK 0.2.0-rc.2-hellfire.5 · Hellfire Police V08
 
+> [!NOTE]
+> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](../0.3.1/INSTALLATION.md)
+
 **Préversion publique · 17 novembre 2026 · Spino**
 
 Un kit Police de **15 pièces** pour le Gauntlet Hellfire GTA, avec la rampe V08, les feux V07, deux projecteurs V06 et une scène Double alternance de **50 pistes**.

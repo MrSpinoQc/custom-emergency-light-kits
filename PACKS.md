@@ -1,6 +1,42 @@
 # Catalogue des packs
 
+Les trois premiers ensembles utilisent le [script CELK 0.3.1](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/CELK-script-0.3.1.zip). Les châssis sont ceux de GTA V. [Installation](versions/0.3.1/INSTALLATION.md) · [Empreintes](versions/0.3.1/SHA256SUMS.txt)
+
+## Phantom Grand Format · 0.1.0
+
+Quatre types d’optiques conçues par **Spino**, leurs lentilles rouges et bleues et un montage Police à 14 accessoires pour le Phantom GTA d’origine. Les positions couvrent la calandre, le pare-chocs, le pare-brise et les marchepieds. La livraison de modèle inclut cinq scènes. Le véhicule est fourni par GTA V.
+
+![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](images/phantom-grand-format-garage.png)
+
+*Visuel de présentation des optiques conçues par Spino. La texture et la teinte du métal illustrent la scène.*
+
+L’ensemble `060a37bf` réunit le montage Police et la ressource `celk_pack_phantom` **0.1.0**. En solo, le passage entre deux scènes, l’extinction et la reprise du montage après recréation du véhicule ont été vérifiés.
+
+[Télécharger l’ensemble Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-phantom-060a37bf.zip) · [Configuration](versions/0.3.1/configurations/phantom.json)
+
+## Airport Bus Police V05
+
+Le montage pour `airbus` comporte **20 pièces** et **trois scènes**. La séance solo a vérifié les trois scènes, dont **Tour du périmètre**, les quatre modules blancs PR06 accessibles dans **J** et le retour de la souris après fermeture du menu. L’ensemble `78be8891` fournit `celk_pack_airport_bus_v05` **0.5.0**.
+
+[Télécharger l’ensemble Airport Bus](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-airbus-78be8891.zip) · [Configuration](versions/0.3.1/configurations/airbus.json)
+
+## Kuruma V05 · trois variantes
+
+L’ensemble `41340f59` fournit `celk_pack_kuruma_r03` **0.5.0-refonte.2**.
+
+| Variante | Pièces | Scènes |
+| --- | ---: | ---: |
+| Police v2 · rampe de toit rouge et bleue | 7 | 3 |
+| Ambulance blanche | 6 | 2 |
+| Mécano jaune | 6 | 2 |
+
+Le contrôle solo a vérifié la disparition des pièces et des effets lors des changements de variante, la reprise du choix Mécano avec les feux éteints et le retour de la rampe en Police.
+
+[Télécharger l’ensemble Kuruma](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/2b67b717dab6486deb1744418c48c2448d11d50b/telechargements/ensemble-kuruma-41340f59.zip) · [Configuration](versions/0.3.1/configurations/kuruma.json)
+
 ## Hellfire Police V08
+
+**Parcours historique.** Les résultats ci-dessous accompagnent la version **0.2.0-rc.2-hellfire.5**.
 
 Un montage Police à **15 pièces** pour le Gauntlet Hellfire de GTA V, conçu par **Spino**. La livraison regroupe la rampe V08, les feux V07 et les deux projecteurs V06. La scène **Hellfire complète · Double alternance** comporte **50 pistes**.
 
@@ -35,7 +71,7 @@ La livraison installe **15 pièces**, réparties en **neuf familles**. Le visuel
 
 **Qualification** · 5/5 contrôles GTA solo sur l’export distribué et CELK 0.2.0-rc.2-hellfire.5. Pose, diffusion et extinction Q, deux têtes J, portes, mouvement et reprise du montage ont été contrôlés. Le multijoueur reste non testé. [Essais et limites](versions/0.2.0-rc.2-hellfire.5/README.md#essais-et-limites)
 
-[Télécharger le script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-script-0.2.0-rc.2-hellfire.5.zip) · [Télécharger le pack](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/01a52dbff9574908095e3f96c431b27872746437/telechargements/CELK-pack-Hellfire-personnel-fddf5f43.zip) · [Installation](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt)
+[Préversion et téléchargements historiques](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.2.0-rc.2-hellfire.5) · [Installation historique](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md) · [Empreintes](versions/0.2.0-rc.2-hellfire.5/SHA256SUMS.txt)
 
 <details>
 <summary><strong>Voir le montage sur le Hellfire · aperçu Atelier R02</strong></summary>
@@ -61,18 +97,6 @@ La livraison installe **15 pièces**, réparties en **neuf familles**. Le visuel
 
 </details>
 
-## Phantom Grand Format · 0.1.0
-
-Quatre types d’optiques conçues par **Spino**, leurs lentilles rouges et bleues et un montage Police à 14 accessoires pour le Phantom GTA d’origine. Les positions couvrent la calandre, le pare-chocs, le pare-brise et les marchepieds. La livraison de modèle inclut cinq scènes. Le véhicule est fourni par GTA V.
-
-![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](images/phantom-grand-format-garage.png)
-
-*Visuel de présentation des optiques conçues par Spino. La texture et la teinte du métal illustrent la scène.*
-
-Le ZIP contient la ressource `celk_pack_phantom` avec son manifeste, ses optiques et ses données de projection, ainsi que la livraison de montage `phantom/spino-r1`. Le script CELK 0.1.2 contrôle le nom de la ressource, sa version, le manifeste et l’inventaire des 13 fichiers de diffusion FiveM. Le même pack Phantom 0.1.0 accompagne le script 0.2.0-rc.1. [Installation 0.2.0-rc.1](versions/0.2.0-rc.1/INSTALLATION.md) · [Installation 0.1.2](INSTALLATION-0.1.2.md) · [SHA-256 du ZIP](versions/0.2.0-rc.1/SHA256SUMS.txt).
-
-Ce pack contient le montage Phantom Police. Le script 0.2.0-rc.1 permet aussi de configurer d’autres modèles avec leurs livraisons et packs compatibles. La synchronisation à deux clients reste non validée.
-
 ## Crédits
 
-**Spino**, auteur de Custom Emergency Light Kits et des accessoires Hellfire et Phantom Grand Format. Les conditions de partage et la licence restent à définir.
+**Spino**, auteur de Custom Emergency Light Kits et de ses accessoires. Les conditions de partage et la licence restent à définir.

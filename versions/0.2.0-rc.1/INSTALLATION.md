@@ -1,5 +1,8 @@
 # Installer CELK 0.2.0-rc.1 sur FiveM
 
+> [!NOTE]
+> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](../0.3.1/INSTALLATION.md)
+
 **Par Spino.** Ce guide installe le script **0.2.0-rc.1** avec le pack **Phantom Grand Format 0.1.0**, montage Police pour le Phantom GTA (`phantom`).
 
 [ZIP du script](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-script-0.2.0-rc.1.zip) · [ZIP du pack Phantom](https://raw.githubusercontent.com/MrSpinoQc/custom-emergency-light-kits/3f5ba2aba6c66d9fecd1b63792cd6931f8e14f1c/telechargements/CELK-phantom-grand-format-0.1.0-revue-2.2.zip) · [SHA-256 des deux ZIP](SHA256SUMS.txt) · [Dépendances et intégrations](../../COMPATIBILITE.md)

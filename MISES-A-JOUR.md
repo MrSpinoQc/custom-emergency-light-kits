@@ -1,10 +1,14 @@
 # Mises à jour et sauvegardes
 
-[Hellfire Police V08 · CELK 0.2.0-rc.2-hellfire.5](versions/0.2.0-rc.2-hellfire.5/INSTALLATION.md#mise-à-jour-et-retour-arrière) · [Phantom · CELK 0.2.0-rc.1](versions/0.2.0-rc.1/INSTALLATION.md#mise-à-jour-et-retour-arrière)
+[Guide de mise à jour CELK 0.3.1](versions/0.3.1/INSTALLATION.md#mise-à-jour-et-retour-arrière) · [Anciens guides](README.md#archives)
 
 L’administrateur choisit le créneau et installe manuellement une paire script et pack documentée. Conserve une sauvegarde cohérente du runtime, des packs, du CFG et de tout `celk_runtime/local`. Essaie la nouvelle combinaison sur une copie de ton serveur avec ses données avant l’intervention.
 
-Les versions historiques ci-dessous conservent leurs procédures de migration et leurs preuves.
+## Passer à CELK 0.3.1
+
+Installe le script et ses ensembles sur une copie après avoir sauvegardé l’ancienne combinaison complète. Utilise les fichiers de configuration 0.3.1 comme exemples pour adapter ta copie. Conserve ton ancienne configuration et les données de `local/`. Les migrations des installations antérieures vers 0.3.1 demandent une vérification sur copie avec tes montages et tes sauvegardes.
+
+Pour annuler, remets le script, les packs, le CFG et les données locales de la même sauvegarde. Les procédures qui suivent concernent les versions historiques indiquées.
 
 ## Historique · CELK 0.1.2
 

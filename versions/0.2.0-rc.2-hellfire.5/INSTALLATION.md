@@ -1,5 +1,8 @@
 # Installer Hellfire Police V08
 
+> [!NOTE]
+> **Archive.** Ce guide accompagne la version indiquée ci-dessous. [Installer la préversion actuelle](../0.3.1/INSTALLATION.md)
+
 **CELK 0.2.0-rc.2-hellfire.5 · Spino · 17 novembre 2026**
 
 Ce guide installe le montage Police V08 sur le Gauntlet Hellfire de GTA V, modèle `gauntlet4`. Les fichiers distribués correspondent à la qualification **5/5 GTA solo**. Le multijoueur reste non testé.

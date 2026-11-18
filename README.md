@@ -43,6 +43,10 @@ Le montage réunit **15 pièces**, dont la rampe V08, les barrettes de vitre, le
 
 Le montage Police pour le Phantom GTA comprend **14 pièces**, quatre types d’optiques et cinq scènes. Il s’installe avec la paire documentée sur **CELK 0.2.0-rc.1**. [Fiche du pack](PACKS.md#phantom-grand-format--010)
 
+![Les quatre optiques Phantom allumées sur un établi dans un garage mécanique](images/phantom-grand-format-garage.png)
+
+*Visuel de présentation des optiques conçues par Spino. La texture et la teinte du métal illustrent la scène.*
+
 ## Suivi du projet
 
 Les deux parcours publiés ont des vérifications en GTA solo. **Le multijoueur reste à tester.** Pour un retour, indique la version de CELK, le véhicule, la variante et ce que chaque joueur observe. [Fonctionnalités et travaux prévus](FEATURES.md) · [Notes de version](CHANGELOG.md) · [Retours multijoueurs](https://github.com/MrSpinoQc/custom-emergency-light-kits/issues/1)

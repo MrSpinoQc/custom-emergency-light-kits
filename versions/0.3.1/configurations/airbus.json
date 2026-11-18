@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "scopes": {
+    "airbus": "spino"
+  },
+  "packs": {
+    "airport-bus-police-v05": {
+      "version": "0.5.0",
+      "resource": "celk_pack_airport_bus_v05",
+      "sha256": "67a354bf157272446bc34f26269bdc785fd3fc1724631b56d8dc163b8cf59cea"
+    }
+  }
+}

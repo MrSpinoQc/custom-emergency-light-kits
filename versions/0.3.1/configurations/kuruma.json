@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "scopes": {
+    "kuruma": "spino"
+  },
+  "packs": {
+    "kuruma-v05-palettes-r03": {
+      "version": "0.5.0-refonte.2",
+      "resource": "celk_pack_kuruma_r03",
+      "sha256": "c950f0781cc57b66d724f2d57134a6dfde70bff53ba66dc9773e71a0ce750402"
+    }
+  }
+}

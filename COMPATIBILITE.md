@@ -30,7 +30,7 @@ Le préparateur produit la configuration et le groupe de ressources des packs. L
 
 | Ressource | État et usage envisagé |
 | --- | --- |
-| **Qbox** · `qbx_core`, `qbx_vehicles`, `qbx_garages` | Un profil Qbox a fait l’objet d’essais solo dans le labo sur une autre révision. La qualification couvre la paire documentée ci-dessus. Les métiers, grades et véhicules possédés demandent une qualification dédiée. Les droits de la préversion passent par ACE. [Documentation Qbox](https://docs.qbox.re/) |
+| **Qbox** · `qbx_core`, `qbx_vehicles`, `qbx_garages` | La combinaison officielle épinglée ci-dessus a passé le parcours solo Kuruma Police v2. Le pont applique les droits de propriétaire et de métier configurés. En mode autonome, les droits passent par ACE. Les autres profils de métiers, grades et garages gardent leur propre périmètre d’essai. [Documentation Qbox](https://docs.qbox.re/) |
 | **Ox** · `ox_lib`, `oxmysql`, `ox_inventory`, `ox_target` | Ressources à installer selon les exigences des autres scripts de ton serveur. CELK enregistre ses données dans `celk_runtime/local`. [Installation Qbox et prérequis de son profil](https://docs.qbox.re/installation) |
 
 </details>
@@ -53,7 +53,7 @@ Le préparateur produit la configuration et le groupe de ressources des packs. L
 | **JG Mechanic** · produit payant | Raccord à qualifier pour la pose ou la dépose du kit depuis une prestation de mécanique. La version du produit et les interfaces utilisées devront figurer dans la preuve. [Installation officielle JG Mechanic](https://docs.jgscripts.com/mechanic/installation) |
 | **Radar ou autres scripts tiers** | Produit et versions à confirmer avant un essai de coexistence ou de raccordement. |
 
-Les éditeurs distribuent et documentent leurs ressources séparément. Consulte leurs conditions et dépendances si tu utilises ces scripts. Le parcours autonome 0.3.1 utilise le script et les ensembles choisis sur un serveur FiveM. [Ressources gratuites et payantes sur FiveM](https://docs.fivem.net/docs/server-manual/finding-resources/)
+Les éditeurs distribuent et documentent leurs ressources séparément. Consulte leurs conditions et dépendances si tu utilises ces scripts. Le parcours autonome 0.3.2 utilise le script et les ensembles choisis sur un serveur FiveM. [Ressources gratuites et payantes sur FiveM](https://docs.fivem.net/docs/server-manual/finding-resources/)
 
 </details>
 

@@ -1,0 +1,30 @@
+{
+  "schema": "tryagain.fivem-projection-engine",
+  "version": 2,
+  "id": "centre-mono-v2",
+  "defaultForNewImports": true,
+  "appliesTo": "lens-diffusion",
+  "native": "DrawSpotLight",
+  "centre": {
+    "wideOpeningThresholdDeg": 45,
+    "wideHalfAngleFactor": 0.72,
+    "wideMaxHalfAngleDeg": 50,
+    "wideBrightnessWeight": 0.5,
+    "narrowBrightnessWeight": 1,
+    "exposedFaceMarginDeg": 0.25
+  },
+  "unassigned": {
+    "narrow": { "nativeSizeScale": 2, "hardness": 0 },
+    "wide": {
+      "status": "candidate",
+      "calibrationReport": "releve-feu-bas-g-1794770441-3-3.json",
+      "gainRatios": {
+        "rangeM": { "target": 5.7, "authorAnchor": 4.3 },
+        "intensity": { "target": 1.14, "authorAnchor": 0.7 },
+        "falloff": { "target": 2.25, "authorAnchor": 2.15 }
+      },
+      "nativeSizeScale": 6.45,
+      "hardness": 0
+    }
+  }
+}

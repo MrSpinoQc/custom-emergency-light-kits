@@ -1,0 +1,774 @@
+{
+  "revision": "DEV-01-AIRBUS-POLICE-ATELIER-v01",
+  "files": {
+    "stream/ta01_ab_flat_f.ydr": "ca65890e817ca9e7e25c9c539fa0dd3db564182bf8a0f129f26c6ce02df0de3f",
+    "stream/ta01_ab_flat_f_av01.ydr": "cbf3f746ebc2fbcbb0483d5d7d59fe1a5428127111117a9f4370338c0599a6b2",
+    "stream/ta01_ab_flat_f_av02.ydr": "5d19374c5d1d1d07d139f199362ef74a8284d02423d0965b1159f8e9615b59e6",
+    "stream/ta01_ab_flat_f_av03.ydr": "fff7df0921ea0729e431c5e0bb9a889a4d22cd46293ca6b989cc3759ce2fd57d",
+    "stream/ta01_ab_flat_f_av04.ydr": "be7eaa1c8b1e7cb5b6f4a1065abf1ef87598e1ac069ad7ebeaa3b85306b8020f",
+    "stream/ta01_ab_flat_f_ext_g.ydr": "a7047e7df383b7525587cd8addbec4eceddba9727c492cc3bfb3dc046f6fedfb",
+    "stream/ta01_ab_flat_f_ext_d.ydr": "547514d169798159b0c5cf43cb3e6cc3133b3cc7bad4f36aa5612d004d976bd3",
+    "stream/ta01_ab_flat_r.ydr": "e01ada02fbdaa66067617cc560b43d6ee37b0ab8ca5004a0690f8f6159f638a9",
+    "stream/ta01_ab_flat_r_av01.ydr": "95e2e4ad3f4749bba1f34e2b7a1c7f4c6a7c2f8c17a6f6d066c21ca0c96fe70f",
+    "stream/ta01_ab_flat_r_av02.ydr": "6000d4271ec615a91ce52bc385ae7d022464fa73cbe1881c36a6f973463167a4",
+    "stream/ta01_ab_flat_r_av03.ydr": "6821756d9aae27e1ba53c85579a9ad7ff3be681373adadb8e811fe13b1a6c56d",
+    "stream/ta01_ab_flat_r_av04.ydr": "213139fecf33f621d1960d81b5f45e7ac4821589ff45ce8012d7ff85fe84e690",
+    "stream/ta01_ab_flat_r_ext_g.ydr": "e5c1f06b754bb85ec55871466d056981b32141761da51e0a469325c8305c4115",
+    "stream/ta01_ab_flat_r_ext_d.ydr": "95de69d206711b1ab7aa8424c867b3be199c83f1c9fff42de0546bf70e4d4aa5",
+    "stream/ta01_ab_hex_r.ydr": "27fcafd762b600457d169312b0858029f10db4aaf000cd44ba64167857860a25",
+    "stream/ta01_ab_hex_r_c01.ydr": "1fac22885db226a70e6c84204f47c76547576c402541d367989cf26d3492782b",
+    "stream/ta01_ab_hex_r_c02.ydr": "02bb25c287702e30aca70f436a747719d8a42e16118c9b883020eea3ba55cc8c",
+    "stream/ta01_ab_hex_r_c03.ydr": "d995fc064fd71d85c18c6b7d199a363c4aeca96f1fba2064d7e4b0c68db3dbd7",
+    "stream/ta01_ab_hex_b.ydr": "2fed72ee41c44d1b86219d30305c0a4838e2509dd67bf97d7684714fee0db660",
+    "stream/ta01_ab_hex_b_c01.ydr": "d0ebf1a4f35df3b03a85631f343faf2a633062b2539030c189420e27ca324f60",
+    "stream/ta01_ab_hex_b_c02.ydr": "ffe3cb7da423b695db902fe544b622d0a2f307bbc4cf909bc4a0249556105948",
+    "stream/ta01_ab_hex_b_c03.ydr": "856ac9dc2119ba7989643b94a7951a1b6a5811a0ae3933e7e20c6cc06bf68e56",
+    "stream/ta01_ab_chev_l.ydr": "4e098ac9ae93aa07f253f93f9fc244ccaa72337298b6aa02a13680ed815ab821",
+    "stream/ta01_ab_chev_l_c01.ydr": "16a27c871435c03bd1e861df925127263e401632ce5274bd893d78dc6864586b",
+    "stream/ta01_ab_chev_l_c02.ydr": "907618cf5d22aaee1e82190b1293fd146c73f0ea95c89a3a65a49757ce7e1787",
+    "stream/ta01_ab_chev_l_c03.ydr": "8cbdd4acce3205ba316a89768c7025ce30e5b6e74b83b8a9c3c4da6e3c267113",
+    "stream/ta01_ab_chev_r.ydr": "b9929d836a2c52a14bfbb5bcb4c37d1084fdc4e630cf45cefef2195ddb2cd057",
+    "stream/ta01_ab_chev_r_c01.ydr": "7669e3e5f0dcbe73f6e2bb4f7f1130f00833dc5b0cbddae8c213c99c55a7599a",
+    "stream/ta01_ab_chev_r_c02.ydr": "48d8305ad1078703dd9994d67530e95fdd31be0d46b8fce75b043f6d8f4ae1fb",
+    "stream/ta01_ab_chev_r_c03.ydr": "4ce6e06c7686b77ab858973f52ebbf595f163bf11d342d898132605b53f0fd60",
+    "stream/ta01_ab_upper_l.ydr": "55b44949a764d51751facd3780f0df70cd256658ba48b0deafba003933d0732b",
+    "stream/ta01_ab_upper_l_c01.ydr": "1439f6a61ecd35dafca87a05be711b64e46f6af711a89be6375aac8ffb842d22",
+    "stream/ta01_ab_upper_l_c02.ydr": "d602db739b380985be89cf6b2e2b5c93017405767698e737062034b91bb7ba15",
+    "stream/ta01_ab_upper_l_c03.ydr": "8723342b6f5420593ed48d2a0dedbcccf439459d72f4be291aa63fefdde0b8c9",
+    "stream/ta01_ab_upper_r.ydr": "312b1545bd8adafa45aac379b1388b22f8d3440c558841058129fd3c8aa590a4",
+    "stream/ta01_ab_upper_r_c01.ydr": "d6684dd890ca70c470a3aae322036951dcb6075f348172a4884b5dc848c057f2",
+    "stream/ta01_ab_upper_r_c02.ydr": "6c4d8d9ede4a19908c9070b485accb94cc681c7d9abbcda925422324d219fd74",
+    "stream/ta01_ab_upper_r_c03.ydr": "7e6b0b1372373fc5e464c066eae7e3f4e0bed6b00357187119ea3823c4f10da4",
+    "stream/ta01_ab_lower.ydr": "04943cf913a6e00eea1b9131753879de5718f10a177a9840c0022537587ab342",
+    "stream/ta01_ab_lower_c01.ydr": "8cff2995702da5509d5e449b3e71d38cf09760ba67ba33e9eca0ddf82cec77ff",
+    "stream/ta01_ab_lower_c02.ydr": "b0404b1fb18f66584c1e5ebace1875a831f5534ce072b69f037bb85618f765f0",
+    "stream/ta01_ab_lower_c03.ydr": "62a0777608325910444dc841e419e600f122da17ed00995bbeb87eb2458c120c",
+    "stream/ta01_ab_scene.ydr": "364c33d8073b73e1bfa4734ec917188155ffdd1b97f1bc65f49a3e2a49291119",
+    "stream/ta01_ab_scene_scene.ydr": "46bb0f30402ab63d57f3cb3ca84e9a45892a4e67b262bb15ce575d92d0b601b9",
+    "stream/ta01_ab_v05_pieces.ytyp": "9b0578e3af75000f70ed14dc9a0b8ba3c8d5ac908c0ea6408cad88a8d6c04355"
+  },
+  "optics": {
+    "ta01_ab_flat_f": [
+      {
+        "group": "group:1",
+        "opticId": "av01",
+        "origin": [
+          -0.601,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_flat_f_av01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "av02",
+        "origin": [
+          -0.203,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_flat_f_av02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "av03",
+        "origin": [
+          0.203,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_flat_f_av03"
+      },
+      {
+        "group": "group:4",
+        "opticId": "av04",
+        "origin": [
+          0.601,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_flat_f_av04"
+      },
+      {
+        "group": "group:5",
+        "opticId": "ext-g",
+        "origin": [
+          -1.00445,
+          0,
+          0.0435
+        ],
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_flat_f_ext_g"
+      },
+      {
+        "group": "group:6",
+        "opticId": "ext-d",
+        "origin": [
+          1.00445,
+          0,
+          0.0435
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_flat_f_ext_d"
+      }
+    ],
+    "ta01_ab_flat_r": [
+      {
+        "group": "group:1",
+        "opticId": "av01",
+        "origin": [
+          -0.601,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_flat_r_av01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "av02",
+        "origin": [
+          -0.203,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_flat_r_av02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "av03",
+        "origin": [
+          0.203,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_flat_r_av03"
+      },
+      {
+        "group": "group:4",
+        "opticId": "av04",
+        "origin": [
+          0.601,
+          0.184,
+          0.0435
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_flat_r_av04"
+      },
+      {
+        "group": "group:5",
+        "opticId": "ext-g",
+        "origin": [
+          -1.00445,
+          0,
+          0.0435
+        ],
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_flat_r_ext_g"
+      },
+      {
+        "group": "group:6",
+        "opticId": "ext-d",
+        "origin": [
+          1.00445,
+          0,
+          0.0435
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_flat_r_ext_d"
+      }
+    ],
+    "ta01_ab_hex_r": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.146,
+          0.0685,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_hex_r_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          0,
+          0.0685,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_hex_r_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.146,
+          0.0685,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_hex_r_c03"
+      }
+    ],
+    "ta01_ab_hex_b": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.146,
+          0.0685,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_hex_b_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          0,
+          0.0685,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_hex_b_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.146,
+          0.0685,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_hex_b_c03"
+      }
+    ],
+    "ta01_ab_chev_l": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.1155,
+          0.0676,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_chev_l_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          0.0295,
+          0.0676,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_chev_l_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.1745,
+          0.0676,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_chev_l_c03"
+      }
+    ],
+    "ta01_ab_chev_r": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.1745,
+          0.0676,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_chev_r_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          -0.0295,
+          0.0676,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_chev_r_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.1155,
+          0.0676,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_chev_r_c03"
+      }
+    ],
+    "ta01_ab_upper_l": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.157,
+          0.0585,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_upper_l_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          0,
+          0.0585,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_upper_l_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.157,
+          0.0585,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_upper_l_c03"
+      }
+    ],
+    "ta01_ab_upper_r": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.157,
+          0.0585,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_upper_r_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          0,
+          0.0585,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_upper_r_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.157,
+          0.0585,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_upper_r_c03"
+      }
+    ],
+    "ta01_ab_lower": [
+      {
+        "group": "group:1",
+        "opticId": "c01",
+        "origin": [
+          -0.185,
+          0.0485,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_lower_c01"
+      },
+      {
+        "group": "group:2",
+        "opticId": "c02",
+        "origin": [
+          0,
+          0.0485,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          255,
+          29,
+          45
+        ],
+        "drawable": "ta01_ab_lower_c02"
+      },
+      {
+        "group": "group:3",
+        "opticId": "c03",
+        "origin": [
+          0.185,
+          0.0485,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "rgb": [
+          30,
+          101,
+          255
+        ],
+        "drawable": "ta01_ab_lower_c03"
+      }
+    ],
+    "ta01_ab_scene": [
+      {
+        "group": "group:1",
+        "opticId": "scene",
+        "origin": [
+          0,
+          0.1385088,
+          -0.0177019
+        ],
+        "axis": [
+          0,
+          0.9781476,
+          -0.2079117
+        ],
+        "rgb": [
+          242,
+          248,
+          255
+        ],
+        "drawable": "ta01_ab_scene_scene"
+      }
+    ]
+  },
+  "parts": {
+    "BUS-V01-01": "ta01_ab_flat_f",
+    "BUS-V01-02": "ta01_ab_flat_r",
+    "BUS-V01-03": "ta01_ab_hex_r",
+    "BUS-V01-04": "ta01_ab_hex_b",
+    "BUS-V01-05": "ta01_ab_chev_l",
+    "BUS-V01-06": "ta01_ab_chev_r",
+    "BUS-V01-07": "ta01_ab_upper_l",
+    "BUS-V01-08": "ta01_ab_upper_r",
+    "BUS-V01-09": "ta01_ab_upper_l",
+    "BUS-V01-10": "ta01_ab_upper_r",
+    "BUS-V01-11": "ta01_ab_upper_l",
+    "BUS-V01-12": "ta01_ab_upper_r",
+    "BUS-V01-13": "ta01_ab_lower",
+    "BUS-V01-14": "ta01_ab_lower",
+    "BUS-V01-15": "ta01_ab_lower",
+    "BUS-V01-16": "ta01_ab_lower",
+    "BUS-V01-17": "ta01_ab_scene",
+    "BUS-V01-18": "ta01_ab_scene",
+    "BUS-V01-19": "ta01_ab_scene",
+    "BUS-V01-20": "ta01_ab_scene"
+  }
+}

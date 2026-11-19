@@ -1,0 +1,33 @@
+[hidden] { display: none !important; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #f3f4f6; font: 16px/1.45 'Atkinson Hyperlegible Next', 'Segoe UI', sans-serif; }
+main { width: min(54rem, 94vw); max-height: 86vh; overflow: auto; margin: 6vh auto; padding: clamp(.8rem, 2vw, 1.4rem); background: #171a20; border: 1px solid #6b727e; border-radius: 14px; box-shadow: 0 12px 32px #0008; }
+header, .toolbar, footer { display: flex; align-items: center; gap: .75rem; }
+header { justify-content: space-between; }
+header p { margin: .15rem 0 0; color: #c2c8d0; }
+h1 { margin: 0; font-size: clamp(1.35rem, 2.4vw, 1.85rem); line-height: 1.15; }
+.toolbar { justify-content: flex-end; margin-block: .85rem .45rem; }
+footer { margin-top: .9rem; }
+kbd { font: inherit; }
+button { color: inherit; font: inherit; font-weight: 650; background: #292e36; border: 1px solid #6b727e; min-height: 2.55rem; padding: .5rem .75rem; border-radius: 8px; cursor: pointer; }
+#save { width: 100%; background: #ffb946; border-color: #ffb946; color: #1c150b; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, input:focus-visible, .pack-list:focus-visible { outline: 2px solid #edc77b; outline-offset: 3px; }
+.pack-list { max-height: 49vh; overflow: auto; border: 1px solid #525962; border-radius: 9px; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { padding: .55rem .75rem; border-bottom: 1px solid #525962; overflow-wrap: anywhere; }
+th { position: sticky; top: 0; background: #292e36; z-index: 1; }
+tr:last-child td { border-bottom: 0; }
+td:first-child { width: 49%; font-weight: 650; }
+td small { display: block; color: #c2c8d0; font-weight: 400; }
+td label { display: flex; gap: .45rem; align-items: center; cursor: pointer; }
+.loaded { color: #bce7c9; }
+.inactive { color: #c2c8d0; }
+.changed td:last-child { color: #ffe6b0; background: #352d21; }
+input[type="checkbox"] { flex: none; width: 19px; height: 19px; margin: 0; accent-color: #ffb946; }
+#status { margin: .75rem 0 0; color: #ffe6b0; }
+#status:empty { margin: 0; }
+@media (max-width: 480px) {
+    th, td { padding-inline: .42rem; }
+    td label { flex-wrap: wrap; }
+}

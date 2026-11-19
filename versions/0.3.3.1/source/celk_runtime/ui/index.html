@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Custom Emergency Light Kits</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <main id="menu" hidden role="dialog" aria-modal="true" aria-labelledby="title">
+        <header>
+            <div class="menu-identity">
+                <kbd id="key"></kbd>
+                <div>
+                    <h1 id="title"></h1>
+                    <p id="subtitle" hidden></p>
+                </div>
+            </div>
+            <button id="close" type="button" aria-label="Fermer avec Échap"><kbd>Échap</kbd></button>
+        </header>
+        <div id="choices"></div>
+        <p id="status" role="status" hidden></p>
+    </main>
+</body>
+</html>

@@ -18,3 +18,7 @@ Le cœur dans le ZIP s’identifie comme `0.3.2-prototype.1`. Les deux ZIP facul
 Le banc solo utilisait le garage officiel avec `doorsLocked = false` sur le profil sans clés. Les essais archivés du Phantom et du Bus gardent leurs configurations d’origine.
 
 [Compatibilité et versions éditeur](../../COMPATIBILITE.md) · [Téléchargements historiques](../../README.md#archives)
+
+## Référence de la chaîne de production
+
+[Studio → Atelier → FiveM : formats publics, versions figées et contrôles](CHAINE-COMPILATION.md). Le profil autonome Studio → Atelier reste à spécifier publiquement; il ne doit pas être confondu avec un pack JEU.

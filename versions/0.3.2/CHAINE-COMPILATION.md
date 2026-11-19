@@ -32,6 +32,29 @@ Le tag historique des adaptateurs ne désigne ni une nouvelle version du cœur n
 
 Ce tableau ne constitue pas un schéma JSON complet ni une spécification de compilateur 3D. Les conversions internes, versions d'exporteur et contrats non publiés restent à documenter avant d'en faire une référence publique. Ne pas fabriquer ou corriger à la main un manifeste pour faire passer un export refusé.
 
+## Profil autonome Studio → Atelier
+
+**Cible :** permettre à un nouveau contexte Studio de produire un dossier importable dans l'Atelier pour les types de pièces actuellement pris en charge, sans FiveM ni laboratoire. Ce profil est distinct du pack JEU et de la préparation serveur ci-dessous.
+
+**Statut : non spécifié publiquement dans les références vérifiées.** Il ne faut pas utiliser `installation.json` ou `selection/selection.celk` du pack JEU comme modèle présumé d'import Atelier. Aucun dossier minimal importable Studio → Atelier n'est fourni ici : sa compatibilité n'a pas été vérifiée à partir d'un contrat public.
+
+Avant de déclarer ce profil reproductible, publier ou référencer explicitement :
+- la version de l'Atelier et les catégories d'assets prises en charge;
+- l'arborescence d'entrée, le nom et la version du manifeste;
+- les identifiants stables et règles de collision/référence;
+- unités, axes, origine, pivots, transformations et conventions de placement;
+- les outils/exporteurs autorisés, leurs versions, options et commande exacte;
+- les matériaux, canaux de lumière et ressources acceptés;
+- un exemple minimal public avec résultat d'import vérifié dans une copie vierge de l'Atelier.
+
+Tous ces éléments sont **à vérifier pour le profil Studio → Atelier**; les versions, fichiers et preuves FiveM plus bas ne les établissent pas.
+
+### Consigne réutilisable pour un nouveau contexte Studio
+
+> Travaille uniquement sur le profil Studio → Atelier documenté pour la version cible, sans FiveM ni laboratoire. Commence par identifier le contrat public et un exemple minimal importé avec succès. Produis une nouvelle copie du dossier d'export, avec les outils, options, identifiants, unités et pivots prescrits. Si le contrat ou un type d'asset manque, indique précisément le point non vérifié et conserve la dernière sortie fonctionnelle; ne fabrique pas de manifeste et n'annonce pas un import réussi sans preuve.
+
+Un accessoire ou une pièce supportée n'implique pas une nouvelle mécanique. **L'attelage de remorque**, par exemple, est une capacité distincte à spécifier et valider; ce document ne le déclare pas pris en charge. Même distinction pour tout mouvement, articulation ou interaction non documenté.
+
 ## Sortie sûre et parcours reproductible
 
 Conserver l'export source intact. Préparer une copie dans un nouveau dossier de travail; ne jamais écraser la dernière génération fonctionnelle pendant un essai. Les noms ci-dessous sont des chemins relatifs génériques, pas une configuration prête à démarrer un serveur existant.

@@ -2,6 +2,15 @@
 
 [État des fonctionnalités et travaux prévus](FEATURES.md)
 
+## 0.3.3.1 (Interface) · Préversion · 19 novembre 2026
+
+- Panneau **J** en trois blocs sur le Sadler. Montage installé mis en évidence dans **F6**. Gestion facultative des packs **F10** avec les états actif et au redémarrage.
+- Ensemble Sadler V01 `9bf8d35c`, variantes Police et Remorqueur, avec la diffusion de la flèche droite active.
+- Téléchargements distincts du cœur, du préparateur, de l’ensemble et des trois adaptateurs facultatifs Qbox, LVC et ox_lib.
+- 35 contrôles logiciels réussis selon FiveM. Les quatre blocs GTA solo du Sadler couvrent le lecteur précédent. Les essais GTA d’Interface et à deux clients restent à faire.
+
+[Préversion et téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/SHA256SUMS.txt)
+
 ## 0.3.2 · Préversion · 18 novembre 2026
 
 - Dépôt des trois ensembles FiveM compatibles avec génération de la configuration, préservation des sélections inchangées et ordre de démarrage calculé.

@@ -1,6 +1,21 @@
 # Dépendances et intégrations
 
-**CELK 0.3.2 · état du 18 novembre 2026.** [Installation](versions/0.3.2/INSTALLATION.md) · [Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2)
+## CELK 0.3.3.1 (Interface)
+
+| Composant | Prérequis et portée |
+| --- | --- |
+| **Mode autonome** | FXServer 38435 ou supérieur, build GTA 3889, OneSync, Node 22 fourni par FXServer. Préparation externe vérifiée par FiveM avec Node 24.22.1 sous Windows. |
+| **Ensemble livré** | Sadler V01 `9bf8d35c`, pack `sadler-rampe-relevable` 0.1.0. Le lecteur déclare l’identifiant de compatibilité `0.3.3-sadler.1`. |
+| **Qbox facultatif** | Adaptateur CELK version 0.3.3, Qbox Core 1.24.1, Vehicles 1.4.2 et Garages 1.1.4. Raccord vérifié en simulation. |
+| **LVC facultatif** | Plugin CELK pour LVC 3.2.9 Rev2 et le RageUI de son éditeur. Raccord vérifié en simulation. |
+| **Interface ox_lib facultative** | `celk_menu_ox` 0.3.3.1 avec ox_lib 3.42.2. Le panneau J/F6 intégré assure le repli. |
+| **F10 facultatif** | Le préparateur fournit `celk_admin`. Accorder l’ACE serveur `celk.admin.packs` et choisir quel menu détient F10. |
+
+Les essais GTA du build Interface et à deux clients restent à faire. [Préversion et téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Installation et ordre de démarrage](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md)
+
+## CELK 0.3.2
+
+**État du 18 novembre 2026.** [Installation](versions/0.3.2/INSTALLATION.md) · [Préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2)
 
 ## Runtime et adaptateurs pris en charge
 

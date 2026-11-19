@@ -1,6 +1,8 @@
 # Installer Custom Emergency Light Kits
 
-Pour la préversion actuelle, suivre le [guide 0.3.2](versions/0.3.2/INSTALLATION.md). Il couvre le dépôt de packs, le démarrage, la configuration initiale et les adaptateurs facultatifs.
+Pour **CELK 0.3.3.1 (Interface)** et le Sadler, suivre le [guide 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) et prendre les ZIP dans sa [préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1).
+
+Pour **CELK 0.3.2** et ses ensembles Phantom, Airport Bus et Kuruma, suivre le [guide 0.3.2](versions/0.3.2/INSTALLATION.md).
 
 [Script et ensembles](README.md#téléchargements) · [Dépendances et intégrations](COMPATIBILITE.md) · [Catalogue](PACKS.md)
 

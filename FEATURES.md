@@ -1,6 +1,17 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **18 novembre 2026**. [Préversion 0.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.2) · [Dépendances](COMPATIBILITE.md)
+Mis à jour le **19 novembre 2026**. [Préversion 0.3.3.1 (Interface)](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Dépendances](COMPATIBILITE.md)
+
+## Disponible dans CELK 0.3.3.1 (Interface)
+
+| Fonctionnalité | Ce que tu peux essayer |
+| --- | --- |
+| **Sadler V01** | Montages Police et Remorqueur dans un même ensemble, avec la diffusion de la flèche droite active. |
+| **J et F6** | J regroupe Volet, Motif et Éclairage sur le Sadler. F6 affiche les montages en cartes et signale celui qui est installé. |
+| **F10 facultatif** | L’administration des packs distingue l’état actif et la sélection au redémarrage. Le droit serveur `celk.admin.packs` est requis. |
+| **Adaptateurs facultatifs** | Raccords CELK pour Qbox, LVC et les panneaux ox_lib. Le panneau J/F6 intégré prend la relève si le fournisseur est indisponible. |
+
+FiveM rapporte 35 contrôles logiciels réussis. L’essai GTA d’Interface reste à faire. Les quatre blocs GTA solo du Sadler concernent le lecteur précédent. [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md)
 
 ## Disponible dans CELK 0.3.2
 

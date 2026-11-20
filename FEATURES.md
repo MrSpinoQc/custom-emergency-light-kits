@@ -1,6 +1,10 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **19 novembre 2026**. [Préversion 0.3.3.1 (Interface)](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Dépendances](COMPATIBILITE.md)
+Mis à jour le **20 novembre 2026**. [Préversion 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) · [Dépendances](COMPATIBILITE.md)
+
+## Correctif 0.3.3.2
+
+Le panneau **J/F6** conserve son fond transparent. L’essai GTA solo **F6 puis Échap** a réussi sur la Kuruma avec le build final. Les essais GTA de J sur le Sadler et de F10 administration restent à faire. [Mise à jour](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/INSTALLATION.md)
 
 ## Disponible dans CELK 0.3.3.1 (Interface)
 
@@ -11,7 +15,7 @@ Mis à jour le **19 novembre 2026**. [Préversion 0.3.3.1 (Interface)](https://g
 | **F10 facultatif** | L’administration des packs distingue l’état actif et la sélection au redémarrage. Le droit serveur `celk.admin.packs` est requis. |
 | **Adaptateurs facultatifs** | Raccords CELK pour Qbox, LVC et les panneaux ox_lib. Le panneau J/F6 intégré prend la relève si le fournisseur est indisponible. |
 
-FiveM rapporte 35 contrôles logiciels réussis. L’essai GTA d’Interface reste à faire. Les quatre blocs GTA solo du Sadler concernent le lecteur précédent. [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md)
+FiveM rapporte 35 contrôles logiciels réussis. L’essai GTA sur cette version a révélé un écran noir. Les quatre blocs GTA solo du Sadler concernent le lecteur précédent. [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md)
 
 ## Disponible dans CELK 0.3.2
 

@@ -1,7 +1,9 @@
 # Installer Custom Emergency Light Kits
 
 > [!WARNING]
-> **CELK 0.3.3.1 peut afficher un écran noir dans FiveM.** Le correctif 0.3.3.2 est en cours de vérification. Pour retrouver la procédure d’une installation existante, consulter le [guide 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) et l’[avertissement de la préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1).
+> **CELK 0.3.3.1 peut afficher un écran noir dans FiveM.** Le correctif est disponible en [0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2). Le [guide 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) documente les installations historiques.
+
+Pour **CELK 0.3.3.2**, suivre le [guide d’installation et de mise à jour](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/INSTALLATION.md). Remplacer ensemble le cœur et le préparateur et garder les montages existants.
 
 Pour **CELK 0.3.2** et ses ensembles Phantom, Airport Bus et Kuruma, suivre le [guide 0.3.2](versions/0.3.2/INSTALLATION.md).
 

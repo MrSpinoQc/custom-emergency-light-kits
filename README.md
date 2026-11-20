@@ -4,8 +4,12 @@
 
 ## Téléchargements
 
+**CELK 0.3.3.2 · correctif d’écran noir** est le téléchargement recommandé pour la série Interface. Le cycle F6 puis Échap a réussi en GTA solo sur la Kuruma.
+
+[Cœur 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.2/CELK-script-0.3.3.2.zip) · [Préparateur 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.2/CELK-preparateur-depot-0.3.3.2.zip) · [Préversion et adaptateurs facultatifs](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) · [Mise à jour](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/SHA256SUMS.txt)
+
 > [!WARNING]
-> **CELK 0.3.3.1 peut afficher un écran noir dans FiveM.** La 0.3.3.2 est en cours de vérification. [Préversion 0.3.3.1 et ses téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1)
+> **CELK 0.3.3.1 peut afficher un écran noir dans FiveM.** Utilise la [0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) pour le cœur et le préparateur. L’[ancienne préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) conserve le téléchargement du Sadler V01.
 
 ### CELK 0.3.2 · Phantom, Airport Bus et Kuruma
 

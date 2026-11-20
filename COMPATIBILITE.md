@@ -1,6 +1,22 @@
 # Dépendances et intégrations
 
+## CELK 0.3.3.2 · Correctif d’écran noir
+
+| Composant | Prérequis et portée |
+| --- | --- |
+| **Mode autonome** | FXServer 38435 ou supérieur, GTA build 3889, OneSync et Node 22 fourni par FXServer. Préparation externe vérifiée par FiveM sous Windows avec Node 24.22.3. |
+| **Ensembles de jeu** | Le lecteur conserve l’identifiant `0.3.3-sadler.1`. Le Sadler V01 est disponible dans la [préversion 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1). |
+| **Qbox facultatif** | `celk_qbox_adapter` 0.3.3, Qbox Core 1.24.1, Vehicles 1.4.2 et Garages 1.1.4. Contrat de la paire vérifié. |
+| **LVC facultatif** | LVC 3.2.9 Rev2 et RageUI de l’éditeur. Contrat de la paire vérifié. |
+| **ox_lib facultatif** | `celk_menu_ox` 0.3.3.2, API 1 et ox_lib 3.42.2. Raccord vérifié en simulation. |
+| **F10 facultatif** | Administration `celk_admin` intégrée au préparateur. Accorder le droit `celk.admin.packs` aux administrateurs concernés. |
+
+F6 puis Échap vérifié en GTA solo sur la Kuruma. J sur Sadler et F10 administration restent à vérifier en GTA. [Téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) · [Guide](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/INSTALLATION.md)
+
 ## CELK 0.3.3.1 (Interface)
+
+> [!WARNING]
+> Cette version peut afficher un écran noir. [Télécharger le correctif 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2).
 
 | Composant | Prérequis et portée |
 | --- | --- |
@@ -11,7 +27,7 @@
 | **Interface ox_lib facultative** | `celk_menu_ox` 0.3.3.1 avec ox_lib 3.42.2. Le panneau J/F6 intégré assure le repli. |
 | **F10 facultatif** | Le préparateur fournit `celk_admin`. Accorder l’ACE serveur `celk.admin.packs` et choisir quel menu détient F10. |
 
-Les essais GTA du build Interface et à deux clients restent à faire. [Préversion et téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Installation et ordre de démarrage](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md)
+L’essai GTA de cette version a révélé un écran noir. Les essais à deux clients restent ouverts. [Préversion et téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Installation et ordre de démarrage](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md)
 
 ## CELK 0.3.2
 

@@ -1,6 +1,7 @@
 # Installer Custom Emergency Light Kits
 
-Pour **CELK 0.3.3.1 (Interface)** et le Sadler, suivre le [guide 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) et prendre les ZIP dans sa [préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1).
+> [!WARNING]
+> **CELK 0.3.3.1 peut afficher un écran noir dans FiveM.** Le correctif 0.3.3.2 est en cours de vérification. Pour retrouver la procédure d’une installation existante, consulter le [guide 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) et l’[avertissement de la préversion](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1).
 
 Pour **CELK 0.3.2** et ses ensembles Phantom, Airport Bus et Kuruma, suivre le [guide 0.3.2](versions/0.3.2/INSTALLATION.md).
 

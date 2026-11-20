@@ -1,0 +1,5525 @@
+{
+  "revisionStudio": "DEV-01-GAUNTLET4-POLICE-NOIR-MAT-v06",
+  "revisionRaccord": 1,
+  "vehicle": "gauntlet4",
+  "packAtelier": {
+    "id": "hellfire-police-v06-lab",
+    "version": "0.6.0"
+  },
+  "references": {
+    "archive": {
+      "path": "../../../packaging/DEV-01-GAUNTLET4-POLICE-V06-ATELIER-FIVEM.zip",
+      "sha256": "b0d91601f6d459f54a55095b9ceb3a3fbc3998cdde65cbffa57cf76cf390d2c6"
+    },
+    "pack": {
+      "path": "Remise/01-Atelier/Pack-Hellfire-V06/pack.json",
+      "sha256": "31cdff69c9e0999ba76d805cc9c6a1088605659a97081a18feaad56eefdc8d08"
+    },
+    "montage": {
+      "path": "Remise/01-Atelier/Montage-Hellfire-V06.json",
+      "sha256": "1efa598f2fd442de90060d7b6380616cd1e795f155d5373c880b09e646096a3c"
+    },
+    "reperes": {
+      "path": "candidat-fivem/reperes-studio.json",
+      "sha256": "5a125218b3977eaef77d0523dc31ffb766b8050838cc2ec61138e52ee91f9cd0"
+    },
+    "banc": {
+      "path": "Remise/02-FiveM/resources/tryagain_hellfire_v06/kit.json",
+      "sha256": "7af5811ccdbec5cdc3a274085869eb6ae0b233325cb943231f4b4b0cbb7dcb11"
+    }
+  },
+  "repere": {
+    "longueur": "m",
+    "rotation": "deg",
+    "ordre": "ZXY",
+    "droite": "+X",
+    "avant": "+Y",
+    "haut": "+Z",
+    "ouvertureNative": "totale"
+  },
+  "buteesBancTemoinDeg": {
+    "lacet": [
+      -30,
+      30
+    ],
+    "tangage": [
+      -15,
+      15
+    ]
+  },
+  "parts": [
+    {
+      "pieceKeyTemoin": "hellfire-01",
+      "ref": "01",
+      "zone": "rampe",
+      "poseChassisM": [
+        0,
+        -0.455,
+        1.050069
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        0
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Quatre semelles adaptées à la courbure",
+        "contactZRangeM": [
+          -0.0267024,
+          -0.0179757
+        ]
+      },
+      "model": "ta01_gh4v6_01",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "av01",
+          "centerM": [
+            -0.433,
+            0.1026795,
+            0.044
+          ],
+          "emissionM": [
+            -0.433,
+            0.1040795,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.433,
+            -0.3509205,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "av02",
+          "centerM": [
+            -0.33,
+            0.10385,
+            0.044
+          ],
+          "emissionM": [
+            -0.33,
+            0.10525,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.33,
+            -0.34975,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "av03",
+          "centerM": [
+            -0.227,
+            0.1050205,
+            0.044
+          ],
+          "emissionM": [
+            -0.227,
+            0.1064205,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.227,
+            -0.3485795,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av03",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:4",
+          "materialAtelier": "gh6_cellule_4",
+          "opticId": "av04",
+          "centerM": [
+            -0.124,
+            0.1061909,
+            0.044
+          ],
+          "emissionM": [
+            -0.124,
+            0.1075909,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.124,
+            -0.3474091,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av04",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:5",
+          "materialAtelier": "gh6_cellule_5",
+          "opticId": "av05",
+          "centerM": [
+            0.124,
+            0.1061909,
+            0.044
+          ],
+          "emissionM": [
+            0.124,
+            0.1075909,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.124,
+            -0.3474091,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av05",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:6",
+          "materialAtelier": "gh6_cellule_6",
+          "opticId": "av06",
+          "centerM": [
+            0.227,
+            0.1050205,
+            0.044
+          ],
+          "emissionM": [
+            0.227,
+            0.1064205,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.227,
+            -0.3485795,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av06",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:7",
+          "materialAtelier": "gh6_cellule_7",
+          "opticId": "av07",
+          "centerM": [
+            0.33,
+            0.10385,
+            0.044
+          ],
+          "emissionM": [
+            0.33,
+            0.10525,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.33,
+            -0.34975,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av07",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:8",
+          "materialAtelier": "gh6_cellule_8",
+          "opticId": "av08",
+          "centerM": [
+            0.433,
+            0.1026795,
+            0.044
+          ],
+          "emissionM": [
+            0.433,
+            0.1040795,
+            0.044
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.433,
+            -0.3509205,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_av08",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:9",
+          "materialAtelier": "gh6_cellule_9",
+          "opticId": "ar01",
+          "centerM": [
+            -0.433,
+            -0.1026795,
+            0.044
+          ],
+          "emissionM": [
+            -0.433,
+            -0.1040795,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.433,
+            -0.5590795,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:10",
+          "materialAtelier": "gh6_cellule_10",
+          "opticId": "ar02",
+          "centerM": [
+            -0.33,
+            -0.10385,
+            0.044
+          ],
+          "emissionM": [
+            -0.33,
+            -0.10525,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.33,
+            -0.56025,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:11",
+          "materialAtelier": "gh6_cellule_11",
+          "opticId": "ar03",
+          "centerM": [
+            -0.227,
+            -0.1050205,
+            0.044
+          ],
+          "emissionM": [
+            -0.227,
+            -0.1064205,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.227,
+            -0.5614205,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar03",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:12",
+          "materialAtelier": "gh6_cellule_12",
+          "opticId": "ar04",
+          "centerM": [
+            -0.124,
+            -0.1061909,
+            0.044
+          ],
+          "emissionM": [
+            -0.124,
+            -0.1075909,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.124,
+            -0.5625909,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar04",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:13",
+          "materialAtelier": "gh6_cellule_13",
+          "opticId": "ar05",
+          "centerM": [
+            0.124,
+            -0.1061909,
+            0.044
+          ],
+          "emissionM": [
+            0.124,
+            -0.1075909,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.124,
+            -0.5625909,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar05",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:14",
+          "materialAtelier": "gh6_cellule_14",
+          "opticId": "ar06",
+          "centerM": [
+            0.227,
+            -0.1050205,
+            0.044
+          ],
+          "emissionM": [
+            0.227,
+            -0.1064205,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.227,
+            -0.5614205,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar06",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:15",
+          "materialAtelier": "gh6_cellule_15",
+          "opticId": "ar07",
+          "centerM": [
+            0.33,
+            -0.10385,
+            0.044
+          ],
+          "emissionM": [
+            0.33,
+            -0.10525,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.33,
+            -0.56025,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar07",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:16",
+          "materialAtelier": "gh6_cellule_16",
+          "opticId": "ar08",
+          "centerM": [
+            0.433,
+            -0.1026795,
+            0.044
+          ],
+          "emissionM": [
+            0.433,
+            -0.1040795,
+            0.044
+          ],
+          "axis": [
+            0,
+            -1,
+            0
+          ],
+          "lensSizeM": [
+            0.088,
+            0.026
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.433,
+            -0.5590795,
+            1.094069
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ar08",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:17",
+          "materialAtelier": "gh6_cellule_17",
+          "opticId": "ext-g",
+          "centerM": [
+            -0.5726,
+            -0.005,
+            0.044
+          ],
+          "emissionM": [
+            -0.574,
+            -0.005,
+            0.044
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ],
+          "lensSizeM": [
+            0.074,
+            0.023
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.574,
+            -0.46,
+            1.094069
+          ],
+          "chassisAxis": [
+            -1,
+            0,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ext_g",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:18",
+          "materialAtelier": "gh6_cellule_18",
+          "opticId": "ext-d",
+          "centerM": [
+            0.5726,
+            -0.005,
+            0.044
+          ],
+          "emissionM": [
+            0.574,
+            -0.005,
+            0.044
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "lensSizeM": [
+            0.074,
+            0.023
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.574,
+            -0.46,
+            1.094069
+          ],
+          "chassisAxis": [
+            1,
+            0,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_01_ext_d",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-02",
+      "ref": "02",
+      "zone": "vitrage",
+      "poseChassisM": [
+        0,
+        0.385,
+        0.89
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        0
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Patins au vitrage et fixation à valider"
+      },
+      "model": "ta01_gh4v6_02",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.223,
+            0.0226,
+            0.0025
+          ],
+          "emissionM": [
+            -0.223,
+            0.024,
+            0.0025
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.062,
+            0.02
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.223,
+            0.409,
+            0.8925
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_02_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            -0.149,
+            0.0226,
+            0.004
+          ],
+          "emissionM": [
+            -0.149,
+            0.024,
+            0.004
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.062,
+            0.02
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.149,
+            0.409,
+            0.894
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_02_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            -0.075,
+            0.0226,
+            0.0025
+          ],
+          "emissionM": [
+            -0.075,
+            0.024,
+            0.0025
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.062,
+            0.02
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.075,
+            0.409,
+            0.8925
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_02_c03",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:4",
+          "materialAtelier": "gh6_cellule_4",
+          "opticId": "c04",
+          "centerM": [
+            0.075,
+            0.0226,
+            0.0025
+          ],
+          "emissionM": [
+            0.075,
+            0.024,
+            0.0025
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.062,
+            0.02
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.075,
+            0.409,
+            0.8925
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_02_c04",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:5",
+          "materialAtelier": "gh6_cellule_5",
+          "opticId": "c05",
+          "centerM": [
+            0.149,
+            0.0226,
+            0.004
+          ],
+          "emissionM": [
+            0.149,
+            0.024,
+            0.004
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.062,
+            0.02
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.149,
+            0.409,
+            0.894
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_02_c05",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:6",
+          "materialAtelier": "gh6_cellule_6",
+          "opticId": "c06",
+          "centerM": [
+            0.223,
+            0.0226,
+            0.0025
+          ],
+          "emissionM": [
+            0.223,
+            0.024,
+            0.0025
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.062,
+            0.02
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.223,
+            0.409,
+            0.8925
+          ],
+          "chassisAxis": [
+            0,
+            1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_02_c06",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-03",
+      "ref": "03",
+      "zone": "vitrage",
+      "poseChassisM": [
+        0,
+        -1.36,
+        0.89
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        180
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Patins au vitrage et fixation à valider"
+      },
+      "model": "ta01_gh4v6_03",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.2,
+            0.0178639,
+            -0.0026667
+          ],
+          "emissionM": [
+            -0.2,
+            0.0192639,
+            -0.0026667
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.065,
+            0.021
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.2,
+            -1.3792639,
+            0.8873333
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_03_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            -0.12,
+            0.018975,
+            0
+          ],
+          "emissionM": [
+            -0.12,
+            0.020375,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.065,
+            0.021
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.12,
+            -1.380375,
+            0.89
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_03_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            -0.04,
+            0.0195306,
+            0.0013333
+          ],
+          "emissionM": [
+            -0.04,
+            0.0209306,
+            0.0013333
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.065,
+            0.021
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.04,
+            -1.3809306,
+            0.8913333
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_03_c03",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:4",
+          "materialAtelier": "gh6_cellule_4",
+          "opticId": "c04",
+          "centerM": [
+            0.04,
+            0.0195306,
+            0.0013333
+          ],
+          "emissionM": [
+            0.04,
+            0.0209306,
+            0.0013333
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.065,
+            0.021
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.04,
+            -1.3809306,
+            0.8913333
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_03_c04",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:5",
+          "materialAtelier": "gh6_cellule_5",
+          "opticId": "c05",
+          "centerM": [
+            0.12,
+            0.018975,
+            0
+          ],
+          "emissionM": [
+            0.12,
+            0.020375,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.065,
+            0.021
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.12,
+            -1.380375,
+            0.89
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_03_c05",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:6",
+          "materialAtelier": "gh6_cellule_6",
+          "opticId": "c06",
+          "centerM": [
+            0.2,
+            0.0178639,
+            -0.0026667
+          ],
+          "emissionM": [
+            0.2,
+            0.0192639,
+            -0.0026667
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.065,
+            0.021
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.2,
+            -1.3792639,
+            0.8873333
+          ],
+          "chassisAxis": [
+            0,
+            -1,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_03_c06",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-04g",
+      "ref": "04G",
+      "zone": "pare-chocs",
+      "poseChassisM": [
+        -0.4577178,
+        2.3805905,
+        0.156
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        9
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0022045,
+          0.0013901
+        ]
+      },
+      "model": "ta01_gh4v6_04g",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.045,
+            0.0252597,
+            0
+          ],
+          "emissionM": [
+            -0.045,
+            0.0266597,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.029,
+            0.029
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.5063343,
+            2.3998824,
+            0.156
+          ],
+          "chassisAxis": [
+            -0.1564345,
+            0.9876883,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_04g_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0252597,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0266597,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.029,
+            0.029
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.4618883,
+            2.406922,
+            0.156
+          ],
+          "chassisAxis": [
+            -0.1564345,
+            0.9876883,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_04g_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.045,
+            0.0252597,
+            0
+          ],
+          "emissionM": [
+            0.045,
+            0.0266597,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.029,
+            0.029
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.4174423,
+            2.4139615,
+            0.156
+          ],
+          "chassisAxis": [
+            -0.1564345,
+            0.9876883,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_04g_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-05g",
+      "ref": "05G",
+      "zone": "pare-chocs",
+      "poseChassisM": [
+        -0.4595506,
+        -2.5494257,
+        0.187
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        177
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0032896,
+          0.0028611
+        ]
+      },
+      "model": "ta01_gh4v6_05g",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.042,
+            0.0261103,
+            -0.0017
+          ],
+          "emissionM": [
+            -0.042,
+            0.0275103,
+            -0.0017
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.032,
+            0.022
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.4190479,
+            -2.5790964,
+            0.1853
+          ],
+          "chassisAxis": [
+            -0.052336,
+            -0.9986295,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_05g_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0261103,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0275103,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.032,
+            0.022
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.4609904,
+            -2.5768983,
+            0.187
+          ],
+          "chassisAxis": [
+            -0.052336,
+            -0.9986295,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_05g_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.042,
+            0.0261103,
+            0.0017
+          ],
+          "emissionM": [
+            0.042,
+            0.0275103,
+            0.0017
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.032,
+            0.022
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.5029328,
+            -2.5747002,
+            0.1887
+          ],
+          "chassisAxis": [
+            -0.052336,
+            -0.9986295,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_05g_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-04d",
+      "ref": "04D",
+      "zone": "pare-chocs",
+      "poseChassisM": [
+        0.4577335,
+        2.3806897,
+        0.156
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        -9
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0022221,
+          0.0012896
+        ]
+      },
+      "model": "ta01_gh4v6_04d",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.045,
+            0.0251593,
+            0
+          ],
+          "emissionM": [
+            -0.045,
+            0.0265593,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.029,
+            0.029
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.4174423,
+            2.4139616,
+            0.156
+          ],
+          "chassisAxis": [
+            0.1564345,
+            0.9876883,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_04d_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0251593,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0265593,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.029,
+            0.029
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.4618883,
+            2.406922,
+            0.156
+          ],
+          "chassisAxis": [
+            0.1564345,
+            0.9876883,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_04d_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.045,
+            0.0251593,
+            0
+          ],
+          "emissionM": [
+            0.045,
+            0.0265593,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.029,
+            0.029
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.5063343,
+            2.3998825,
+            0.156
+          ],
+          "chassisAxis": [
+            0.1564345,
+            0.9876883,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_04d_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-05d",
+      "ref": "05D",
+      "zone": "pare-chocs",
+      "poseChassisM": [
+        0.4595511,
+        -2.5494345,
+        0.187
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        183
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0033007,
+          0.0029904
+        ]
+      },
+      "model": "ta01_gh4v6_05d",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.042,
+            0.0261024,
+            -0.0017
+          ],
+          "emissionM": [
+            -0.042,
+            0.0275024,
+            -0.0017
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.032,
+            0.022
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.5029329,
+            -2.5747011,
+            0.1853
+          ],
+          "chassisAxis": [
+            0.052336,
+            -0.9986295,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_05d_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0261024,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0275024,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.032,
+            0.022
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.4609905,
+            -2.5768992,
+            0.187
+          ],
+          "chassisAxis": [
+            0.052336,
+            -0.9986295,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_05d_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.042,
+            0.0261024,
+            0.0017
+          ],
+          "emissionM": [
+            0.042,
+            0.0275024,
+            0.0017
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.032,
+            0.022
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.419048,
+            -2.5790973,
+            0.1887
+          ],
+          "chassisAxis": [
+            0.052336,
+            -0.9986295,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_05d_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-06",
+      "ref": "06",
+      "zone": "aile",
+      "poseChassisM": [
+        -0.9174613,
+        1.5420837,
+        0.4487672
+      ],
+      "rotationZXYDeg": [
+        32,
+        0,
+        73
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0138847,
+          0.0092165
+        ]
+      },
+      "model": "ta01_gh4v6_06",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.039,
+            0.0318204,
+            -0.0034
+          ],
+          "emissionM": [
+            -0.039,
+            0.0332204,
+            -0.0034
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.031,
+            0.019
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.9575283,
+            1.5135514,
+            0.463488
+          ],
+          "chassisAxis": [
+            -0.8109924,
+            0.2479453,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_06_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0318204,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0332204,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.031,
+            0.019
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.9444028,
+            1.5503205,
+            0.4663713
+          ],
+          "chassisAxis": [
+            -0.8109924,
+            0.2479453,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_06_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.039,
+            0.0318204,
+            0.0034
+          ],
+          "emissionM": [
+            0.039,
+            0.0332204,
+            0.0034
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.031,
+            0.019
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.9312773,
+            1.5870897,
+            0.4692547
+          ],
+          "chassisAxis": [
+            -0.8109924,
+            0.2479453,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_06_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-08",
+      "ref": "08",
+      "zone": "aile",
+      "poseChassisM": [
+        -0.9800586,
+        -1.5043386,
+        0.4741569
+      ],
+      "rotationZXYDeg": [
+        32,
+        0,
+        92
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0050076,
+          -0.0005561
+        ]
+      },
+      "model": "ta01_gh4v6_08",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.006,
+            0.0189145,
+            0.0125
+          ],
+          "emissionM": [
+            -0.006,
+            0.0203145,
+            0.0125
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.102,
+            0.0088
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.9904464,
+            -1.510705,
+            0.4955225
+          ],
+          "chassisAxis": [
+            -0.8475315,
+            -0.0295965,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_08_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0189145,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0203145,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.136,
+            0.0088
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -0.9972758,
+            -1.5049398,
+            0.4849219
+          ],
+          "chassisAxis": [
+            -0.8475315,
+            -0.0295965,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_08_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.009,
+            0.0189145,
+            -0.0125
+          ],
+          "emissionM": [
+            0.009,
+            0.0203145,
+            -0.0125
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.11,
+            0.0088
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -1.0042098,
+            -1.4961765,
+            0.4743213
+          ],
+          "chassisAxis": [
+            -0.8475315,
+            -0.0295965,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_08_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-10",
+      "ref": "10",
+      "zone": "rétro",
+      "poseChassisM": [
+        -1.015,
+        0.494,
+        0.587
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        73
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Semelle continue sous la coque du miroir",
+        "contactZRangeM": [
+          0.6119595,
+          0.6164349
+        ],
+        "boneCandidate": "door_dside_f"
+      },
+      "model": "ta01_gh4v6_10",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.017,
+            0.0156,
+            0.0004
+          ],
+          "emissionM": [
+            -0.017,
+            0.017,
+            0.0004
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.024,
+            0.013
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -1.0362275,
+            0.4827131,
+            0.5874
+          ],
+          "chassisAxis": [
+            -0.9563048,
+            0.2923717,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_10_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0.018,
+            0.0156,
+            -0.0003
+          ],
+          "emissionM": [
+            0.018,
+            0.017,
+            -0.0003
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.042,
+            0.021
+          ],
+          "color": "rouge",
+          "rgb": [
+            255,
+            36,
+            54
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            -1.0259945,
+            0.5161838,
+            0.5867
+          ],
+          "chassisAxis": [
+            -0.9563048,
+            0.2923717,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_10_c02",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-12",
+      "ref": "12",
+      "zone": "projecteur",
+      "poseChassisM": [
+        -0.496,
+        -0.425,
+        1.128
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        49
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "parentPieceKey": "hellfire-01",
+        "yawPivotM": [
+          0,
+          0,
+          0.013
+        ],
+        "yawAxis": [
+          0,
+          0,
+          1
+        ],
+        "pitchPivotFromYawM": [
+          0,
+          0,
+          0.041
+        ],
+        "pitchAxis": [
+          1,
+          0,
+          0
+        ],
+        "stops": "À régler dans Atelier après validation"
+      },
+      "model": "ta01_gh4v6_12",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "articulationModels": {
+        "lacet": "ta01_gh4v6_12_lacet",
+        "tete": "ta01_gh4v6_12_tete"
+      },
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "scene",
+          "centerM": [
+            0,
+            0.0416,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.043,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.05,
+            0.05
+          ],
+          "color": "blanc",
+          "rgb": [
+            245,
+            249,
+            255
+          ],
+          "control": "J",
+          "rangeM": 18,
+          "totalAngleDeg": 34,
+          "intensity": 1.65,
+          "falloff": 1.2,
+          "relativeTo": "pitch_pivot",
+          "chassisEmissionM": [
+            -0.5284525,
+            -0.3967895,
+            1.182
+          ],
+          "chassisAxis": [
+            -0.7547096,
+            0.656059,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_12_scene",
+          "frame": "tete"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-07",
+      "ref": "07",
+      "zone": "aile",
+      "poseChassisM": [
+        0.9174355,
+        1.5420758,
+        0.4487504
+      ],
+      "rotationZXYDeg": [
+        32,
+        0,
+        -73
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0138996,
+          0.0092483
+        ]
+      },
+      "model": "ta01_gh4v6_07",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.039,
+            0.0318521,
+            -0.0034
+          ],
+          "emissionM": [
+            -0.039,
+            0.0332521,
+            -0.0034
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.031,
+            0.019
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.9347232,
+            1.5881432,
+            0.463488
+          ],
+          "chassisAxis": [
+            0.8109924,
+            0.2479453,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_07_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0318521,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0332521,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.031,
+            0.019
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.9444027,
+            1.5503205,
+            0.4663713
+          ],
+          "chassisAxis": [
+            0.8109924,
+            0.2479453,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_07_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.039,
+            0.0318521,
+            0.0034
+          ],
+          "emissionM": [
+            0.039,
+            0.0332521,
+            0.0034
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.031,
+            0.019
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.9540822,
+            1.5124978,
+            0.4692547
+          ],
+          "chassisAxis": [
+            0.8109924,
+            0.2479453,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_07_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-09",
+      "ref": "09",
+      "zone": "aile",
+      "poseChassisM": [
+        0.9800586,
+        -1.5043386,
+        0.4741569
+      ],
+      "rotationZXYDeg": [
+        32,
+        0,
+        -92
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Joint de pose formé sur le panneau GTA",
+        "contactLocalYRangeM": [
+          -0.0050076,
+          -0.0005561
+        ]
+      },
+      "model": "ta01_gh4v6_09",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.006,
+            0.0189145,
+            0.0125
+          ],
+          "emissionM": [
+            -0.006,
+            0.0203145,
+            0.0125
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.102,
+            0.0088
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.9908652,
+            -1.4987123,
+            0.4955225
+          ],
+          "chassisAxis": [
+            0.8475315,
+            -0.0295965,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_09_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0,
+            0.0189145,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.0203145,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.136,
+            0.0088
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            0.9972758,
+            -1.5049398,
+            0.4849219
+          ],
+          "chassisAxis": [
+            0.8475315,
+            -0.0295965,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_09_c02",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:3",
+          "materialAtelier": "gh6_cellule_3",
+          "opticId": "c03",
+          "centerM": [
+            0.009,
+            0.0189145,
+            -0.0125
+          ],
+          "emissionM": [
+            0.009,
+            0.0203145,
+            -0.0125
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.11,
+            0.0088
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            1.0035816,
+            -1.5141655,
+            0.4743213
+          ],
+          "chassisAxis": [
+            0.8475315,
+            -0.0295965,
+            0.5299193
+          ],
+          "modelEmissif": "ta01_gh4v6_09_c03",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-11",
+      "ref": "11",
+      "zone": "rétro",
+      "poseChassisM": [
+        1.015,
+        0.494,
+        0.587
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        -73
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "appui": "Semelle continue sous la coque du miroir",
+        "contactZRangeM": [
+          0.6119069,
+          0.6164429
+        ],
+        "boneCandidate": "door_pside_f"
+      },
+      "model": "ta01_gh4v6_11",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "c01",
+          "centerM": [
+            -0.017,
+            0.0156,
+            0.0004
+          ],
+          "emissionM": [
+            -0.017,
+            0.017,
+            0.0004
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.024,
+            0.013
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            1.0262869,
+            0.5152275,
+            0.5874
+          ],
+          "chassisAxis": [
+            0.9563048,
+            0.2923717,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_11_c01",
+          "frame": "corps"
+        },
+        {
+          "opticIdAtelier": "group:2",
+          "materialAtelier": "gh6_cellule_2",
+          "opticId": "c02",
+          "centerM": [
+            0.018,
+            0.0156,
+            -0.0003
+          ],
+          "emissionM": [
+            0.018,
+            0.017,
+            -0.0003
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.042,
+            0.021
+          ],
+          "color": "bleu",
+          "rgb": [
+            52,
+            119,
+            255
+          ],
+          "control": "Q",
+          "rangeM": 3.1,
+          "totalAngleDeg": 118,
+          "intensity": 0.52,
+          "falloff": 1.55,
+          "chassisEmissionM": [
+            1.0365199,
+            0.4817568,
+            0.5867
+          ],
+          "chassisAxis": [
+            0.9563048,
+            0.2923717,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_11_c02",
+          "frame": "corps"
+        }
+      ]
+    },
+    {
+      "pieceKeyTemoin": "hellfire-13",
+      "ref": "13",
+      "zone": "projecteur",
+      "poseChassisM": [
+        0.496,
+        -0.425,
+        1.128
+      ],
+      "rotationZXYDeg": [
+        0,
+        0,
+        -49
+      ],
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "fits": {
+        "parentPieceKey": "hellfire-01",
+        "yawPivotM": [
+          0,
+          0,
+          0.013
+        ],
+        "yawAxis": [
+          0,
+          0,
+          1
+        ],
+        "pitchPivotFromYawM": [
+          0,
+          0,
+          0.041
+        ],
+        "pitchAxis": [
+          1,
+          0,
+          0
+        ],
+        "stops": "À régler dans Atelier après validation"
+      },
+      "model": "ta01_gh4v6_13",
+      "lodDistanceM": [
+        28,
+        120
+      ],
+      "articulationModels": {
+        "lacet": "ta01_gh4v6_13_lacet",
+        "tete": "ta01_gh4v6_13_tete"
+      },
+      "optics": [
+        {
+          "opticIdAtelier": "group:1",
+          "materialAtelier": "gh6_cellule_1",
+          "opticId": "scene",
+          "centerM": [
+            0,
+            0.0416,
+            0
+          ],
+          "emissionM": [
+            0,
+            0.043,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "lensSizeM": [
+            0.05,
+            0.05
+          ],
+          "color": "blanc",
+          "rgb": [
+            245,
+            249,
+            255
+          ],
+          "control": "J",
+          "rangeM": 18,
+          "totalAngleDeg": 34,
+          "intensity": 1.65,
+          "falloff": 1.2,
+          "relativeTo": "pitch_pivot",
+          "chassisEmissionM": [
+            0.5284525,
+            -0.3967895,
+            1.182
+          ],
+          "chassisAxis": [
+            0.7547096,
+            0.656059,
+            0
+          ],
+          "modelEmissif": "ta01_gh4v6_13_scene",
+          "frame": "tete"
+        }
+      ]
+    }
+  ],
+  "collection": {
+    "file": "stream/ta01_gh4v6_pieces.ytyp",
+    "sha256": "7919d978e9caa49e3c969ba478007fffed753c00864f7b30dacbdd07ccebabb9",
+    "count": 79
+  },
+  "drawables": {
+    "ta01_gh4v6_01": {
+      "file": "stream/ta01_gh4v6_01.ydr",
+      "sha256": "2438b5d48f1354da991f29ca1ed8c1f90b8b78349f9775c1cdcd6bafd35a6b5d",
+      "bytes": 128125,
+      "triangles": [
+        5094,
+        1728
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.5726000070571899,
+          -0.10619091242551804,
+          -0.026702431961894035
+        ],
+        [
+          0.5726000070571899,
+          0.10619091242551804,
+          0.08199999898672104
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av01": {
+      "file": "stream/ta01_gh4v6_01_av01.ydr",
+      "sha256": "b50f2580b72258735101adef275c6e68acbcbecc949decf570ed5a6fb7705271",
+      "bytes": 3401,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.472459902793169,
+          0.10332954545156522,
+          0.03224092838913202
+        ],
+        [
+          -0.3937951194047928,
+          0.10332954545156522,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av02": {
+      "file": "stream/ta01_gh4v6_01_av02.ydr",
+      "sha256": "43687d0dca1c36d1f54e0cb9ea6a25ac9936db87f54aee43f39405a17f9b11a0",
+      "bytes": 3404,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.36945990279316904,
+          0.10449999999701977,
+          0.03224092838913202
+        ],
+        [
+          -0.2907951194047928,
+          0.10449999999701977,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av03": {
+      "file": "stream/ta01_gh4v6_01_av03.ydr",
+      "sha256": "25c83171d4697368f5a7344755cea921b46759502610a206e0186b9f9e4b59a9",
+      "bytes": 3403,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.266459902793169,
+          0.10567045454247431,
+          0.03224092838913202
+        ],
+        [
+          -0.1877951194047928,
+          0.10567045454247431,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av04": {
+      "file": "stream/ta01_gh4v6_01_av04.ydr",
+      "sha256": "8ab280b691b3a995b7b6aaf945d47fa392e76435ca410d3c8d34387b683b6bfa",
+      "bytes": 3411,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.16345990279316902,
+          0.10684090908792886,
+          0.03224092838913202
+        ],
+        [
+          -0.08479511940479278,
+          0.10684090908792886,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av05": {
+      "file": "stream/ta01_gh4v6_01_av05.ydr",
+      "sha256": "f52c6a982d3b45c54125512a0caa87e78a08a2717c8292bc0421d8d0c5f7312f",
+      "bytes": 3501,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.08454009720683098,
+          0.10684090908792886,
+          0.03224092838913202
+        ],
+        [
+          0.1632048805952072,
+          0.10684090908792886,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av06": {
+      "file": "stream/ta01_gh4v6_01_av06.ydr",
+      "sha256": "f0047bfa7a79a30f006dccc0c2af5d1ea0ff24adae2763918dbbfb274ba5cfb2",
+      "bytes": 3492,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.18754009720683099,
+          0.10567045454247431,
+          0.03224092838913202
+        ],
+        [
+          0.2662048805952072,
+          0.10567045454247431,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av07": {
+      "file": "stream/ta01_gh4v6_01_av07.ydr",
+      "sha256": "3e07ea4c032b09febb02552d4392c1b7f396b2e3280441cd8484f74d81d4985f",
+      "bytes": 3499,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.290540097206831,
+          0.10449999999701977,
+          0.03224092838913202
+        ],
+        [
+          0.36920488059520723,
+          0.10449999999701977,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_av08": {
+      "file": "stream/ta01_gh4v6_01_av08.ydr",
+      "sha256": "2afa22fff6f4a13e25e74cdc5e2db7401f1fed2652b765641a95cb8fa2abfb35",
+      "bytes": 3497,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.393540097206831,
+          0.10332954545156522,
+          0.03224092838913202
+        ],
+        [
+          0.4722048805952072,
+          0.10332954545156522,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar01": {
+      "file": "stream/ta01_gh4v6_01_ar01.ydr",
+      "sha256": "a16ddaf8594c438c8dd396a15ad4419938ba167ddd21bee493b19e629247990c",
+      "bytes": 3411,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.4722048805952072,
+          -0.10332954545156522,
+          0.03224092838913202
+        ],
+        [
+          -0.393540097206831,
+          -0.10332954545156522,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar02": {
+      "file": "stream/ta01_gh4v6_01_ar02.ydr",
+      "sha256": "3b397a51136a0c9287226e00cb9df549c96218758bd0efadd717ead39da2832a",
+      "bytes": 3413,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.36920488059520723,
+          -0.10449999999701977,
+          0.03224092838913202
+        ],
+        [
+          -0.290540097206831,
+          -0.10449999999701977,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar03": {
+      "file": "stream/ta01_gh4v6_01_ar03.ydr",
+      "sha256": "60dacd19a29741d6b2f56e3c71ca4253272bfeaa899e5aef926b89e2dbf6f451",
+      "bytes": 3408,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.2662048805952072,
+          -0.10567045454247431,
+          0.03224092838913202
+        ],
+        [
+          -0.18754009720683099,
+          -0.10567045454247431,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar04": {
+      "file": "stream/ta01_gh4v6_01_ar04.ydr",
+      "sha256": "c51f13b864a1a34eab2fe09dc22fb774b4f1263a228d3e5581c2b1e5242f43a0",
+      "bytes": 3415,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.1632048805952072,
+          -0.10684090908792886,
+          0.03224092838913202
+        ],
+        [
+          -0.08454009720683098,
+          -0.10684090908792886,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar05": {
+      "file": "stream/ta01_gh4v6_01_ar05.ydr",
+      "sha256": "7c5884532639d2c6471052d0fe3fa58f0c1752eefef47218444cc42e90a80972",
+      "bytes": 3510,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.08479511940479278,
+          -0.10684090908792886,
+          0.03224092838913202
+        ],
+        [
+          0.16345990279316902,
+          -0.10684090908792886,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar06": {
+      "file": "stream/ta01_gh4v6_01_ar06.ydr",
+      "sha256": "e3bc5dcf52a44c1bde49b7bedb6bcd40b32ef5234409a9ac6f9ae53723a16e6e",
+      "bytes": 3501,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.1877951194047928,
+          -0.10567045454247431,
+          0.03224092838913202
+        ],
+        [
+          0.266459902793169,
+          -0.10567045454247431,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar07": {
+      "file": "stream/ta01_gh4v6_01_ar07.ydr",
+      "sha256": "ea55a9396f6fbd22b060cb43b8452ba213950f1679d59ec875fdc3805b132f0d",
+      "bytes": 3503,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.2907951194047928,
+          -0.10449999999701977,
+          0.03224092838913202
+        ],
+        [
+          0.36945990279316904,
+          -0.10449999999701977,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ar08": {
+      "file": "stream/ta01_gh4v6_01_ar08.ydr",
+      "sha256": "495b3e5efee50ab5c3f6114e3613f62e21977a5855ea0b3c4217f1cb5d021234",
+      "bytes": 3501,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.3937951194047928,
+          -0.10332954545156522,
+          0.03224092838913202
+        ],
+        [
+          0.472459902793169,
+          -0.10332954545156522,
+          0.05559581821411848
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ext_g": {
+      "file": "stream/ta01_gh4v6_01_ext_g.ydr",
+      "sha256": "d6aa812b8ff322c4a0f3951aeccd4d64c80fa62217a8467865202de72c8bf079",
+      "bytes": 3773,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.5732499999970198,
+          -0.03904000028967858,
+          0.033420000463724134
+        ],
+        [
+          -0.5732499999970198,
+          0.02904000028967858,
+          0.05457999953627586
+        ]
+      ]
+    },
+    "ta01_gh4v6_01_ext_d": {
+      "file": "stream/ta01_gh4v6_01_ext_d.ydr",
+      "sha256": "555924da2369f3950ba5d53ce4a9b23bb1012d0fce17f08bacccc5cab16eca47",
+      "bytes": 3834,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.5732499999970198,
+          -0.03904000028967858,
+          0.033420000463724134
+        ],
+        [
+          0.5732499999970198,
+          0.02904000028967858,
+          0.05457999953627586
+        ]
+      ]
+    },
+    "ta01_gh4v6_02": {
+      "file": "stream/ta01_gh4v6_02.ydr",
+      "sha256": "861138b017ddaf96ba7a336b3316082a5e1449d5f9e31123f75652663f1c8384",
+      "bytes": 57385,
+      "triangles": [
+        2166,
+        896
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.2937609851360321,
+          -0.012500000186264515,
+          -0.019999999552965164
+        ],
+        [
+          0.2937609851360321,
+          0.023000000044703484,
+          0.024000000208616257
+        ]
+      ]
+    },
+    "ta01_gh4v6_02_c01": {
+      "file": "stream/ta01_gh4v6_02_c01.ydr",
+      "sha256": "a591975d0bd2752135f8c802057becdb207f334c9179a81b560ec89d0bbbdd0d",
+      "bytes": 3418,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.2508012957423925,
+          0.023249999997019766,
+          -0.006545439772307872
+        ],
+        [
+          -0.1953783805966377,
+          0.023249999997019766,
+          0.011419860236346722
+        ]
+      ]
+    },
+    "ta01_gh4v6_02_c02": {
+      "file": "stream/ta01_gh4v6_02_c02.ydr",
+      "sha256": "f348f2ad0dcd4dd0b51bd009228b479d761a35a03e1dbe2224919ccbf5e32912",
+      "bytes": 3418,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.17680129574239253,
+          0.023249999997019766,
+          -0.005045439772307873
+        ],
+        [
+          -0.12137838059663772,
+          0.023249999997019766,
+          0.012919860236346722
+        ]
+      ]
+    },
+    "ta01_gh4v6_02_c03": {
+      "file": "stream/ta01_gh4v6_02_c03.ydr",
+      "sha256": "32ce42ebb86e3da2c44d97e6b73fbd78dfbc6e378469a4bc22155b8d4b37f37c",
+      "bytes": 3420,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.10280129574239254,
+          0.023249999997019766,
+          -0.006545439772307872
+        ],
+        [
+          -0.04737838059663772,
+          0.023249999997019766,
+          0.011419860236346722
+        ]
+      ]
+    },
+    "ta01_gh4v6_02_c04": {
+      "file": "stream/ta01_gh4v6_02_c04.ydr",
+      "sha256": "1e30b7e27ce2453d62722ba38427132015d21be279b45892e77978708069bd46",
+      "bytes": 3513,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.04719870425760746,
+          0.023249999997019766,
+          -0.006545439772307872
+        ],
+        [
+          0.10262161940336227,
+          0.023249999997019766,
+          0.011419860236346722
+        ]
+      ]
+    },
+    "ta01_gh4v6_02_c05": {
+      "file": "stream/ta01_gh4v6_02_c05.ydr",
+      "sha256": "a14e12efd091c7a9cb74b3e8a9acbb3fc327a31cd92fc97d6e229b1c5df6869b",
+      "bytes": 3509,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.12119870425760745,
+          0.023249999997019766,
+          -0.005045439772307873
+        ],
+        [
+          0.17662161940336227,
+          0.023249999997019766,
+          0.012919860236346722
+        ]
+      ]
+    },
+    "ta01_gh4v6_02_c06": {
+      "file": "stream/ta01_gh4v6_02_c06.ydr",
+      "sha256": "c0f408d6ea5b7f954a64adb3d3d459efb144ee39ec9743146a0f10515583d09c",
+      "bytes": 3508,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.19519870425760744,
+          0.023249999997019766,
+          -0.006545439772307872
+        ],
+        [
+          0.25062161940336225,
+          0.023249999997019766,
+          0.011419860236346722
+        ]
+      ]
+    },
+    "ta01_gh4v6_03": {
+      "file": "stream/ta01_gh4v6_03.ydr",
+      "sha256": "f701e2531a1a39b359f469556b4be262fba3901e7839f7028a6b802e96fef351",
+      "bytes": 35607,
+      "triangles": [
+        1396,
+        564
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.26845499873161316,
+          -0.012500000186264515,
+          -0.0181891992688179
+        ],
+        [
+          0.267300009727478,
+          0.019530555233359337,
+          0.019999999552965164
+        ]
+      ]
+    },
+    "ta01_gh4v6_03_c01": {
+      "file": "stream/ta01_gh4v6_03_c01.ydr",
+      "sha256": "576d61347cb02b1a53bd9a522da6a535a2d092363ef7474ab19fb67cf7c1b2f7",
+      "bytes": 3839,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.229899999499321,
+          0.018513888885908655,
+          -0.012326666648189228
+        ],
+        [
+          -0.17010000050067903,
+          0.018513888885908655,
+          0.006993333314855892
+        ]
+      ]
+    },
+    "ta01_gh4v6_03_c02": {
+      "file": "stream/ta01_gh4v6_03_c02.ydr",
+      "sha256": "56ea44cbfd2ea645c9458534ef77bef652a66fdac4077d2f3650b6d62a5a9c12",
+      "bytes": 3816,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.14989999949932098,
+          0.019624999997019766,
+          -0.00965999998152256
+        ],
+        [
+          -0.09010000050067901,
+          0.019624999997019766,
+          0.00965999998152256
+        ]
+      ]
+    },
+    "ta01_gh4v6_03_c03": {
+      "file": "stream/ta01_gh4v6_03_c03.ydr",
+      "sha256": "05bd4112290f27adca6260df82dcffc2f9d520e982a4e2110e8222d2a4341462",
+      "bytes": 3843,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.06989999949932099,
+          0.02018055555257532,
+          -0.008326666648189226
+        ],
+        [
+          -0.010100000500679017,
+          0.02018055555257532,
+          0.010993333314855894
+        ]
+      ]
+    },
+    "ta01_gh4v6_03_c04": {
+      "file": "stream/ta01_gh4v6_03_c04.ydr",
+      "sha256": "bcbcc5099fdd6f345c0721e7f3ab32ee2e0471ba806c55957230559fafe98032",
+      "bytes": 3781,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          0.010100000500679017,
+          0.02018055555257532,
+          -0.008326666648189226
+        ],
+        [
+          0.06989999949932099,
+          0.02018055555257532,
+          0.010993333314855894
+        ]
+      ]
+    },
+    "ta01_gh4v6_03_c05": {
+      "file": "stream/ta01_gh4v6_03_c05.ydr",
+      "sha256": "8dfca1cf2bc4ca64513811eed414c8e6f3034e7d472ada8eb7e94ccb0b799752",
+      "bytes": 3746,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          0.09010000050067901,
+          0.019624999997019766,
+          -0.00965999998152256
+        ],
+        [
+          0.14989999949932098,
+          0.019624999997019766,
+          0.00965999998152256
+        ]
+      ]
+    },
+    "ta01_gh4v6_03_c06": {
+      "file": "stream/ta01_gh4v6_03_c06.ydr",
+      "sha256": "b2f5d67d7673405e2db06a914f8f201d198c348088993b36bdc1f7a2255880d1",
+      "bytes": 3775,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_ovale_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          0.17010000050067903,
+          0.018513888885908655,
+          -0.012326666648189228
+        ],
+        [
+          0.229899999499321,
+          0.018513888885908655,
+          0.006993333314855892
+        ]
+      ]
+    },
+    "ta01_gh4v6_04g": {
+      "file": "stream/ta01_gh4v6_04g.ydr",
+      "sha256": "38817d2ceefec237bf2cffb9c9c870b44f1aeb09bd381c23e034c87bf20ede9f",
+      "bytes": 24569,
+      "triangles": [
+        954,
+        298
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.08676499873399734,
+          -0.00185453612357378,
+          -0.021069999784231186
+        ],
+        [
+          0.08676499873399734,
+          0.02535969988079071,
+          0.0215000007301569
+        ]
+      ]
+    },
+    "ta01_gh4v6_04g_c01": {
+      "file": "stream/ta01_gh4v6_04g_c01.ydr",
+      "sha256": "99d13d76ea9db195f616f82a19214183dd223878ff3293a447306472a562df29",
+      "bytes": 4147,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_rond_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.05834000006318092,
+          0.025909699997019767,
+          -0.013340000063180923
+        ],
+        [
+          -0.031659999936819075,
+          0.025909699997019767,
+          0.013340000063180923
+        ]
+      ]
+    },
+    "ta01_gh4v6_04g_c02": {
+      "file": "stream/ta01_gh4v6_04g_c02.ydr",
+      "sha256": "2423a6a40e500b692adb3808f024cf465a8db4498abf1eeb76169da244098abf",
+      "bytes": 4115,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_rond_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.013340000063180923,
+          0.025909699997019767,
+          -0.013340000063180923
+        ],
+        [
+          0.013340000063180923,
+          0.025909699997019767,
+          0.013340000063180923
+        ]
+      ]
+    },
+    "ta01_gh4v6_04g_c03": {
+      "file": "stream/ta01_gh4v6_04g_c03.ydr",
+      "sha256": "12a22f72c7f5bdec90243cea47c07e319619f1b9b2a903002adeda49ec38e631",
+      "bytes": 4147,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_rond_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          0.031659999936819075,
+          0.025909699997019767,
+          -0.013340000063180923
+        ],
+        [
+          0.05834000006318092,
+          0.025909699997019767,
+          0.013340000063180923
+        ]
+      ]
+    },
+    "ta01_gh4v6_05g": {
+      "file": "stream/ta01_gh4v6_05g.ydr",
+      "sha256": "f7fbe6e9b3778cfb80017752f1842cc5c9351e1564cfd209dfff0ccd03eeea23",
+      "bytes": 26441,
+      "triangles": [
+        912,
+        298
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.08713249862194061,
+          -0.0029396116733551025,
+          -0.017963865771889687
+        ],
+        [
+          0.08635666966438293,
+          0.026110300396370887,
+          0.018441399559378624
+        ]
+      ]
+    },
+    "ta01_gh4v6_05g_c01": {
+      "file": "stream/ta01_gh4v6_05g_c01.ydr",
+      "sha256": "fdd8ec547c6f1b4ad7ddf5433d782de5e748f46483a34d92c50978fbb65cf5c6",
+      "bytes": 3707,
+      "triangles": [
+        18,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_chevron_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.05529731196165085,
+          0.026760299997019767,
+          -0.011617600080370903
+        ],
+        [
+          -0.029460032105445864,
+          0.026760299997019767,
+          0.008217600080370903
+        ]
+      ]
+    },
+    "ta01_gh4v6_05g_c02": {
+      "file": "stream/ta01_gh4v6_05g_c02.ydr",
+      "sha256": "2b9cce5da47fbf84826cbcd8abc92276dd98399c92a5679d239c8a7989a4ce58",
+      "bytes": 3701,
+      "triangles": [
+        18,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_chevron_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.013297311961650848,
+          0.026760299997019767,
+          -0.009917600080370903
+        ],
+        [
+          0.012539967894554138,
+          0.026760299997019767,
+          0.009917600080370903
+        ]
+      ]
+    },
+    "ta01_gh4v6_05g_c03": {
+      "file": "stream/ta01_gh4v6_05g_c03.ydr",
+      "sha256": "21b32e0d0778e60592488c055345830bbb8eaeba8028aab6aafaf66a94082da9",
+      "bytes": 3712,
+      "triangles": [
+        18,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_chevron_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          0.028702688038349154,
+          0.026760299997019767,
+          -0.008217600080370903
+        ],
+        [
+          0.05453996789455414,
+          0.026760299997019767,
+          0.011617600080370903
+        ]
+      ]
+    },
+    "ta01_gh4v6_04d": {
+      "file": "stream/ta01_gh4v6_04d.ydr",
+      "sha256": "06e6851a07f0882978833dd02e596da123de8c7a79cf1f7815404ce3131cd83a",
+      "bytes": 24567,
+      "triangles": [
+        954,
+        298
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.08676499873399734,
+          -0.0018721040105447173,
+          -0.021069999784231186
+        ],
+        [
+          0.08676499873399734,
+          0.02525929988079071,
+          0.0215000007301569
+        ]
+      ]
+    },
+    "ta01_gh4v6_04d_c01": {
+      "file": "stream/ta01_gh4v6_04d_c01.ydr",
+      "sha256": "261749c81c57f4caab8ac38785fff4768f8a0a02f2692a489f1d2d4fad33ee17",
+      "bytes": 4176,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_rond_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.05834000006318092,
+          0.025809299997019766,
+          -0.013340000063180923
+        ],
+        [
+          -0.031659999936819075,
+          0.025809299997019766,
+          0.013340000063180923
+        ]
+      ]
+    },
+    "ta01_gh4v6_04d_c02": {
+      "file": "stream/ta01_gh4v6_04d_c02.ydr",
+      "sha256": "57e909397fc37ad75191eef4733e71a125dbad45355d0f2b82fdd2e40c653688",
+      "bytes": 4139,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_rond_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.013340000063180923,
+          0.025809299997019766,
+          -0.013340000063180923
+        ],
+        [
+          0.013340000063180923,
+          0.025809299997019766,
+          0.013340000063180923
+        ]
+      ]
+    },
+    "ta01_gh4v6_04d_c03": {
+      "file": "stream/ta01_gh4v6_04d_c03.ydr",
+      "sha256": "99caacca184773c7be99e037541506bbe6e895ae78f2981260a2f022707c40d9",
+      "bytes": 4176,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_rond_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.031659999936819075,
+          0.025809299997019766,
+          -0.013340000063180923
+        ],
+        [
+          0.05834000006318092,
+          0.025809299997019766,
+          0.013340000063180923
+        ]
+      ]
+    },
+    "ta01_gh4v6_05d": {
+      "file": "stream/ta01_gh4v6_05d.ydr",
+      "sha256": "fe82ceef6d28978bd92038b8917de2ed47761f0fc813efc09947f5eb267a8667",
+      "bytes": 26439,
+      "triangles": [
+        912,
+        298
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.08713249862194061,
+          -0.0029507323633879423,
+          -0.017963865771889687
+        ],
+        [
+          0.08635666966438293,
+          0.02610240039637089,
+          0.018441399559378624
+        ]
+      ]
+    },
+    "ta01_gh4v6_05d_c01": {
+      "file": "stream/ta01_gh4v6_05d_c01.ydr",
+      "sha256": "3b0be2e8b9e3b70f1a11e543c33b3da0f375dfe5228c57117de8f7380e4d7bd9",
+      "bytes": 3745,
+      "triangles": [
+        18,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_chevron_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.05529731196165085,
+          0.02675239999701977,
+          -0.011617600080370903
+        ],
+        [
+          -0.029460032105445864,
+          0.02675239999701977,
+          0.008217600080370903
+        ]
+      ]
+    },
+    "ta01_gh4v6_05d_c02": {
+      "file": "stream/ta01_gh4v6_05d_c02.ydr",
+      "sha256": "94a6e37ea2bd2fc96f8ead8232eae2ca1512e235eab7e6adf00e62d5c7cbb36a",
+      "bytes": 3740,
+      "triangles": [
+        18,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_chevron_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.013297311961650848,
+          0.02675239999701977,
+          -0.009917600080370903
+        ],
+        [
+          0.012539967894554138,
+          0.02675239999701977,
+          0.009917600080370903
+        ]
+      ]
+    },
+    "ta01_gh4v6_05d_c03": {
+      "file": "stream/ta01_gh4v6_05d_c03.ydr",
+      "sha256": "581da60eac4678bbdf5c4d2f2f25571a4cb1de43bd01344645fc0e7ea02ff3c0",
+      "bytes": 3751,
+      "triangles": [
+        18,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_chevron_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.028702688038349154,
+          0.02675239999701977,
+          -0.008217600080370903
+        ],
+        [
+          0.05453996789455414,
+          0.02675239999701977,
+          0.011617600080370903
+        ]
+      ]
+    },
+    "ta01_gh4v6_06": {
+      "file": "stream/ta01_gh4v6_06.ydr",
+      "sha256": "0516600775c703f5e86eba7d81a6acb8a98e8941eadcee73f94a5aa24b3f893e",
+      "bytes": 26577,
+      "triangles": [
+        879,
+        296
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.0820000022649765,
+          -0.013534724712371826,
+          -0.018862999975681305
+        ],
+        [
+          0.07901520282030106,
+          0.03182040057220459,
+          0.018853899091482162
+        ]
+      ]
+    },
+    "ta01_gh4v6_06_c01": {
+      "file": "stream/ta01_gh4v6_06_c01.ydr",
+      "sha256": "c7a5b6f6a80de9b82f029d8ddc15d1eb07e72e29c32b7cc62f3304584edecc4f",
+      "bytes": 3698,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_prisme_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.05325999961793423,
+          0.03247039999701977,
+          -0.011883043871819973
+        ],
+        [
+          -0.025234108917415142,
+          0.03247039999701977,
+          0.0050188049659132955
+        ]
+      ]
+    },
+    "ta01_gh4v6_06_c02": {
+      "file": "stream/ta01_gh4v6_06_c02.ydr",
+      "sha256": "4db242644472be54923ec38e7793135b67cc243b0479c29b186fac657b646f56",
+      "bytes": 3701,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_prisme_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.014259999617934227,
+          0.03247039999701977,
+          -0.008483043871819973
+        ],
+        [
+          0.013765891082584858,
+          0.03247039999701977,
+          0.008418804965913296
+        ]
+      ]
+    },
+    "ta01_gh4v6_06_c03": {
+      "file": "stream/ta01_gh4v6_06_c03.ydr",
+      "sha256": "230e07605c3973aa677e23a313946fdc831424ab7b03cfde3ba007c92b97c3d3",
+      "bytes": 3693,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_prisme_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          0.024740000382065773,
+          0.03247039999701977,
+          -0.005083043871819973
+        ],
+        [
+          0.05276589108258486,
+          0.03247039999701977,
+          0.011818804965913296
+        ]
+      ]
+    },
+    "ta01_gh4v6_08": {
+      "file": "stream/ta01_gh4v6_08.ydr",
+      "sha256": "0d7ed3bb700be3ca96a6e4054a704e4d0f34cf5dbd46ddbb9dff837cfef48c41",
+      "bytes": 28675,
+      "triangles": [
+        879,
+        296
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.0893222987651825,
+          -0.004657569341361523,
+          -0.02212199941277504
+        ],
+        [
+          0.08893799781799316,
+          0.01891450008046627,
+          0.021849000826478004
+        ]
+      ]
+    },
+    "ta01_gh4v6_08_c01": {
+      "file": "stream/ta01_gh4v6_08_c01.ydr",
+      "sha256": "a5ceb3b7b3c8bbd80be54057aa8466d0318966445c8e7ffd4a159c2e2faea21b",
+      "bytes": 3418,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.0517376167178154,
+          0.019564499997019768,
+          0.008520006481558085
+        ],
+        [
+          0.039442018657922746,
+          0.019564499997019768,
+          0.016424738615751267
+        ]
+      ]
+    },
+    "ta01_gh4v6_08_c02": {
+      "file": "stream/ta01_gh4v6_08_c02.ydr",
+      "sha256": "5847fb9d0cbf7d8b2bae680409c45767a62c7902474b17b7fd97cbaf95bb0d6f",
+      "bytes": 3422,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.06098348647356033,
+          0.019564499997019768,
+          -0.0039799935184419155
+        ],
+        [
+          0.06058935821056366,
+          0.019564499997019768,
+          0.0039247386157512665
+        ]
+      ]
+    },
+    "ta01_gh4v6_08_c03": {
+      "file": "stream/ta01_gh4v6_08_c03.ydr",
+      "sha256": "e2a74a34ce1f3fe5d2e17005a62f6ff57f7de2a4c157aa38b79376b60c33a814",
+      "bytes": 3416,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.040324881285429,
+          0.019564499997019768,
+          -0.016479993518441916
+        ],
+        [
+          0.05800610074400902,
+          0.019564499997019768,
+          -0.008575261384248734
+        ]
+      ]
+    },
+    "ta01_gh4v6_10": {
+      "file": "stream/ta01_gh4v6_10.ydr",
+      "sha256": "7abd0f9c36aac21ca660f2ddafdd6472099f395104c9965d32ea796fc1ce2184",
+      "bytes": 28238,
+      "triangles": [
+        862,
+        310
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.050033967941999435,
+          -0.017999999225139618,
+          -0.0165160670876503
+        ],
+        [
+          0.050634801387786865,
+          0.015599999576807022,
+          0.02913493663072586
+        ]
+      ]
+    },
+    "ta01_gh4v6_10_c01": {
+      "file": "stream/ta01_gh4v6_10_c01.ydr",
+      "sha256": "2c468519e715488418676f91e4f760ac6230f8cac0825814610580650e2004eb",
+      "bytes": 4142,
+      "triangles": [
+        24,
+        16
+      ],
+      "emissiveRgbReadback": {
+        "led_goutte_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.02768064756691456,
+          0.016249999997019766,
+          -0.005404188083857298
+        ],
+        [
+          -0.006145471714437009,
+          0.016249999997019766,
+          0.006065452219545841
+        ]
+      ]
+    },
+    "ta01_gh4v6_10_c02": {
+      "file": "stream/ta01_gh4v6_10_c02.ydr",
+      "sha256": "9f8643a04c002f2f95907406f1700893bc32b820ee8073e05083712819533129",
+      "bytes": 4149,
+      "triangles": [
+        24,
+        16
+      ],
+      "emissiveRgbReadback": {
+        "led_goutte_r": [
+          255,
+          36,
+          54
+        ]
+      },
+      "boundsM": [
+        [
+          -0.0006911337077617659,
+          0.016249999997019766,
+          -0.009675995956361294
+        ],
+        [
+          0.03699542473256588,
+          0.016249999997019766,
+          0.008851884354650974
+        ]
+      ]
+    },
+    "ta01_gh4v6_12": {
+      "file": "stream/ta01_gh4v6_12.ydr",
+      "sha256": "89e8d0db6f36de3927b66738dc46b72b4da762e25ded2cdeba0fa86185c24568",
+      "bytes": 10959,
+      "triangles": [
+        484,
+        220
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.04680259898304939,
+          -0.03550000116229057,
+          -0.005249999929219484
+        ],
+        [
+          0.04680259898304939,
+          0.03550000116229057,
+          0.014000000432133675
+        ]
+      ]
+    },
+    "ta01_gh4v6_12_lacet": {
+      "file": "stream/ta01_gh4v6_12_lacet.ydr",
+      "sha256": "4bbf4113c4c5051d221b2d1b6da1021329241eb17d5ba279b679d238b092d9f1",
+      "bytes": 3913,
+      "triangles": [
+        164,
+        84
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.04580000042915344,
+          -0.010999999940395355,
+          -0.0030470541678369045
+        ],
+        [
+          0.04580000042915344,
+          0.012000000104308128,
+          0.04910000041127205
+        ]
+      ]
+    },
+    "ta01_gh4v6_12_tete": {
+      "file": "stream/ta01_gh4v6_12_tete.ydr",
+      "sha256": "4e8e453428f863f10172e905fd82b6859205bd764f3c33ba9fa1a72fd642c474",
+      "bytes": 25379,
+      "triangles": [
+        1038,
+        234
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.03438056260347366,
+          -0.04500000178813934,
+          -0.03400000184774399
+        ],
+        [
+          0.03438056260347366,
+          0.057999998331069946,
+          0.037999998778104775
+        ]
+      ]
+    },
+    "ta01_gh4v6_12_scene": {
+      "file": "stream/ta01_gh4v6_12_scene.ydr",
+      "sha256": "5f24b52a3307d33bdd268bab80033560d1d05ea6f12bdf6f69d0dba7db93652c",
+      "bytes": 8185,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_fresnel_w": [
+          245,
+          249,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.023000000044703484,
+          0.04224999999701977,
+          -0.023000000044703484
+        ],
+        [
+          0.023000000044703484,
+          0.04224999999701977,
+          0.023000000044703477
+        ]
+      ]
+    },
+    "ta01_gh4v6_07": {
+      "file": "stream/ta01_gh4v6_07.ydr",
+      "sha256": "379215fc82067e8ff3d3e283eaccbf777019e201e81454f23380d775e9b6cce9",
+      "bytes": 26580,
+      "triangles": [
+        879,
+        296
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.0820000022649765,
+          -0.013549643568694592,
+          -0.018862999975681305
+        ],
+        [
+          0.07901520282030106,
+          0.03185210057220459,
+          0.018853899091482162
+        ]
+      ]
+    },
+    "ta01_gh4v6_07_c01": {
+      "file": "stream/ta01_gh4v6_07_c01.ydr",
+      "sha256": "904f62a3132679f4b87afdb95fbe2ae1412a1343108747d1b196768eb09fd612",
+      "bytes": 3788,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_prisme_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.05325999961793423,
+          0.032502099997019765,
+          -0.011883043871819973
+        ],
+        [
+          -0.025234108917415142,
+          0.032502099997019765,
+          0.0050188049659132955
+        ]
+      ]
+    },
+    "ta01_gh4v6_07_c02": {
+      "file": "stream/ta01_gh4v6_07_c02.ydr",
+      "sha256": "754b388f1bfd55967b24c8d62aa27e3f3dc7b543dd5f95eef6f71219561771af",
+      "bytes": 3793,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_prisme_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.014259999617934227,
+          0.032502099997019765,
+          -0.008483043871819973
+        ],
+        [
+          0.013765891082584858,
+          0.032502099997019765,
+          0.008418804965913296
+        ]
+      ]
+    },
+    "ta01_gh4v6_07_c03": {
+      "file": "stream/ta01_gh4v6_07_c03.ydr",
+      "sha256": "bf364b16cbfc2c93e45e25c91145da9659488abdad75cdc9b1e6c68baec31742",
+      "bytes": 3790,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_prisme_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          0.024740000382065773,
+          0.032502099997019765,
+          -0.005083043871819973
+        ],
+        [
+          0.05276589108258486,
+          0.032502099997019765,
+          0.011818804965913296
+        ]
+      ]
+    },
+    "ta01_gh4v6_09": {
+      "file": "stream/ta01_gh4v6_09.ydr",
+      "sha256": "5614b66ad5369f7af66f3b82c0977d0cf377c0c1ec8588f406fe65bb5f83ded7",
+      "bytes": 28678,
+      "triangles": [
+        879,
+        296
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.0893222987651825,
+          -0.004657569341361523,
+          -0.02212199941277504
+        ],
+        [
+          0.08893799781799316,
+          0.01891450008046627,
+          0.021849000826478004
+        ]
+      ]
+    },
+    "ta01_gh4v6_09_c01": {
+      "file": "stream/ta01_gh4v6_09_c01.ydr",
+      "sha256": "998723da4910bcc63701e43132c56b06fad020995e3d07b3b7a82d67a80010a6",
+      "bytes": 3507,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.0517376167178154,
+          0.019564499997019768,
+          0.008520006481558085
+        ],
+        [
+          0.039442018657922746,
+          0.019564499997019768,
+          0.016424738615751267
+        ]
+      ]
+    },
+    "ta01_gh4v6_09_c02": {
+      "file": "stream/ta01_gh4v6_09_c02.ydr",
+      "sha256": "e89dbc6da656fd9daaffb43eb3987a3512a62390ff5552076a64c498698915ab",
+      "bytes": 3513,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.06098348647356033,
+          0.019564499997019768,
+          -0.0039799935184419155
+        ],
+        [
+          0.06058935821056366,
+          0.019564499997019768,
+          0.0039247386157512665
+        ]
+      ]
+    },
+    "ta01_gh4v6_09_c03": {
+      "file": "stream/ta01_gh4v6_09_c03.ydr",
+      "sha256": "321cc18802daab068c5b63a8c696705799936dfb184ac1a781c73561a62f8843",
+      "bytes": 3506,
+      "triangles": [
+        21,
+        14
+      ],
+      "emissiveRgbReadback": {
+        "led_lame_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.040324881285429,
+          0.019564499997019768,
+          -0.016479993518441916
+        ],
+        [
+          0.05800610074400902,
+          0.019564499997019768,
+          -0.008575261384248734
+        ]
+      ]
+    },
+    "ta01_gh4v6_11": {
+      "file": "stream/ta01_gh4v6_11.ydr",
+      "sha256": "c8782e3f55ef5e7c84222225f6a9315dd993f64552da1a4ad18254e5a4d5d486",
+      "bytes": 28249,
+      "triangles": [
+        862,
+        310
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.050033967941999435,
+          -0.017999999225139618,
+          -0.0165160670876503
+        ],
+        [
+          0.050634801387786865,
+          0.015599999576807022,
+          0.02914293482899666
+        ]
+      ]
+    },
+    "ta01_gh4v6_11_c01": {
+      "file": "stream/ta01_gh4v6_11_c01.ydr",
+      "sha256": "ab026bf8c7351eb0b1f01f204ba0c3a5c564422357e87a1bd6a32da73061aeb7",
+      "bytes": 4223,
+      "triangles": [
+        24,
+        16
+      ],
+      "emissiveRgbReadback": {
+        "led_goutte_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.02768064756691456,
+          0.016249999997019766,
+          -0.005404188083857298
+        ],
+        [
+          -0.006145471714437009,
+          0.016249999997019766,
+          0.006065452219545841
+        ]
+      ]
+    },
+    "ta01_gh4v6_11_c02": {
+      "file": "stream/ta01_gh4v6_11_c02.ydr",
+      "sha256": "bfd5bbfc225e217d61132dc893ee800326ec29c1472cf72a497b0a7412d65a19",
+      "bytes": 4226,
+      "triangles": [
+        24,
+        16
+      ],
+      "emissiveRgbReadback": {
+        "led_goutte_b": [
+          52,
+          119,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.0006911337077617659,
+          0.016249999997019766,
+          -0.009675995956361294
+        ],
+        [
+          0.03699542473256588,
+          0.016249999997019766,
+          0.008851884354650974
+        ]
+      ]
+    },
+    "ta01_gh4v6_13": {
+      "file": "stream/ta01_gh4v6_13.ydr",
+      "sha256": "32e05694b65267605e89414349d7cebc7fd14a589f0fb15594759900bb7822dc",
+      "bytes": 10960,
+      "triangles": [
+        484,
+        220
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.04680259898304939,
+          -0.03550000116229057,
+          -0.005249999929219484
+        ],
+        [
+          0.04680259898304939,
+          0.03550000116229057,
+          0.014000000432133675
+        ]
+      ]
+    },
+    "ta01_gh4v6_13_lacet": {
+      "file": "stream/ta01_gh4v6_13_lacet.ydr",
+      "sha256": "d172de4494ca2e767009229824450b9a4d7993c8c041ee6bbfbbfd0078b12fc7",
+      "bytes": 3912,
+      "triangles": [
+        164,
+        84
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.04580000042915344,
+          -0.010999999940395355,
+          -0.0030470541678369045
+        ],
+        [
+          0.04580000042915344,
+          0.012000000104308128,
+          0.04910000041127205
+        ]
+      ]
+    },
+    "ta01_gh4v6_13_tete": {
+      "file": "stream/ta01_gh4v6_13_tete.ydr",
+      "sha256": "52d9a4fec7d1dc6e12a8c8c296f6460c4d8039ff642411ab190f08bade6216ac",
+      "bytes": 25381,
+      "triangles": [
+        1038,
+        234
+      ],
+      "emissiveRgbReadback": {},
+      "boundsM": [
+        [
+          -0.03438056260347366,
+          -0.04500000178813934,
+          -0.03400000184774399
+        ],
+        [
+          0.03438056260347366,
+          0.057999998331069946,
+          0.037999998778104775
+        ]
+      ]
+    },
+    "ta01_gh4v6_13_scene": {
+      "file": "stream/ta01_gh4v6_13_scene.ydr",
+      "sha256": "34d0db3649a07c9191978adca91c6b12a52228df92c6be5c43b1e6538b9ee6f0",
+      "bytes": 8184,
+      "triangles": [
+        20,
+        12
+      ],
+      "emissiveRgbReadback": {
+        "led_fresnel_w": [
+          245,
+          249,
+          255
+        ]
+      },
+      "boundsM": [
+        [
+          -0.023000000044703484,
+          0.04224999999701977,
+          -0.023000000044703484
+        ],
+        [
+          0.023000000044703484,
+          0.04224999999701977,
+          0.023000000044703477
+        ]
+      ]
+    }
+  }
+}

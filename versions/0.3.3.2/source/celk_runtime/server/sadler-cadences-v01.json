@@ -1,0 +1,88 @@
+{
+  "schema": "tryagain.sadler-cadences",
+  "version": 1,
+  "revision": "DEV-01-SADLER-CADENCES-RECETTE-v01",
+  "studioRevision": "DEV-01-SADLER-RAMPE-3.3-STUDIO-v01",
+  "phaseBounds": "[startMs,endMs)",
+  "panelJ": {
+    "cycleMs": 1000,
+    "phases": [
+      {
+        "startMs": 0,
+        "endMs": 500,
+        "on": true
+      },
+      {
+        "startMs": 500,
+        "endMs": 1000,
+        "on": false
+      }
+    ],
+    "modes": [
+      "ligne",
+      "gauche",
+      "droite",
+      "double"
+    ],
+    "restartOn": [
+      "arm",
+      "mode-change-while-armed"
+    ]
+  },
+  "cornersJ": {
+    "cycleMs": 1000,
+    "phases": [
+      {
+        "startMs": 0,
+        "endMs": 500,
+        "on": true
+      },
+      {
+        "startMs": 500,
+        "endMs": 1000,
+        "on": false
+      }
+    ],
+    "opticIds": [
+      "coin-avant-gauche",
+      "coin-arriere-gauche",
+      "coin-avant-droit",
+      "coin-arriere-droit"
+    ],
+    "independentRestartOn": "independent-enable",
+    "linkedUses": "panelJ",
+    "simultaneousUses": "independent"
+  },
+  "policeQ": {
+    "cycleMs": 700,
+    "restartOn": "lvc-engaged",
+    "phases": [
+      {
+        "startMs": 0,
+        "endMs": 240,
+        "opticIds": [
+          "coin-avant-gauche",
+          "coin-arriere-gauche"
+        ]
+      },
+      {
+        "startMs": 240,
+        "endMs": 350,
+        "opticIds": []
+      },
+      {
+        "startMs": 350,
+        "endMs": 590,
+        "opticIds": [
+          "coin-avant-droit",
+          "coin-arriere-droit"
+        ]
+      },
+      {
+        "startMs": 590,
+        "endMs": 700,
+        "opticIds": []
+      }
+    ]
+  }
+}

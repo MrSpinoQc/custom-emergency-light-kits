@@ -1,0 +1,1355 @@
+{
+  "schema": "tryagain.studio.sadler-articule",
+  "version": 1,
+  "revision": "DEV-01-SADLER-RAMPE-3.3-STUDIO-v01",
+  "statut": "contrat de raccord Studio à intégrer dans Atelier et FiveM",
+  "coeurCELKVise": "0.3.3",
+  "pieceKey": "sadler-rampe-relevable-01",
+  "vehicule": "sadler",
+  "vehiculeSha256": "63c4965305886d4ec93c6b7a9ad949462b7ee71e99622533a4369e0fb10ec927",
+  "sourceGlbSha256": "99739a04348e82bdf9e1f174dd0d6a3bed20632c0eb20d7e6f2aded0a890f97b",
+  "poseGtaM": [
+    0,
+    -0.18,
+    1.27544
+  ],
+  "rotationZxyDeg": [
+    0,
+    0,
+    0
+  ],
+  "fichiersAtelier": {
+    "fixe": {
+      "fichier": "01-Atelier/Sadler-Corps-Fixe-v01.glb",
+      "sha256": "093e74e41aaadc9b2427ac9b953bb653a1728936136099ebbca3610bc7080eb3",
+      "optiques": 10
+    },
+    "volet": {
+      "fichier": "01-Atelier/Sadler-Volet-v01.glb",
+      "sha256": "015bf28243366d1c85770f31c8a212cf398b0ea2978118e153b07e126a813396",
+      "optiques": 7
+    }
+  },
+  "articulation": {
+    "axeLocalGta": [
+      1,
+      0,
+      0
+    ],
+    "pivotLocalGtaM": [
+      0.0,
+      -0.204,
+      0.09656
+    ],
+    "anglesDeg": {
+      "replie": 0,
+      "amorce": 15,
+      "ouvert": 88
+    },
+    "modelePorteur": "ta_sadler_rp_fixe01",
+    "modeleMobile": "ta_sadler_rp_volet01"
+  },
+  "extraGta": {
+    "slot": 6,
+    "exigerEtat": "eteint",
+    "changerEtatAutomatiquement": false
+  },
+  "signalisation": {
+    "enButéeHauteSeulement": true,
+    "arrêtDèsRepli": true,
+    "modes": {
+      "ligne": [
+        "point-1",
+        "point-2",
+        "point-3",
+        "point-4",
+        "point-5"
+      ],
+      "gauche": [
+        "fleche-gauche"
+      ],
+      "droite": [
+        "fleche-droite"
+      ],
+      "double": [
+        "fleche-gauche",
+        "fleche-droite"
+      ]
+    }
+  },
+  "variantes": [
+    {
+      "id": "police",
+      "service": "police",
+      "nom": "Police",
+      "signalisation": "J",
+      "urgence": "Q"
+    },
+    {
+      "id": "remorqueur",
+      "service": "mecano",
+      "nom": "Remorqueur",
+      "signalisation": "J",
+      "urgence": "J"
+    }
+  ],
+  "optiques": [
+    {
+      "name": "globe_point-1",
+      "opticId": "point-1",
+      "groupe": "panneau-ligne",
+      "centreLocalGtaM": [
+        -0.31,
+        0.168,
+        0.033
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_point-1",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e01_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.31,
+          0.168,
+          0.033
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_point-2",
+      "opticId": "point-2",
+      "groupe": "panneau-ligne",
+      "centreLocalGtaM": [
+        -0.155,
+        0.168,
+        0.033
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_point-2",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e02_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.155,
+          0.168,
+          0.033
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_point-3",
+      "opticId": "point-3",
+      "groupe": "panneau-ligne",
+      "centreLocalGtaM": [
+        0,
+        0.168,
+        0.033
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_point-3",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e03_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0,
+          0.168,
+          0.033
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_point-4",
+      "opticId": "point-4",
+      "groupe": "panneau-ligne",
+      "centreLocalGtaM": [
+        0.155,
+        0.168,
+        0.033
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_point-4",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e04_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.155,
+          0.168,
+          0.033
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_point-5",
+      "opticId": "point-5",
+      "groupe": "panneau-ligne",
+      "centreLocalGtaM": [
+        0.31,
+        0.168,
+        0.033
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_point-5",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e05_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.31,
+          0.168,
+          0.033
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_fleche-gauche",
+      "opticId": "fleche-gauche",
+      "groupe": "panneau-gauche",
+      "centreLocalGtaM": [
+        -0.514,
+        0.165,
+        0.0334
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_fleche-gauche",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e06_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.514,
+          0.165,
+          0.0334
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_fleche-droite",
+      "opticId": "fleche-droite",
+      "groupe": "panneau-droite",
+      "centreLocalGtaM": [
+        0.514,
+        0.165,
+        0.0334
+      ],
+      "axeLocalGta": [
+        0,
+        0,
+        1
+      ],
+      "couleurs": [
+        "ambre"
+      ],
+      "parent": "volet",
+      "materiauGlb": "optique_fleche-droite",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e07_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.514,
+          0.165,
+          0.0334
+        ],
+        "axeLocalGta": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "globe_service-avant-1",
+      "opticId": "service-avant-1",
+      "groupe": "service-fixe",
+      "centreLocalGtaM": [
+        -0.426,
+        0.2578,
+        0.07956000000000008
+      ],
+      "axeLocalGta": [
+        0,
+        1,
+        0
+      ],
+      "couleurs": [
+        "blanc"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_service-avant-1",
+      "modelesEmissifs": {
+        "blanc": {
+          "modele": "ta_sadler_rp_e08_bl",
+          "rgb": [
+            230,
+            238,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.426,
+          0.2578,
+          0.07956000000000008
+        ],
+        "axeLocalGta": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_service-avant-2",
+      "opticId": "service-avant-2",
+      "groupe": "service-fixe",
+      "centreLocalGtaM": [
+        -0.257,
+        0.2578,
+        0.07956000000000008
+      ],
+      "axeLocalGta": [
+        0,
+        1,
+        0
+      ],
+      "couleurs": [
+        "blanc"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_service-avant-2",
+      "modelesEmissifs": {
+        "blanc": {
+          "modele": "ta_sadler_rp_e09_bl",
+          "rgb": [
+            230,
+            238,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.257,
+          0.2578,
+          0.07956000000000008
+        ],
+        "axeLocalGta": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_service-avant-3",
+      "opticId": "service-avant-3",
+      "groupe": "service-fixe",
+      "centreLocalGtaM": [
+        -0.086,
+        0.2578,
+        0.07956000000000008
+      ],
+      "axeLocalGta": [
+        0,
+        1,
+        0
+      ],
+      "couleurs": [
+        "blanc"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_service-avant-3",
+      "modelesEmissifs": {
+        "blanc": {
+          "modele": "ta_sadler_rp_e10_bl",
+          "rgb": [
+            230,
+            238,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.086,
+          0.2578,
+          0.07956000000000008
+        ],
+        "axeLocalGta": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_service-avant-4",
+      "opticId": "service-avant-4",
+      "groupe": "service-fixe",
+      "centreLocalGtaM": [
+        0.086,
+        0.2578,
+        0.07956000000000008
+      ],
+      "axeLocalGta": [
+        0,
+        1,
+        0
+      ],
+      "couleurs": [
+        "blanc"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_service-avant-4",
+      "modelesEmissifs": {
+        "blanc": {
+          "modele": "ta_sadler_rp_e11_bl",
+          "rgb": [
+            230,
+            238,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.086,
+          0.2578,
+          0.07956000000000008
+        ],
+        "axeLocalGta": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_service-avant-5",
+      "opticId": "service-avant-5",
+      "groupe": "service-fixe",
+      "centreLocalGtaM": [
+        0.257,
+        0.2578,
+        0.07956000000000008
+      ],
+      "axeLocalGta": [
+        0,
+        1,
+        0
+      ],
+      "couleurs": [
+        "blanc"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_service-avant-5",
+      "modelesEmissifs": {
+        "blanc": {
+          "modele": "ta_sadler_rp_e12_bl",
+          "rgb": [
+            230,
+            238,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.257,
+          0.2578,
+          0.07956000000000008
+        ],
+        "axeLocalGta": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_service-avant-6",
+      "opticId": "service-avant-6",
+      "groupe": "service-fixe",
+      "centreLocalGtaM": [
+        0.426,
+        0.2578,
+        0.07956000000000008
+      ],
+      "axeLocalGta": [
+        0,
+        1,
+        0
+      ],
+      "couleurs": [
+        "blanc"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_service-avant-6",
+      "modelesEmissifs": {
+        "blanc": {
+          "modele": "ta_sadler_rp_e13_bl",
+          "rgb": [
+            230,
+            238,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.426,
+          0.2578,
+          0.07956000000000008
+        ],
+        "axeLocalGta": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_coin-avant-gauche",
+      "opticId": "coin-avant-gauche",
+      "groupe": "coins-fixes",
+      "centreLocalGtaM": [
+        -0.6901335136523794,
+        0.2361335136523794,
+        0.1095600000000001
+      ],
+      "axeLocalGta": [
+        -0.7071067811865476,
+        0.7071067811865476,
+        0
+      ],
+      "couleurs": [
+        "ambre",
+        "rouge"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_coin-avant-gauche",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e14_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        },
+        "rouge": {
+          "modele": "ta_sadler_rp_e14_ro",
+          "rgb": [
+            255,
+            48,
+            74
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.6901335136523794,
+          0.2361335136523794,
+          0.1095600000000001
+        ],
+        "axeLocalGta": [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_coin-arriere-gauche",
+      "opticId": "coin-arriere-gauche",
+      "groupe": "coins-fixes",
+      "centreLocalGtaM": [
+        -0.6901335136523794,
+        -0.2361335136523794,
+        0.1047436723174684
+      ],
+      "axeLocalGta": [
+        -0.7071067811865476,
+        -0.7071067811865476,
+        0
+      ],
+      "couleurs": [
+        "ambre",
+        "rouge"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_coin-arriere-gauche",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e15_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        },
+        "rouge": {
+          "modele": "ta_sadler_rp_e15_ro",
+          "rgb": [
+            255,
+            48,
+            74
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          -0.6901335136523794,
+          -0.2361335136523794,
+          0.1047436723174684
+        ],
+        "axeLocalGta": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_coin-avant-droit",
+      "opticId": "coin-avant-droit",
+      "groupe": "coins-fixes",
+      "centreLocalGtaM": [
+        0.6901335136523794,
+        0.2361335136523794,
+        0.1095600000000001
+      ],
+      "axeLocalGta": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0
+      ],
+      "couleurs": [
+        "ambre",
+        "bleu"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_coin-avant-droit",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e16_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        },
+        "bleu": {
+          "modele": "ta_sadler_rp_e16_bl",
+          "rgb": [
+            51,
+            138,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.6901335136523794,
+          0.2361335136523794,
+          0.1095600000000001
+        ],
+        "axeLocalGta": [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ]
+      }
+    },
+    {
+      "name": "globe_coin-arriere-droit",
+      "opticId": "coin-arriere-droit",
+      "groupe": "coins-fixes",
+      "centreLocalGtaM": [
+        0.6901335136523794,
+        -0.2361335136523794,
+        0.1047436723174684
+      ],
+      "axeLocalGta": [
+        0.7071067811865476,
+        -0.7071067811865476,
+        0
+      ],
+      "couleurs": [
+        "ambre",
+        "bleu"
+      ],
+      "parent": "fixe",
+      "materiauGlb": "optique_coin-arriere-droit",
+      "modelesEmissifs": {
+        "ambre": {
+          "modele": "ta_sadler_rp_e17_am",
+          "rgb": [
+            255,
+            185,
+            43
+          ]
+        },
+        "bleu": {
+          "modele": "ta_sadler_rp_e17_bl",
+          "rgb": [
+            51,
+            138,
+            255
+          ]
+        }
+      },
+      "diffusion": {
+        "active": false,
+        "origineLocaleGtaM": [
+          0.6901335136523794,
+          -0.2361335136523794,
+          0.1047436723174684
+        ],
+        "axeLocalGta": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ]
+      }
+    }
+  ],
+  "drawables": {
+    "ta_sadler_rp_fixe01": {
+      "fichier": "stream/ta_sadler_rp_fixe01.ydr",
+      "sha256": "345f9db406f049ef735a9219057dc03be729db3a2d567e218cb5dabddf514ea7",
+      "octets": 234419,
+      "bornesM": [
+        [
+          -0.71170002,
+          -0.25669998,
+          -0.00234389
+        ],
+        [
+          0.71170002,
+          0.259,
+          0.13483
+        ]
+      ],
+      "triangles": [
+        6774,
+        6390
+      ]
+    },
+    "ta_sadler_rp_volet01": {
+      "fichier": "stream/ta_sadler_rp_volet01.ydr",
+      "sha256": "bd3d92d7ed7a8ef57923223fe618a161a8fc9bf0eebfc2da2b8ec67e53058307",
+      "octets": 108897,
+      "bornesM": [
+        [
+          -0.625,
+          -0.01,
+          -0.01
+        ],
+        [
+          0.625,
+          0.31099999,
+          0.0341
+        ]
+      ],
+      "triangles": [
+        2862,
+        2702
+      ]
+    },
+    "ta_sadler_rp_e01_am": {
+      "fichier": "stream/ta_sadler_rp_e01_am.ydr",
+      "sha256": "a59caacc15e46930a6811321293a77e98c56a90f60403aa87a86f923251eabf9",
+      "octets": 2271,
+      "bornesM": [
+        [
+          -0.3346,
+          0.1434,
+          0.0326
+        ],
+        [
+          -0.2854,
+          0.1926,
+          0.0346
+        ]
+      ],
+      "triangles": [
+        112,
+        112
+      ]
+    },
+    "ta_sadler_rp_e02_am": {
+      "fichier": "stream/ta_sadler_rp_e02_am.ydr",
+      "sha256": "e7f6687f0a1edacbe8a9401f9c7d4f0aa541dcfbcde6a6de1d25ec53f2d98117",
+      "octets": 2267,
+      "bornesM": [
+        [
+          -0.1796,
+          0.1434,
+          0.0326
+        ],
+        [
+          -0.1304,
+          0.1926,
+          0.0346
+        ]
+      ],
+      "triangles": [
+        112,
+        112
+      ]
+    },
+    "ta_sadler_rp_e03_am": {
+      "fichier": "stream/ta_sadler_rp_e03_am.ydr",
+      "sha256": "2e8857d8225e84b3e18a4200368c8fbf5c13fd2af101bdbabe86ca78c4a1cc29",
+      "octets": 2252,
+      "bornesM": [
+        [
+          -0.0246,
+          0.1434,
+          0.0326
+        ],
+        [
+          0.0246,
+          0.1926,
+          0.0346
+        ]
+      ],
+      "triangles": [
+        112,
+        112
+      ]
+    },
+    "ta_sadler_rp_e04_am": {
+      "fichier": "stream/ta_sadler_rp_e04_am.ydr",
+      "sha256": "0e6bcb56916565ff3048092c1b3ff931ed135f428bcbeb98a54fab4ef8dbc712",
+      "octets": 2265,
+      "bornesM": [
+        [
+          0.1304,
+          0.1434,
+          0.0326
+        ],
+        [
+          0.1796,
+          0.1926,
+          0.0346
+        ]
+      ],
+      "triangles": [
+        112,
+        112
+      ]
+    },
+    "ta_sadler_rp_e05_am": {
+      "fichier": "stream/ta_sadler_rp_e05_am.ydr",
+      "sha256": "5c7e4765b0537faae15ee4395a4091737fa801870cd8fecf42b1e27eb301260e",
+      "octets": 2272,
+      "bornesM": [
+        [
+          0.2854,
+          0.1434,
+          0.0326
+        ],
+        [
+          0.3346,
+          0.1926,
+          0.0346
+        ]
+      ],
+      "triangles": [
+        112,
+        112
+      ]
+    },
+    "ta_sadler_rp_e06_am": {
+      "fichier": "stream/ta_sadler_rp_e06_am.ydr",
+      "sha256": "6983abb53dd6dd5bc7626a0c300254256815d4cd6b6ca9d076c72ce244fd3556",
+      "octets": 717,
+      "bornesM": [
+        [
+          -0.59500003,
+          0.103,
+          0.034
+        ],
+        [
+          -0.44299999,
+          0.227,
+          0.034
+        ]
+      ],
+      "triangles": [
+        5,
+        5
+      ]
+    },
+    "ta_sadler_rp_e07_am": {
+      "fichier": "stream/ta_sadler_rp_e07_am.ydr",
+      "sha256": "64041d7ca2a93fc3970684c0e76fdb5a61b200b7557b92e607fa383f107227e6",
+      "octets": 715,
+      "bornesM": [
+        [
+          0.44299999,
+          0.103,
+          0.034
+        ],
+        [
+          0.59500003,
+          0.227,
+          0.034
+        ]
+      ],
+      "triangles": [
+        5,
+        5
+      ]
+    },
+    "ta_sadler_rp_e08_bl": {
+      "fichier": "stream/ta_sadler_rp_e08_bl.ydr",
+      "sha256": "02eea713288abf7c04d3b7b6b70458ab25571edc376b0ebf1737d0f5775b868e",
+      "octets": 2469,
+      "bornesM": [
+        [
+          -0.46799999,
+          0.2572,
+          0.07416
+        ],
+        [
+          -0.384,
+          0.25960001,
+          0.08496
+        ]
+      ],
+      "triangles": [
+        108,
+        108
+      ]
+    },
+    "ta_sadler_rp_e09_bl": {
+      "fichier": "stream/ta_sadler_rp_e09_bl.ydr",
+      "sha256": "5b60547d133c94dec2598366c3497f734f5e86aa112cada5e32b64270beac43e",
+      "octets": 2469,
+      "bornesM": [
+        [
+          -0.29899999,
+          0.2572,
+          0.07416
+        ],
+        [
+          -0.215,
+          0.25960001,
+          0.08496
+        ]
+      ],
+      "triangles": [
+        108,
+        108
+      ]
+    },
+    "ta_sadler_rp_e10_bl": {
+      "fichier": "stream/ta_sadler_rp_e10_bl.ydr",
+      "sha256": "2f09beb5b0a37d95799aa91816884fa1148324cd1da390b8a0b3af111a7560ce",
+      "octets": 2474,
+      "bornesM": [
+        [
+          -0.12800001,
+          0.2572,
+          0.07416
+        ],
+        [
+          -0.044,
+          0.25960001,
+          0.08496
+        ]
+      ],
+      "triangles": [
+        108,
+        108
+      ]
+    },
+    "ta_sadler_rp_e11_bl": {
+      "fichier": "stream/ta_sadler_rp_e11_bl.ydr",
+      "sha256": "b99752aeba6201007c256b0725dff5277ddb285214910a9473e80ed807e5cc05",
+      "octets": 2470,
+      "bornesM": [
+        [
+          0.044,
+          0.2572,
+          0.07416
+        ],
+        [
+          0.12800001,
+          0.25960001,
+          0.08496
+        ]
+      ],
+      "triangles": [
+        108,
+        108
+      ]
+    },
+    "ta_sadler_rp_e12_bl": {
+      "fichier": "stream/ta_sadler_rp_e12_bl.ydr",
+      "sha256": "e87473f124ea1a6217ea567277ffdaefa97d09d964eb38598517a6a40f55b404",
+      "octets": 2468,
+      "bornesM": [
+        [
+          0.215,
+          0.2572,
+          0.07416
+        ],
+        [
+          0.29899999,
+          0.25960001,
+          0.08496
+        ]
+      ],
+      "triangles": [
+        108,
+        108
+      ]
+    },
+    "ta_sadler_rp_e13_bl": {
+      "fichier": "stream/ta_sadler_rp_e13_bl.ydr",
+      "sha256": "e8e38fcd5e1303d6ca2a3405a8f25e074d2c596c91b2f48a6bf54b3ec1dee271",
+      "octets": 2469,
+      "bornesM": [
+        [
+          0.384,
+          0.2572,
+          0.07416
+        ],
+        [
+          0.46799999,
+          0.25960001,
+          0.08496
+        ]
+      ],
+      "triangles": [
+        108,
+        108
+      ]
+    },
+    "ta_sadler_rp_e14_am": {
+      "fichier": "stream/ta_sadler_rp_e14_am.ydr",
+      "sha256": "eaafd4eb522d9235493e0607aa3034c8da472db2aec45c642a552e4e258527c3",
+      "octets": 4799,
+      "bornesM": [
+        [
+          -0.71212429,
+          0.11742426,
+          0.06111
+        ],
+        [
+          -0.61192429,
+          0.25712427,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e14_ro": {
+      "fichier": "stream/ta_sadler_rp_e14_ro.ydr",
+      "sha256": "89fe28da6a4a47edd282be61c42f0385f21b9141e062cf8dc755b268343725f2",
+      "octets": 4800,
+      "bornesM": [
+        [
+          -0.71212429,
+          0.11742426,
+          0.06111
+        ],
+        [
+          -0.61192429,
+          0.25712427,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e15_am": {
+      "fichier": "stream/ta_sadler_rp_e15_am.ydr",
+      "sha256": "b74709b7ed4d6fde34782d14a47ef57f72f6f3f53c70d8b9c9a4f7b7aabc06f0",
+      "octets": 4959,
+      "bornesM": [
+        [
+          -0.71212429,
+          -0.25712425,
+          0.06111
+        ],
+        [
+          -0.61192429,
+          -0.12242425,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e15_ro": {
+      "fichier": "stream/ta_sadler_rp_e15_ro.ydr",
+      "sha256": "94b80beac9c96dad3c93a0b9b9d5dc2699d7389b710d46597d78539a6802ae95",
+      "octets": 4960,
+      "bornesM": [
+        [
+          -0.71212429,
+          -0.25712425,
+          0.06111
+        ],
+        [
+          -0.61192429,
+          -0.12242425,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e16_am": {
+      "fichier": "stream/ta_sadler_rp_e16_am.ydr",
+      "sha256": "28b87310116af9ff604d78b9c0381ca4051bc48cbb74eb15fb5b440855053a89",
+      "octets": 4794,
+      "bornesM": [
+        [
+          0.61192429,
+          0.11742426,
+          0.06111
+        ],
+        [
+          0.71212429,
+          0.25712427,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e16_bl": {
+      "fichier": "stream/ta_sadler_rp_e16_bl.ydr",
+      "sha256": "20e7c34d5427679d91c90d76f1ada29e1500512ecc557a4fb1e884ce396ccd8c",
+      "octets": 4796,
+      "bornesM": [
+        [
+          0.61192429,
+          0.11742426,
+          0.06111
+        ],
+        [
+          0.71212429,
+          0.25712427,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e17_am": {
+      "fichier": "stream/ta_sadler_rp_e17_am.ydr",
+      "sha256": "e77c0889dca93e65ef42b28ec814c862655feb1beb51565679d67e9fedc6be82",
+      "octets": 4970,
+      "bornesM": [
+        [
+          0.61192429,
+          -0.25712425,
+          0.06111
+        ],
+        [
+          0.71212429,
+          -0.12242425,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    },
+    "ta_sadler_rp_e17_bl": {
+      "fichier": "stream/ta_sadler_rp_e17_bl.ydr",
+      "sha256": "eef09cfbb2dd678c39f4fb18b8bb608c8434fccb4494bbf07201ec520fddd559",
+      "octets": 4970,
+      "bornesM": [
+        [
+          0.61192429,
+          -0.25712425,
+          0.06111
+        ],
+        [
+          0.71212429,
+          -0.12242425,
+          0.13410994
+        ]
+      ],
+      "triangles": [
+        296,
+        296
+      ]
+    }
+  },
+  "collection": {
+    "fichier": "stream/ta_sadler_rp_pieces01.ytyp",
+    "sha256": "0d6c168f921fdce5ded338e0c4e805ac949e0bd883457ba249a8ca52b5079f44",
+    "archetypes": 23
+  }
+}

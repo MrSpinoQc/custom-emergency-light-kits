@@ -1,0 +1,5 @@
+91516e190267d5de2119a75fd6814997b6ab61b903ba68a3c4b8185adae5b951  CELK-script-0.3.3.2.zip
+a40fbc9999c9f58c527c961109ab8e3f1f3ad77ad1fb9c2904b36bc260e621c7  CELK-preparateur-depot-0.3.3.2.zip
+8739b9fc29714997a1c35c5a72e27b8c8257e3c11434e39e39b10d4efb204189  CELK-adaptateur-Qbox-pour-0.3.3.2.zip
+b4cd75236c969f6fb7162094710e29023dd4c8a57a14b7eb7d6c4d5d9624b786  CELK-adaptateur-LVC-pour-0.3.3.2.zip
+63f2882557da3c65debe304942524add51dfdf496b59e766f218118376a08f50  CELK-adaptateur-Interface-ox-lib-pour-0.3.3.2.zip

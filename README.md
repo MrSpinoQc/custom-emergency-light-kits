@@ -4,11 +4,8 @@
 
 ## Téléchargements
 
-**CELK 0.3.3.1 (Interface)** · Préversion avec le Sadler Police et Remorqueur. FiveM rapporte 35 contrôles logiciels réussis. L’essai GTA du build Interface, le multijoueur et la performance sous charge restent à qualifier.
-
-[Cœur 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.1/CELK-script-0.3.3.1.zip) · [Préparateur 0.3.3.1](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.1/CELK-preparateur-depot-0.3.3.1.zip) · [Ensemble Sadler V01](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.1/sadler-jeu-v01-9bf8d35c.zip)
-
-[Préversion et adaptateurs facultatifs](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1) · [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.1/versions/0.3.3.1/SHA256SUMS.txt)
+> [!WARNING]
+> **CELK 0.3.3.1 peut afficher un écran noir dans FiveM.** La 0.3.3.2 est en cours de vérification. [Préversion 0.3.3.1 et ses téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.1)
 
 ### CELK 0.3.2 · Phantom, Airport Bus et Kuruma
 

@@ -1,10 +1,14 @@
 # Custom Emergency Light Kits
 
-**Des feux d’urgence configurables pour FiveM, par Spino.** Monte des optiques, choisis une variante et pilote ses scènes lumineuses en jeu.
+**Vos véhicules. Vos feux. Vos jeux de lumière.**
+
+Custom Emergency Light Kits (CELK) est un système de feux d’urgence personnalisables pour FiveM. Transformez vos véhicules compatibles en véhicules de police, d’ambulance ou de service mécanique. Choisissez vos feux et vos séquences pour que votre véhicule se remarque dans la circulation en jeu.
+
+Un projet de Spino.
 
 ## Téléchargements
 
-**CELK 0.3.3.2 · correctif d’écran noir** est le téléchargement recommandé pour la série Interface. Le cycle F6 puis Échap a réussi en GTA solo sur la Kuruma.
+**Pour commencer : [CELK 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2)** est la préversion recommandée pour la série Interface et corrige l’écran noir de la 0.3.3.1. Le cycle F6 puis Échap a réussi en GTA solo sur la Kuruma. Les packs ne sont pas inclus dans cette préversion : les liens vers les packs déjà publiés sont ci-dessous.
 
 [Cœur 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.2/CELK-script-0.3.3.2.zip) · [Préparateur 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.2/CELK-preparateur-depot-0.3.3.2.zip) · [Préversion et adaptateurs facultatifs](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) · [Mise à jour](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/SHA256SUMS.txt)
 
@@ -39,6 +43,12 @@ L’**Airport Bus Police V05** comporte 20 pièces et trois scènes. [Fiche Airp
 La **Kuruma V05** propose **Police v2**, **Ambulance blanche** et **Mécano jaune** dans le même ensemble. [Voir les optiques et les vues sur la Kuruma](PACKS.md#galerie-kuruma)
 
 ![Optiques Kuruma Police v2 allumées, rendu Studio sur établi](images/kuruma/kuruma-v05-optiques-police.jpg)
+
+## À venir : créer vos pièces 3D avec l’IA
+
+Envie d’aller plus loin? Avec les futurs guides IA (skills), vous pourrez concevoir vos propres pièces 3D pour vos véhicules préférés. Dans l’Atelier, placez vos pièces, ajustez vos éclairages et composez les jeux de lumière qui correspondent à votre service.
+
+*Les guides IA sont prévus; ils ne sont pas inclus dans les téléchargements actuels.*
 
 ## Suivi du projet
 

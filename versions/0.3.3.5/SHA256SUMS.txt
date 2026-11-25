@@ -1,0 +1,4 @@
+457bc2d44ff2a860774eea0208222d2d1e8f711f089b3be81aad4871ab9d9a3e  CELK-script-socle.8.zip
+ffae00c2f5d08cafe76453ebe42be94fd0076ae4b5f90db8a9391f9f6265a731  CELK-preparateur-depot-socle.8.zip
+07a1a6ceeda0745adba8ee194426b093881de2c0df07270c341a50d6d702d504  CELK-Sadler-V05-R4-jeu-socle.8.zip
+a9cd76b997368712cd9adae3a7b8f24dea6bae063fc759fb174d83bbad2cf7fa  CELK-adaptateur-Interface-ox-lib-socle.1.zip

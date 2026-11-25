@@ -1,5 +1,11 @@
 # Catalogue des packs
 
+## Sadler V05 R4 · CELK v0.3.3.5
+
+Le lot de jeu réunit les trois montages du Sadler, les accessoires de signalisation de Try Again Studio 3D et le panneau arrière à trois articulations. En GTA solo, les cabochons noirs au repos, la double flèche, la pause, la reprise et l’extinction au repli ont été confirmés. Les fichiers de jeu correspondent à l’arborescence qualifiée avec le lecteur `0.3.3-socle.8`. Essai à deux clients reporté. [ZIP de jeu Sadler V05 R4](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.5/CELK-Sadler-V05-R4-jeu-socle.8.zip) · [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/INSTALLATION.md)
+
+## Ensembles CELK 0.3.2
+
 Les trois ensembles de jeu ci-dessous sont pris en charge par le [dépôt CELK 0.3.2](versions/0.3.2/INSTALLATION.md). La 0.3.2 réutilise les ZIP exacts de la 0.3.1. [Empreintes](versions/0.3.2/SHA256SUMS.txt)
 
 ## Phantom Grand Format · 0.1.0

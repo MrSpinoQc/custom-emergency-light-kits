@@ -2,6 +2,14 @@
 
 [État des fonctionnalités et travaux prévus](FEATURES.md)
 
+## 0.3.3.5 · Sadler V05 R4 · 25 novembre 2026
+
+- Cabochons noirs au repos sur le montage articulé et le montage fixe. Motif Double flèche, pause, reprise et extinction au repli confirmés en GTA solo.
+- Runtime `0.3.3-socle.8` et 63 fichiers de jeu identiques au lot qualifié. Les trois variantes sont conservées au réimport.
+- Adaptateur ox_lib facultatif vérifié en simulation Lua. Essai à deux clients reporté.
+
+[Préversion et téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.5) · [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/SHA256SUMS.txt)
+
 ## 0.3.3.2 · Correctif d’écran noir · 20 novembre 2026
 
 - La page du panneau J/F6 reste transparente. Les cartes gardent le thème sombre.

@@ -8,7 +8,15 @@ Un projet de Spino.
 
 ## Téléchargements
 
-**Pour commencer : [CELK 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2)** est la préversion recommandée pour la série Interface et corrige l’écran noir de la 0.3.3.1. Le cycle F6 puis Échap a réussi en GTA solo sur la Kuruma. Les packs ne sont pas inclus dans cette préversion : les liens vers les packs déjà publiés sont ci-dessous.
+**[CELK v0.3.3.5 · Sadler V05 R4](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.5)** est la préversion recommandée pour le Sadler R4. Elle apporte les cabochons noirs au repos et le motif Double flèche. La combinaison a été vérifiée en GTA solo. L’essai à deux clients est reporté.
+
+[Cœur socle.8](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.5/CELK-script-socle.8.zip) · [Préparateur](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.5/CELK-preparateur-depot-socle.8.zip) · [Sadler R4](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.5/CELK-Sadler-V05-R4-jeu-socle.8.zip) · [Option ox_lib](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.5/CELK-adaptateur-Interface-ox-lib-socle.1.zip)
+
+[Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/SHA256SUMS.txt)
+
+### CELK 0.3.3.2 · Correctif d’écran noir
+
+**Pour la série Interface : [CELK 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2)** est la préversion recommandée pour la série Interface et corrige l’écran noir de la 0.3.3.1. Le cycle F6 puis Échap a réussi en GTA solo sur la Kuruma. Les packs ne sont pas inclus dans cette préversion : les liens vers les packs déjà publiés sont ci-dessous.
 
 [Cœur 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.2/CELK-script-0.3.3.2.zip) · [Préparateur 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/download/v0.3.3.2/CELK-preparateur-depot-0.3.3.2.zip) · [Préversion et adaptateurs facultatifs](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) · [Mise à jour](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/INSTALLATION.md) · [Empreintes](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/v0.3.3.2/versions/0.3.3.2/SHA256SUMS.txt)
 

@@ -1,5 +1,17 @@
 # Dépendances et intégrations
 
+## CELK v0.3.3.5 · Sadler V05 R4
+
+| Composant | Prérequis et portée |
+| --- | --- |
+| Mode autonome | FXServer 38435 ou supérieur, GTA build 3889, OneSync et Node 22 fourni par FXServer. Le préparateur de dépôt utilise Node 24 hors serveur. |
+| Cœur et ensemble Sadler | Lecteur `0.3.3-socle.8`, interface `0.3.3.5-socle.1`, trois ressources R4 et trois variantes. Utiliser une seule révision de ces modèles par instance. |
+| ox_lib facultatif | Adaptateur `celk_menu_ox`, version `0.3.3.5-socle.1`, API 1. Deux essais Lua simulés. Panneau CELK intégré disponible sans cet adaptateur. |
+| Qbox et LVC | Adaptateurs neutres conservés dans leurs préversions respectives. Le profil GTA R4 du labo Qbox ne qualifie pas ces ZIP pour v0.3.3.5. |
+| F10 facultatif | L’administration est fournie par le préparateur et protégée par le droit `celk.admin.packs`. La préparation de la génération a été vérifiée hors jeu. |
+
+L’essai GTA solo du Sadler R4 a utilisé le panneau intégré. L’essai à deux clients est reporté. [Téléchargements](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.5) · [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/INSTALLATION.md)
+
 ## CELK 0.3.3.2 · Correctif d’écran noir
 
 | Composant | Prérequis et portée |

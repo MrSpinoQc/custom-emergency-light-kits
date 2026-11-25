@@ -1,6 +1,10 @@
 # Fonctionnalités et suivi du développement
 
-Mis à jour le **20 novembre 2026**. [Préversion 0.3.3.2](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.2) · [Dépendances](COMPATIBILITE.md)
+Mis à jour le **25 novembre 2026**. [Préversion v0.3.3.5](https://github.com/MrSpinoQc/custom-emergency-light-kits/releases/tag/v0.3.3.5) · [Dépendances](COMPATIBILITE.md)
+
+## Sadler V05 R4 · CELK v0.3.3.5
+
+Disponible avec le lecteur `0.3.3-socle.8` et le panneau J intégré. En GTA solo, Julien a confirmé les cabochons noirs au repos sur les deux montages, la double flèche, la pause, la reprise et l’extinction au repli. L’adaptateur facultatif ox_lib a été contrôlé en simulation. L’essai à deux clients est reporté. [Installation](https://github.com/MrSpinoQc/custom-emergency-light-kits/blob/72b27ecdac25e99c4d0d989447cf4b6bb33b6beb/versions/0.3.3.5/INSTALLATION.md)
 
 ## Correctif 0.3.3.2
 
